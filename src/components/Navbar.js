@@ -5,34 +5,48 @@ import {
 } from "react-icons/ai";
 
 const Navbar = () => {
-  const [active, setActive] = useState("false");
+  const [isActive, setIsActive] = useState("false");
   return (
     <nav className="flex items-center bg-bluebg w-screen text-[#DCDCDC]">
-      <div className="p-2 flex items-center">
-        <h2 className="text-2xl">Exploring SA</h2>
-        <p className="text-md ml-1 mt-1 ">Travel and Tours</p>
+      <div
+        className={
+          !isActive
+            ? "text-blueText font-bold p-2 flex items-center"
+            : "p-2 flex items-center"
+        }
+      >
+        <h2 className="text-2xl z-20">Exploring SA</h2>
+        <p className="text-md ml-1 mt-1 z-20">Travel and Tours</p>
       </div>
 
-      <div className="ml-auto mr-2 cursor-pointer">
+      <div
+        className="ml-auto mr-2 cursor-pointer"
+        onClick={() => setIsActive(!isActive)}
+      >
         <AiOutlineMenuUnfold color="#DCDCDC" size={30} />
       </div>
 
       <div
         className={
-          !active
-            ? "hidden"
-            : "absolute w-full h-full top-0 text-blueText text-4xl bg-lightGreen flex"
+          !isActive
+            ? "fixed w-full h-screen z-10  text-blueText bg-lightGreen bg-opacity-90 ease-in duration-500 left-0 top-0"
+            : "absolute left-[-100%] w-full h-screen ease-in-out duration-700 z-10 top-0"
         }
       >
-        <div className="right-2 top-2 absolute cursor-pointer">
+        <div
+          className="right-2 top-2 absolute cursor-pointer"
+          onClick={() => setIsActive(!isActive)}
+        >
           <AiOutlineMenuFold /*color="#DCDCDC"*/ size={30} />
         </div>
-        <ul className="w-fit m-auto">
-          <li className="py-12 ">Home</li>
-          <li className="py-12 ">About Us</li>
-          <li className="py-12 ">Services</li>
-          <li className="py-12 ">Contact</li>
-        </ul>
+        <div className="flex flex-col items-center justify-center">
+          <ul>
+            <li className="my-14 text-3xl font-bold ">Home</li>
+            <li className="my-14 text-3xl font-bold ">About Us</li>
+            <li className="my-14 text-3xl font-bold ">Services</li>
+            <li className="my-14 text-3xl font-bold ">Contact</li>
+          </ul>
+        </div>
       </div>
     </nav>
   );
