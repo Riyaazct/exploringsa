@@ -7,12 +7,12 @@ import {
 const Navbar = () => {
   const [isActive, setIsActive] = useState("false");
   return (
-    <nav className="flex items-center bg-bluebg w-screen text-[#DCDCDC]">
+    <nav className="flex items-center bg-bluebg w-screen text-[#DCDCDC] h-[60px]">
       <div
         className={
           !isActive
             ? "text-blueText font-bold p-2 flex items-center"
-            : "p-2 flex items-center"
+            : "font-bold p-2 flex items-center"
         }
       >
         <h2 className="text-2xl z-20">Exploring SA</h2>
@@ -34,17 +34,17 @@ const Navbar = () => {
         }
       >
         <div
-          className="right-2 top-2 absolute cursor-pointer"
+          className="right-2 top-4 absolute cursor-pointer"
           onClick={() => setIsActive(!isActive)}
         >
-          <AiOutlineMenuFold /*color="#DCDCDC"*/ size={30} />
+          <AiOutlineMenuFold size={30} />
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="w-full h-full flex flex-col items-center justify-center">
           <ul>
-            <li className="my-14 text-3xl font-bold ">Home</li>
-            <li className="my-14 text-3xl font-bold ">About Us</li>
-            <li className="my-14 text-3xl font-bold ">Services</li>
-            <li className="my-14 text-3xl font-bold ">Contact</li>
+            <li className="my-16 text-3xl font-bold ">Home</li>
+            <li className="my-16 text-3xl font-bold ">About Us</li>
+            <li className="my-16 text-3xl font-bold ">Services</li>
+            <li className="my-16 text-3xl font-bold ">Contact</li>
           </ul>
         </div>
       </div>
