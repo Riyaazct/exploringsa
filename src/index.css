@@ -9,6 +9,6 @@
     font-family: "Lato", sans-serif;
   }
   button {
-    @apply border border-blue py-1 px-2 rounded-lg bg-orange w-auto;
+    @apply border border-blueText py-1 px-2 rounded-lg bg-orange w-auto;
   }
 }
