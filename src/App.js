@@ -3,14 +3,20 @@ import Home from "./routes/Home";
 import About from "./routes/AboutUs";
 import OurServices from "./routes/OurServices";
 import Contact from "./routes/Contact";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => (
-  <Routes>
-    <Route path="/" element={<Home />} />
-    <Route path="/about" element={<About />} />
-    <Route path="/services" element={<OurServices />} />
-    <Route path="/contact" element={<Contact />} />
-  </Routes>
+  <>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/services" element={<OurServices />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+    <Footer />
+  </>
 );
 
 export default App;
