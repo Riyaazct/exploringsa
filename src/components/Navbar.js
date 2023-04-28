@@ -7,7 +7,10 @@ import {
 const Navbar = () => {
   const [isActive, setIsActive] = useState("false");
   return (
-    <nav className="flex items-center bg-bluebg w-screen text-[#DCDCDC] h-[60px]">
+    <nav
+      className="flex items-center bg-bluebg w-screen text-[#DCDCDC] h-[60px]"
+      data-testid="Navbar-1"
+    >
       <div
         className={
           !isActive
@@ -41,10 +44,10 @@ const Navbar = () => {
         </div>
         <div className="w-full h-full flex flex-col items-center justify-center">
           <ul>
-            <li className="my-16 text-3xl font-bold ">Home</li>
-            <li className="my-16 text-3xl font-bold ">About Us</li>
-            <li className="my-16 text-3xl font-bold ">Services</li>
-            <li className="my-16 text-3xl font-bold ">Contact</li>
+            <li className="my-16 text-3xl font-bold ">HOME</li>
+            <li className="my-16 text-3xl font-bold ">ABOUT US</li>
+            <li className="my-16 text-3xl font-bold ">SERVICES</li>
+            <li className="my-16 text-3xl font-bold ">CONTACT</li>
           </ul>
         </div>
       </div>
