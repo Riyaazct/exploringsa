@@ -2,7 +2,7 @@ import React from "react";
 import { BsWhatsapp, BsInstagram } from "react-icons/bs";
 import { SiFacebook } from "react-icons/si";
 
-const footer = () => {
+const Footer = () => {
   return (
     <>
       <div className="bg-bluebg p-10 flex justify-around text-[#F5F5F5]">
@@ -37,4 +37,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
