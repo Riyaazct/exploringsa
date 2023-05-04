@@ -5,15 +5,14 @@ import {
 } from "react-icons/ai";
 
 const Navbar = () => {
-  const [isActive, setIsActive] = useState(true);
+  const [isActive, setIsActive] = useState(false);
   return (
     <nav
-      className="bg-bluebg w-full flex p-4 text-[#DCDCDC]"
+      className="bg-bluebg w-full flex p-4 text-[#DCDCDC] md:justify-around"
       data-testid="Navbar-1"
     >
+      {/* TITLE */}
       <div className="flex">
-        {/* TITLE */}
-
         <h2
           className={
             isActive
@@ -32,35 +31,37 @@ const Navbar = () => {
         >
           Travel and Tours
         </p>
-
-        {/* MENU LINKS */}
-        {/* LINKS */}
-        <div
-          className={
-            isActive
-              ? "w-screen fixed left-0 top-0 h-screen bg-lightGreen z-10 text-blueText flex justify-center items-center ease-in duration-300"
-              : "w-full  absolute top-0 left-[-100%] h-full bg-lightGreen z-10 text-blueText flex justify-center items-center ease-in-out duration-700"
-          }
-        >
-          <ul className={isActive ? "" : ""}>
-            <li className=" my-14 text-4xl font-bold text-center">
-              HOME
-            </li>
-            <li className=" my-14 text-4xl font-bold text-center">
-              ABOUT US
-            </li>
-            <li className=" my-14 text-4xl font-bold text-center">
-              OUR SERVICES
-            </li>
-            <li className=" my-14 text-4xl font-bold text-center">
-              CONTACT
-            </li>
-          </ul>
-        </div>
       </div>
+      {/* MENU LINKS */}
+      {/* LINKS */}
+      <div
+        className={
+          isActive
+            ? "w-screen fixed left-0 top-0 h-screen bg-lightGreen z-10 text-blueText flex justify-center items-center ease-in duration-300"
+            : "w-full  absolute top-0 left-[-100%] h-full z-10 text-blueText flex justify-center items-center ease-in-out duration-700 md:static md:w-fit"
+        }
+      >
+        <ul className="md:flex">
+          <li className="my-14 text-4xl font-bold text-center md:my-0 md:font-normal md:text-sm md:p-2 md:text-[#DCDCDC]">
+            HOME
+          </li>
+          <li className="my-14 text-4xl font-bold text-center md:my-0 md:font-normal md:text-sm md:p-2 md:text-[#DCDCDC]">
+            ABOUT US
+          </li>
+          <li className="my-14 text-4xl font-bold text-center md:my-0 md:font-normal md:text-sm md:p-2 md:text-[#DCDCDC]">
+            OUR SERVICES
+          </li>
+          <li className="my-14 text-4xl font-bold text-center md:my-0 md:font-normal md:text-sm md:p-2 md:text-[#DCDCDC]">
+            CONTACT
+          </li>
+        </ul>
+      </div>
+
       {/* MENU BUTTON OPEN */}
       <div
-        className={isActive ? "hidden" : "absolute right-2 top-3"}
+        className={
+          isActive ? "hidden" : "absolute right-2 top-3 md:hidden"
+        }
         onClick={() => setIsActive(!isActive)}
       >
         <AiOutlineMenuUnfold color="#DCDCDC" size={30} />
@@ -70,7 +71,7 @@ const Navbar = () => {
       <div
         className={
           isActive
-            ? "absolute right-2 top-3 text-blueText z-20"
+            ? "absolute right-2 top-3 text-blueText z-20 md:hidden"
             : "hidden"
         }
         onClick={() => setIsActive(!isActive)}
