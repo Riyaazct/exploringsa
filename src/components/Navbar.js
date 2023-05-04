@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import {
   AiOutlineMenuFold,
@@ -13,6 +13,19 @@ const Navbar = () => {
     const location = useLocation();
     return location.pathname === routePath;
   }
+  // FUNCTION TO MONITOR WINDOW SIZE THAT SETS ACTIVE STATE TO FALSE IF THE MENU IS OPEN AND STATE IS ACTIVE, TO FALSE IF WINDOW IS RESIZED WHILE THE MENU IS OPEN
+  const handleWindowResize = () => {
+    if (window.innerWidth >= 768 && active) {
+      setActive(false);
+    }
+  };
+  //USEFFECT BELONGING TO ABOVE FUNCTION
+  useEffect(() => {
+    window.addEventListener("resize", handleWindowResize);
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
 
   return (
     <nav
@@ -24,8 +37,8 @@ const Navbar = () => {
         <h2
           className={
             active
-              ? "text-blueText font-bold z-20 text-xl"
-              : "text-xl font-bold xl:text-2xl"
+              ? "text-blueText font-bold z-20 text-xl "
+              : "text-xl font-bold xl:text-2xl "
           }
         >
           Exploring SA
@@ -54,7 +67,7 @@ const Navbar = () => {
           className={
             IsActive("/")
               ? "active my-14 text-4xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
-              : "md:text-[#DCDCDC] xl:text-lg lg:mx-7"
+              : "my-14 text-4xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
           }
         >
           HOME
@@ -64,7 +77,7 @@ const Navbar = () => {
           className={
             IsActive("/about")
               ? " active my-14 text-4xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
-              : "md:text-sm md:text-[#DCDCDC] xl:text-lg lg:mx-7"
+              : "my-14 text-4xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
           }
         >
           ABOUT US
@@ -74,7 +87,7 @@ const Navbar = () => {
           className={
             IsActive("/services")
               ? " active my-14 text-4xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
-              : "md:text-sm md:mx-4 md:text-[#DCDCDC] xl:text-lg lg:mx-7"
+              : "my-14 text-4xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
           }
         >
           OUR SERVICES
@@ -85,7 +98,7 @@ const Navbar = () => {
           className={
             IsActive("/contact")
               ? " active my-14 text-4xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
-              : "md:text-sm md:text-[#DCDCDC] xl:text-lg lg:mx-7"
+              : "my-14 text-4xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
           }
         >
           CONTACT US
