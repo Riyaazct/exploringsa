@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
   return (
     <nav
-      className="bg-bluebg w-full flex p-4 text-[#DCDCDC] md:justify-around"
+      className="bg-bluebg border-b-[#DCDCDC] border-b-2 w-full flex p-4 text-[#DCDCDC] md:justify-between lg:justify-around"
       data-testid="Navbar-1"
     >
       {/* TITLE */}
@@ -17,7 +17,7 @@ const Navbar = () => {
           className={
             isActive
               ? "text-blueText font-bold z-20 text-xl"
-              : "text-xl font-bold"
+              : "text-xl font-bold lg:text-2xl"
           }
         >
           Exploring SA
@@ -26,7 +26,7 @@ const Navbar = () => {
           className={
             isActive
               ? "text-blueText font-bold z-20 text-sm pt-[7px] ml-1"
-              : "ml-1 pt-[7px] text-sm"
+              : "ml-1 pt-[7px] text-sm lg:text-lg lg:pt-[3.8px]"
           }
         >
           Travel and Tours
@@ -42,16 +42,16 @@ const Navbar = () => {
         }
       >
         <ul className="md:flex">
-          <li className="my-14 text-4xl font-bold text-center md:my-0 md:font-normal md:text-sm md:p-2 md:text-[#DCDCDC]">
+          <li className="my-14 text-4xl font-bold text-center md:my-0 md:font-normal md:text-sm md:px-3 py-2 md:text-[#DCDCDC] lg:text-lg lg:px-5 lg:py-1">
             HOME
           </li>
-          <li className="my-14 text-4xl font-bold text-center md:my-0 md:font-normal md:text-sm md:p-2 md:text-[#DCDCDC]">
+          <li className="my-14 text-4xl font-bold text-center md:my-0 md:font-normal md:text-sm md:px-3 py-2 md:text-[#DCDCDC] lg:text-lg lg:px-5 lg:py-1">
             ABOUT US
           </li>
-          <li className="my-14 text-4xl font-bold text-center md:my-0 md:font-normal md:text-sm md:p-2 md:text-[#DCDCDC]">
+          <li className="my-14 text-4xl font-bold text-center md:my-0 md:font-normal md:text-sm md:px-3 py-2 md:text-[#DCDCDC] lg:text-lg lg:px-5 lg:py-1">
             OUR SERVICES
           </li>
-          <li className="my-14 text-4xl font-bold text-center md:my-0 md:font-normal md:text-sm md:p-2 md:text-[#DCDCDC]">
+          <li className="my-14 text-4xl font-bold text-center md:my-0 md:font-normal md:text-sm md:px-3 py-2 md:text-[#DCDCDC] lg:text-lg lg:px-5 lg:py-1">
             CONTACT
           </li>
         </ul>
