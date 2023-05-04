@@ -5,67 +5,44 @@ import {
 } from "react-icons/ai";
 
 const Navbar = () => {
-  const [isActive, setIsActive] = useState("false");
+  const [isActive, setIsActive] = useState(false);
   return (
     <nav
-      className="flex items-center bg-bluebg w-screen text-[#DCDCDC] h-[60px]"
+      className="bg-bluebg w-full flex p-4 text-[#DCDCDC]"
       data-testid="Navbar-1"
     >
-      {/* TITLE */}
-      <div
-        className={
-          !isActive
-            ? "text-blueText font-bold p-2 flex items-center"
-            : "font-bold p-2 flex items-center md:w-full"
-        }
-      >
-        <h2 className="text-2xl z-20 md:text-lg ">Exploring SA</h2>
-        <p className="text-md ml-1 mt-1 z-20 md:text-sm ">
-          Travel and Tours
-        </p>
-      </div>
-
-      {/* MENU LINKS */}
-      <div
-        className={
-          !isActive
-            ? "fixed w-full h-screen z-10  text-blueText bg-lightGreen bg-opacity-90 ease-in duration-500 left-0 top-0"
-            : "absolute left-[-100%] w-full h-screen ease-in-out duration-700 z-10 top-0 md:static"
-        }
-      >
-        {/* CLOSE MENU BUTTON */}
-        <div
-          className="right-2 top-4 absolute cursor-pointer md:hidden"
-          onClick={() => setIsActive(!isActive)}
-        >
-          <AiOutlineMenuFold size={30} />
+      <div className="flex">
+        {/* TITLE */}
+        <div className="flex">
+          <h2>Exploring SA</h2>
+          <p>Travel and Tours</p>
         </div>
 
+        {/* MENU LINKS */}
         {/* LINKS */}
-        <div className="w-full h-full flex flex-col items-center justify-center">
-          <ul className="md:flex md:flex-row">
-            <li className="my-16 text-3xl font-bold lg:text-md:my-1 md:text-sm md:px-4">
-              HOME
-            </li>
-            <li className="my-16 text-3xl font-bold lg:text-md:my-1 md:text-sm md:px-4">
-              ABOUT US
-            </li>
-            <li className="my-16 text-3xl font-bold lg:text-md:my-1 md:text-sm md:px-4">
-              SERVICES
-            </li>
-            <li className="my-16 text-3xl font-bold lg:text-md:my-1 md:text-sm md:px-4">
-              CONTACT
-            </li>
+        <div className="hidden">
+          <ul>
+            <li>HOME</li>
+            <li>ABOUT US</li>
+            <li>SERVICES</li>
+            <li>CONTACT</li>
           </ul>
         </div>
       </div>
-
       {/* MENU BUTTON OPEN */}
       <div
-        className="ml-auto mr-2 cursor-pointer md:hidden"
+        className="absolute right-2 top-3"
         onClick={() => setIsActive(!isActive)}
       >
         <AiOutlineMenuUnfold color="#DCDCDC" size={30} />
+      </div>
+
+      {/* CLOSE MENU BUTTON */}
+      <div
+        className={isActive ? "absolute right-2 top-3" : "hidden"}
+        onClick={() => setIsActive(!isActive)}
+      >
+        <AiOutlineMenuFold size={30} />
       </div>
     </nav>
   );
