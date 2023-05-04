@@ -8,7 +8,16 @@ import {
 const Navbar = () => {
   const [active, setActive] = useState(false);
 
-  // function to set active page link border
+  const handleNav = () => {
+    setActive(!active);
+    if (!active) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "scroll";
+    }
+  };
+
+  // function to check which page is active
   function IsActive(routePath) {
     const location = useLocation();
     return location.pathname === routePath;
@@ -38,7 +47,7 @@ const Navbar = () => {
         <h2
           className={
             active
-              ? "text-blueText font-bold z-20 text-xl "
+              ? "text-blueText font-bold z-30 text-xl "
               : "text-xl font-bold xl:text-2xl "
           }
         >
@@ -47,7 +56,7 @@ const Navbar = () => {
         <p
           className={
             active
-              ? "text-blueText font-bold z-20 text-sm pt-[7px] ml-1"
+              ? "text-blueText font-bold z-30 text-sm pt-[7px] ml-1"
               : "ml-1 pt-[7px] text-sm xl:text-lg xl:pt-[3.8px]"
           }
         >
@@ -59,8 +68,8 @@ const Navbar = () => {
       <div
         className={
           active
-            ? "w-screen fixed left-0 top-0 h-screen bg-lightGreen z-10 text-blueText flex justify-center items-center ease-in duration-300 flex-col"
-            : "w-full absolute top-0 left-[-100%] h-full z-10 text-blueText flex flex-col justify-center items-center ease-in-out duration-700 md:static md:w-fit md:flex-row"
+            ? "w-full fixed left-0 top-0 h-screen bg-lightGreen bg-opacity-95 z-20 text-blueText flex justify-center items-center ease-in duration-300 flex-col"
+            : "w-full absolute top-0 left-[-100%] h-full z-20 text-blueText flex flex-col justify-center items-center ease-in-out duration-700 md:static md:w-fit md:flex-row"
         }
       >
         <Link
@@ -111,7 +120,7 @@ const Navbar = () => {
         className={
           active ? "hidden" : "absolute right-2 top-3 md:hidden"
         }
-        onClick={() => setActive(!active)}
+        onClick={handleNav}
       >
         <AiOutlineMenuUnfold color="#DCDCDC" size={30} />
       </div>
@@ -120,10 +129,10 @@ const Navbar = () => {
       <div
         className={
           active
-            ? "absolute right-2 top-3 text-blueText z-20 md:hidden"
+            ? "absolute right-2 top-3 text-blueText z-30 md:hidden"
             : "hidden"
         }
-        onClick={() => setActive(!active)}
+        onClick={handleNav}
       >
         <AiOutlineMenuFold size={30} />
       </div>
