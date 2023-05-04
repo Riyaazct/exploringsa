@@ -13,19 +13,20 @@ const Navbar = () => {
     const location = useLocation();
     return location.pathname === routePath;
   }
+
   // FUNCTION TO MONITOR WINDOW SIZE THAT SETS ACTIVE STATE TO FALSE IF THE MENU IS OPEN AND STATE IS ACTIVE, TO FALSE IF WINDOW IS RESIZED WHILE THE MENU IS OPEN
-  const handleWindowResize = () => {
-    if (window.innerWidth >= 768 && active) {
-      setActive(false);
-    }
-  };
-  //USEFFECT BELONGING TO ABOVE FUNCTION
   useEffect(() => {
+    const handleWindowResize = () => {
+      if (window.innerWidth >= 768 && active) {
+        setActive(false);
+      }
+    };
+
     window.addEventListener("resize", handleWindowResize);
     return () => {
       window.removeEventListener("resize", handleWindowResize);
     };
-  }, []);
+  }, [active]);
 
   return (
     <nav
