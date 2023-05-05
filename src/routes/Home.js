@@ -17,9 +17,8 @@ const Home = () => (
       </div>
       {/* BACKGROUND IMAGE */}
       <div
-        style={{ "--image-url": `url(${bgPath})` }}
-        // reference: https://stackoverflow.com/a/70810692/19529897
-        className="bg-[image:var(--image-url)] h-[75vh] bg-scroll bg-center bg-cover md:bg-fixed md:bg-no-repeat object-center"
+        style={{ backgroundImage: "url(images/home.jpg)" }}
+        className="max-h-screen min-h-screen bg-cover bg-center bg-no-repeat"
       ></div>
       <div className="w-full h-full bg-[#000000a7] absolute top-0"></div>
     </div>
