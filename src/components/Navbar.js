@@ -76,8 +76,8 @@ const Navbar = () => {
           to="/"
           className={
             IsActive("/")
-              ? "active my-14 text-4xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
-              : "my-14 text-4xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
+              ? "active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
+              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
           }
         >
           HOME
@@ -86,8 +86,8 @@ const Navbar = () => {
           to="/about"
           className={
             IsActive("/about")
-              ? " active my-14 text-4xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
-              : "my-14 text-4xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
+              ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
+              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
           }
         >
           ABOUT US
@@ -96,8 +96,8 @@ const Navbar = () => {
           to="/services"
           className={
             IsActive("/services")
-              ? " active my-14 text-4xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
-              : "my-14 text-4xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
+              ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
+              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
           }
         >
           OUR SERVICES
@@ -107,8 +107,8 @@ const Navbar = () => {
           to="/contact"
           className={
             IsActive("/contact")
-              ? " active my-14 text-4xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
-              : "my-14 text-4xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
+              ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
+              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
           }
         >
           CONTACT US
