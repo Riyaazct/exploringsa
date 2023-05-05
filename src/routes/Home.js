@@ -11,7 +11,7 @@ const Home = () => (
           Welcome to Exploring SA Transport and Tours, your premier
           transportation and tourism provider in South Africa
         </h1>
-        <button className="py-1 mt-3 opacity-90 text-lg hover:opacity-100 w-[140px]">
+        <button className="p-3 mt-4 text-lg hover:opacity-100 text-blueText font-semibold border ">
           Explore Our Services
         </button>
       </div>
@@ -19,12 +19,12 @@ const Home = () => (
       <div
         style={{ "--image-url": `url(${bgPath})` }}
         // reference: https://stackoverflow.com/a/70810692/19529897
-        className="bg-[image:var(--image-url)] h-[75vh] bg-scroll bg-center bg-cover"
+        className="bg-[image:var(--image-url)] h-[75vh] bg-scroll bg-center bg-cover md:bg-fixed md:bg-no-repeat object-center"
       ></div>
       <div className="w-full h-full bg-[#000000a7] absolute top-0"></div>
     </div>
 
-    <h1 className="text-center my-16 text-3xl text-blueText font-semibold">
+    <h1 className="text-center my-12 text-2xl text-blueText font-semibold">
       "Unlock the treasures of South Africa with us"
     </h1>
   </div>
