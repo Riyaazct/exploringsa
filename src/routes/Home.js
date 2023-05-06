@@ -11,7 +11,7 @@ const Home = () => (
           Welcome to Exploring SA Transport and Tours, your premier
           transportation and tourism provider in South Africa
         </h1>
-        <button className="p-1 mt-4 text-lg hover:opacity-100 text-blueText">
+        <button className="mt-4 text-lg opacity-80 hover:opacity-100 text-offWhite border-offWhite hover:transform hover:scale-105 hover:duration-700 w-[130px]">
           Explore our Services
         </button>
       </div>
