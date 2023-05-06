@@ -34,7 +34,7 @@ const Home = () => (
       <h1 className="md:hidden">
         "Unlock the treasures of South Africa with us"
       </h1>
-      <button className="hidden md:block md:p-2 md:mt-4 md:text-lg sm:text-[1.3rem] md:opacity-80 md:hover:opacity-100 md:text-blueText md:font-semibold xl:p-4 xl:text-2xl 2xl:font-extrabold ">
+      <button className="hidden md:block md:p-2 md:mt-4 md:text-lg sm:text-[1.3rem] md:opacity-95 md:hover:opacity-100 md:text-blueText md:font-semibold xl:p-4 xl:text-2xl 2xl:font-extrabold ">
         Explore our Services
       </button>
     </div>
