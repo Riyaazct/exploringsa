@@ -28,6 +28,7 @@ const Navbar = () => {
     const handleWindowResize = () => {
       if (window.innerWidth >= 768 && active) {
         setActive(false);
+        document.body.style.overflow = "scroll";
       }
     };
 
