@@ -7,20 +7,19 @@ const Home = () => (
     <div className="relative">
       {/* TEXT CONTENT & BUTTON */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-offWhite text-center z-10 w-full">
-        <h1 className="font-semibold text-[1.2rem] w-[95%] mx-auto">
+        <h1 className="font-semibold text-[1.2rem]">
           Welcome to Exploring SA Transport and Tours, your premier
           transportation and tourism provider in South Africa
         </h1>
-        <button className="p-3 mt-4 text-lg hover:opacity-100 text-blueText font-semibold border ">
-          Explore Our Services
+        <button className="p-1 mt-4 text-lg hover:opacity-100 text-blueText">
+          Explore our Services
         </button>
       </div>
-      {/* BACKGROUND IMAGE */}
-      <div
-        style={{ backgroundImage: "url(images/home.jpg)" }}
-        className="max-h-screen min-h-screen bg-cover bg-center bg-no-repeat"
-      ></div>
-      <div className="w-full h-full bg-[#000000a7] absolute top-0"></div>
+      {/* IMAGE */}
+      <div>
+        <img src={bgPath} alt="" className="object-fill" />
+        <div className="w-full h-full bg-[#000000a7] absolute top-0"></div>
+      </div>
     </div>
 
     <h1 className="text-center my-12 text-2xl text-blueText font-semibold">
