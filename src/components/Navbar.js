@@ -40,7 +40,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="bg-bluebg border-b-[#DCDCDC] border-b-2 md:border-none w-full flex p-3 text-[#DCDCDC] md:justify-between md:items-center lg:justify-around"
+      className="bg-bluebg border-b-[#DCDCDC] border-b-2 md:border-none w-full flex p-3 text-[#DCDCDC] md:justify-between md:items-center lg:justify-around fixed z-20"
       data-testid="Navbar-1"
     >
       {/* TITLE */}
