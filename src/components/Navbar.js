@@ -7,7 +7,10 @@ import {
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
 
+  // onClick function for displaying or hiding the menu in mobile view
   const handleNav = () => {
     setActive(!active);
     if (!active) {
@@ -38,9 +41,28 @@ const Navbar = () => {
     };
   }, [active]);
 
+  // Function for hiding and showing navbar on scroll
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      setVisible(
+        (prevScrollPos > currentScrollPos &&
+          prevScrollPos - currentScrollPos > 70) ||
+          currentScrollPos < 10
+      );
+      setPrevScrollPos(currentScrollPos);
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [prevScrollPos, visible, setVisible]);
+
   return (
     <nav
-      className="bg-bluebg h-16 items-center border-b-[#DCDCDC] border-b-2 md:border-none w-full flex p-3 text-[#DCDCDC] md:justify-between md:items-center lg:justify-around fixed overflow-hidden top-0 z-20 md:h-20"
+      className={`fixed top-0 transition-all duration-1000 ${
+        visible ? "opacity-100" : "opacity-0 -translate-y-full"
+      } bg-bluebg h-16 items-center border-b-[#DCDCDC] border-b-2 md:border-none w-full flex p-3 text-[#DCDCDC] md:justify-between md:items-center lg:justify-around z-20 md:h-20`}
       data-testid="Navbar-1"
     >
       {/* TITLE */}
