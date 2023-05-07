@@ -40,7 +40,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="bg-bluebg border-b-[#DCDCDC] border-b-2 md:border-none w-full flex p-3 text-[#DCDCDC] md:justify-between md:items-center lg:justify-around "
+      className="bg-bluebg h-16 items-center border-b-[#DCDCDC] border-b-2 md:border-none w-full flex p-3 text-[#DCDCDC] md:justify-between md:items-center lg:justify-around fixed overflow-hidden top-0 z-20 md:h-20"
       data-testid="Navbar-1"
     >
       {/* TITLE */}
@@ -77,8 +77,8 @@ const Navbar = () => {
           to="/"
           className={
             IsActive("/")
-              ? "active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
-              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
+              ? "active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
+              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
           }
         >
           HOME
@@ -87,8 +87,8 @@ const Navbar = () => {
           to="/about"
           className={
             IsActive("/about")
-              ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
-              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
+              ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
+              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
           }
         >
           ABOUT US
@@ -97,8 +97,8 @@ const Navbar = () => {
           to="/services"
           className={
             IsActive("/services")
-              ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
-              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
+              ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
+              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
           }
         >
           OUR SERVICES
@@ -108,8 +108,8 @@ const Navbar = () => {
           to="/contact"
           className={
             IsActive("/contact")
-              ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
-              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-lg lg:mx-7"
+              ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
+              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
           }
         >
           CONTACT US
@@ -119,23 +119,25 @@ const Navbar = () => {
       {/* MENU BUTTON OPEN */}
       <div
         className={
-          active ? "hidden" : "absolute right-2 top-3 md:hidden"
+          active
+            ? "hidden"
+            : "absolute right-2 top-3 cursor-pointer md:hidden"
         }
         onClick={handleNav}
       >
-        <AiOutlineMenuUnfold color="#DCDCDC" size={30} />
+        <AiOutlineMenuUnfold color="#DCDCDC" size={34} />
       </div>
 
       {/* CLOSE MENU BUTTON */}
       <div
         className={
           active
-            ? "absolute right-2 top-3 text-blueText z-30 md:hidden"
+            ? "absolute right-2 top-3 cursor-pointer text-blueText z-30 md:hidden"
             : "hidden"
         }
         onClick={handleNav}
       >
-        <AiOutlineMenuFold size={30} />
+        <AiOutlineMenuFold size={34} />
       </div>
     </nav>
   );

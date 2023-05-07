@@ -31,7 +31,7 @@ const Home = () => (
           transportation and tourism provider in South Africa
         </h1>
       </div>
-      <h1 className="md:hidden animate-shake animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out">
+      <h1 className="md:hidden animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out">
         "Unlock the treasures of South Africa with us"
       </h1>
       <button className="hidden md:block md:p-2 md:mt-6 md:text-lg sm:text-[1.3rem] md:opacity-95 md:hover:opacity-100 md:text-blueText md:font-semibold xl:p-4 xl:text-2xl 2xl:font-extrabold animate-jump-in animate-once animate-duration-[1500ms] animate-ease-in-out">
