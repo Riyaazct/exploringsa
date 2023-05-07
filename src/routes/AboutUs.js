@@ -14,11 +14,14 @@ const AboutUs = () => (
         tirelessly to ensure that our services are of the highest
         quality and have earned the loyalty of many satisfied clients.
       </p>
-      <img
-        className="max-h-[400px]"
-        src="images/our story.jpg"
-        alt="the company tour guide and owner with some tourists"
-      />
+      <div>
+        <img
+          className="max-h-[400px]"
+          src="images/our story.jpg"
+          alt="the company tour guide and owner with some tourists"
+        />
+        <button>Reserve your Spot</button>
+      </div>
     </div>
   </div>
 );
