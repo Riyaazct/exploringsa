@@ -10,8 +10,13 @@ module.exports = {
       offWhite: "#F5F5F5",
       darkGreen: "#04420C",
       blueText: "#272343",
+      navText: "#DCDCDC",
     },
     extend: {},
   },
-  plugins: [require("tailwindcss-animated")],
+  plugins: [
+    require("tailwindcss-animated"),
+    require("tw-elements/dist/plugin.cjs"),
+  ],
+  darkMode: "class",
 };

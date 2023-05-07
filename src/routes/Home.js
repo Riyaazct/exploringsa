@@ -24,6 +24,7 @@ const Home = () => (
         <div className="w-full h-full bg-[#000000a7] absolute top-0 xl:min-w-[45vw] md:hidden"></div>
       </div>
     </div>
+    {/* TEXT CONTENT FOR SCREENS > 768px */}
     <div className="text-center my-12 text-2xl text-blueText font-semibold md:flex md:items-center md:m-auto xl:mx-auto xl:text-3xl 2xl:text-4xl xl:max-w-[45vw] md:flex-col">
       <div className="hidden md:block">
         <h1 className="font-semibold text-[1.2rem] sm:text-[1.3rem] xl:text-2xl 2xl:text-3xl lg:max-w-[80%] lg:mx-auto md:mx-5 animate-fade-left animate-once animate-delay-200 animate-ease-in">
@@ -31,6 +32,7 @@ const Home = () => (
           transportation and tourism provider in South Africa
         </h1>
       </div>
+      {/* TEXT CONTENT DISPLAYED ON THE MOBILE VIEW ONLY */}
       <h1 className="md:hidden animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out">
         "Unlock the treasures of South Africa with us"
       </h1>
