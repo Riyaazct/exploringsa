@@ -20,6 +20,10 @@ const Navbar = () => {
     }
   };
 
+  const handleClick = () => {
+    setActive(!active);
+  };
+
   // function to check which page is active
   function IsActive(routePath) {
     const location = useLocation();
@@ -102,6 +106,7 @@ const Navbar = () => {
               ? "active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
               : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
           }
+          onClick={handleClick}
         >
           HOME
         </Link>
@@ -112,6 +117,7 @@ const Navbar = () => {
               ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
               : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
           }
+          onClick={handleClick}
         >
           ABOUT US
         </Link>
@@ -122,6 +128,7 @@ const Navbar = () => {
               ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
               : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
           }
+          onClick={handleClick}
         >
           OUR SERVICES
         </Link>
@@ -133,6 +140,7 @@ const Navbar = () => {
               ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
               : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
           }
+          onClick={handleClick}
         >
           CONTACT US
         </Link>
