@@ -12,11 +12,13 @@ const Navbar = () => {
 
   // onClick function for displaying or hiding the menu in mobile view
   const handleNav = () => {
-    setActive(!active);
-    if (!active) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "scroll";
+    if (window.innerWidth <= 768) {
+      setActive(!active);
+      if (!active) {
+        document.body.style.overflow = "hidden";
+      } else {
+        document.body.style.overflow = "scroll";
+      }
     }
   };
 
