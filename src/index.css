@@ -24,5 +24,11 @@
 }
 
 .aboutBg {
-  border-radius: 0 159px;
+  border-radius: 0px 320px;
+}
+
+@media only screen and (min-width: 768px) {
+  .aboutBg {
+    border-radius: 0 260px;
+  }
 }
