@@ -7,7 +7,7 @@ const AboutUs = () => (
       <h1 className="text-center my-6 text-2xl font-semibold text-blueText">
         OUR STORY
       </h1>
-      <div className="flex flex-col-reverse justify-center items-center gap-5">
+      <div className="flex flex-col-reverse justify-center items-center gap-5 md:flex-row">
         {/* Background div */}
 
         {/* TEXT */}
@@ -25,10 +25,10 @@ const AboutUs = () => (
           <button className="mt-5 mb-6 h-12 text-sm font-semibold">
             Reserve your Spot
           </button>
-          <div className="bg-lightGreen absolute h-full max-h-[350px] w-[95%] left-8 bottom-2 -z-10 aboutBg sm:-top-44 sm:-left-14" />
+          <div className="bg-lightGreen absolute h-full max-h-[340px] w-[100%] left-5 bottom-4 -z-10 aboutBg sm:left-10 sm:max-w-[90%]" />
         </div>
         {/* IMAGE AND BUTTON */}
-        <div className="relative max-w-[85%]">
+        <div className="relative max-w-[75%]">
           <img
             className=" mx-auto rounded-lg"
             src="images/our story 2.jpg"
