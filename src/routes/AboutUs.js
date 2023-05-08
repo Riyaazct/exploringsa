@@ -25,7 +25,7 @@ const AboutUs = () => (
           <button className="mt-5 mb-6 h-12 text-sm font-semibold">
             Reserve your Spot
           </button>
-          <div className="bg-lightGreen absolute h-full max-h-[350px] w-[95%] left-5 bottom-2 -z-10 aboutBg sm:-top-44 sm:-left-14" />
+          <div className="bg-lightGreen absolute h-full max-h-[350px] w-[95%] left-8 bottom-2 -z-10 aboutBg sm:-top-44 sm:-left-14" />
         </div>
         {/* IMAGE AND BUTTON */}
         <div className="relative max-w-[85%]">
