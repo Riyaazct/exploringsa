@@ -11,7 +11,7 @@ const AboutUs = () => (
         {/* Background div */}
 
         {/* TEXT */}
-        <div className="max-w-[90%] sm:max-w-[80%] text-center relative rounded-lg mt-5">
+        <div className="max-w-[90%] sm:max-w-[80%] text-center rounded-lg mt-5">
           <p className="my-auto text-lg text-blueText font-semibold">
             Exploring SA Transport and Tours was founded in 2018 by a
             team with over 20 years of experience in transportation
@@ -25,16 +25,16 @@ const AboutUs = () => (
           <button className="mt-5 mb-6 h-12 text-sm font-semibold">
             Reserve your Spot
           </button>
-          <div className="bg-lightGreen absolute h-full w-[95vw] -left-8 -top-12 -z-10 aboutBg sm:-top-16 sm:-left-14" />
+          <div className="bg-lightGreen absolute h-full max-h-[350px] w-[95%] left-5 bottom-2 -z-10 aboutBg sm:-top-44 sm:-left-14" />
         </div>
         {/* IMAGE AND BUTTON */}
-        <div className="relative sm:max-w-[85%]">
+        <div className="relative max-w-[85%]">
           <img
             className=" mx-auto rounded-lg"
             src="images/our story 2.jpg"
             alt="the company tour guide and owner with some tourists"
           />
-          <div className="absolute bg-[#000000] bg-opacity-[10%] top-0 w-full h-full rounded-lg " />
+          <div className="absolute bg-[#000000] bg-opacity-[10%] top-0 w-full h-full rounded-lg  " />
         </div>
       </div>
     </div>
