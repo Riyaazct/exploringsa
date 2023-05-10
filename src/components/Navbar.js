@@ -12,11 +12,13 @@ const Navbar = () => {
 
   // onClick function for displaying or hiding the menu in mobile view
   const handleNav = () => {
-    setActive(!active);
-    if (!active) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "scroll";
+    if (window.innerWidth <= 768) {
+      setActive(!active);
+      if (!active) {
+        document.body.style.overflow = "hidden";
+      } else {
+        document.body.style.overflow = "scroll";
+      }
     }
   };
 
@@ -102,6 +104,7 @@ const Navbar = () => {
               ? "active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
               : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
           }
+          onClick={handleNav}
         >
           HOME
         </Link>
@@ -112,6 +115,7 @@ const Navbar = () => {
               ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
               : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
           }
+          onClick={handleNav}
         >
           ABOUT US
         </Link>
@@ -122,6 +126,7 @@ const Navbar = () => {
               ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
               : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
           }
+          onClick={handleNav}
         >
           OUR SERVICES
         </Link>
@@ -133,6 +138,7 @@ const Navbar = () => {
               ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
               : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
           }
+          onClick={handleNav}
         >
           CONTACT US
         </Link>

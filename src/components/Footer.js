@@ -1,6 +1,6 @@
 import React from "react";
-import { BsWhatsapp, BsInstagram } from "react-icons/bs";
-import { SiFacebook } from "react-icons/si";
+// import { BsWhatsapp, BsInstagram } from "react-icons/bs";
+// import { SiFacebook } from "react-icons/si";
 
 const Footer = () => {
   return (

@@ -10,9 +10,9 @@
     background-color: #f5f5f5;
   }
 
-  body {
+  /* body {
     @apply pt-[4rem] md:pt-[5rem];
-  }
+  } */
 
   button {
     @apply border border-blueText py-1 px-2 rounded-lg bg-orange w-auto;
@@ -21,4 +21,19 @@
 .active {
   /* @apply border-b-orange border-b-[1px]; */
   color: #ef5b0c !important;
+}
+
+.aboutBg {
+  border-radius: 0px 320px;
+}
+
+@media only screen and (min-width: 768px) {
+  .aboutBg {
+    border-radius: 0 260px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .aboutBg {
+    border-radius: 0 360px;
+  }
 }
