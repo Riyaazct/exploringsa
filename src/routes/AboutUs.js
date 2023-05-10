@@ -11,7 +11,11 @@ const AboutUs = () => (
       >
         OUR STORY
       </h1>
-      <div className="flex flex-col-reverse justify-center items-center gap-5 md:flex-row md:gap-7 xl:mx-auto xl:max-w-[1650px] lg:max-w-[1000px] md:mx-auto md:max-w-[800px] 2xl:gap-10">
+      <div
+        className="flex flex-col-reverse justify-center items-center gap-5 md:flex-row md:gap-7 
+                      xl:mx-auto xl:max-w-[1650px] lg:max-w-[1000px] md:mx-auto md:max-w-[800px]
+                      2xl:gap-10"
+      >
         {/* TEXT */}
         <div
           className="max-w-[80%] text-center rounded-lg mt-5 
@@ -44,7 +48,8 @@ const AboutUs = () => (
         {/* IMAGE */}
         <div className="relative max-w-[75%] md:max-w-[48%] lg:max-w-[55%]">
           <img
-            className=" m-auto rounded-lg md:max-h-[40%] lg:max-w-[480px] xl:max-w-[550px] 2xl:max-w-[650px]"
+            className=" m-auto rounded-lg md:max-h-[40%] lg:max-w-[480px] 
+                        xl:max-w-[550px] 2xl:max-w-[650px]"
             src="images/our story 2.jpg"
             alt="the company tour guide and owner with some tourists"
           />
