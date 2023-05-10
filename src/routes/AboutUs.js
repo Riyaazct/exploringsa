@@ -38,7 +38,7 @@ const AboutUs = () => (
                           md:-top-5 md:left-0 md:max-w-[85vw] md:max-h-[62vh] 
                           lg:max-h-[72vh] lg:max-w-[80vw] 
                           xl:max-h-[76vh] 
-                          2xl:max-w-[75vw] 2xl:max-h-[78vh] 2xl:bg-orange"
+                          2xl:max-w-[75vw] 2xl:max-h-[78vh]"
           />
         </div>
         {/* IMAGE */}
