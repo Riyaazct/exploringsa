@@ -3,7 +3,7 @@ import Vision from "./Vision";
 
 const AboutUs = () => (
   <>
-    <div className="relative pt-16 md:mt-24 mb-52 md:mb-0 md:h-[80vh]">
+    <div className="relative pt-16 md:mt-24 mb-52 md:mb-0 md:h-[80vh] lg:mb-[150px] 2xl:h-[90vh] ">
       <h1
         className="text-center my-12 text-2xl font-semibold text-blueText 
                      md:mt-0 md:mb-12 md:text-3xl
@@ -42,7 +42,7 @@ const AboutUs = () => (
                           md:-top-5 md:left-0 md:max-w-[85vw] md:max-h-[62vh] 
                           lg:max-h-[72vh] lg:max-w-[80vw] 
                           xl:max-h-[76vh] 
-                          2xl:max-w-[75vw] 2xl:max-h-[78vh]"
+                          2xl:max-w-[75vw] 2xl:max-h-[88vh]"
           />
         </div>
         {/* IMAGE */}
