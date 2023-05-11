@@ -2,8 +2,9 @@ import React from "react";
 
 const Vision = () => {
   return (
-    <div className="flex flex-col text-center md:flex-row gap-2">
-      <div className="mb-28">
+    <div className="flex flex-col md:h-[50vh] text-center md:flex-row md:pb-8 relative mt-28">
+      {/*DELETE THE MT-28 AT THE END*/}
+      <div className="mb-16 max-w-sm md:mb-8 md:max-h-[500px] mx-auto">
         <h2 className="text-2xl text-blueText font-semibold">
           OUR VISION
         </h2>
@@ -12,7 +13,7 @@ const Vision = () => {
           src="images/icons/vision.svg"
           alt="binoculars icon"
         />
-        <p className="w-2/3 mx-auto text-blueText  sm:text-lg">
+        <p className="max-w-2/3 md:max-w-[90%] text-left mx-auto text-blueText">
           Our vision is to become the premier provider of
           transportation and tourism services in South Africa. We
           strive to continuously improve and innovate our services to
@@ -21,7 +22,7 @@ const Vision = () => {
           both our clients and the communities we serve.
         </p>
       </div>
-      <div className="mb-28">
+      <div className="mb-16 max-w-sm md:mb-8 md:max-h-[500px] mx-auto">
         <h2 className="text-2xl text-blueText font-semibold">
           OUR MISSION
         </h2>
@@ -30,7 +31,7 @@ const Vision = () => {
           src="images/icons/mission.svg"
           alt="compass icon"
         />
-        <p className="w-2/3 mx-auto text-blueText sm:text-lg">
+        <p className="max-w-2/3 md:max-w-[90%] text-left mx-auto text-blueTex">
           To provide reliable and exceptional transportation and tour
           services that exceed our clients' expectations. We strive to
           showcase the diverse beauty of South Africa while ensuring
@@ -41,7 +42,7 @@ const Vision = () => {
           clients.
         </p>
       </div>
-      <div className="mb-28">
+      <div className="mb-16 max-w-sm md:mb-8 md:max-h-[500px] mx-auto">
         <h2 className="text-2xl text-blueText font-semibold">
           OUR OBJECTIVE
         </h2>
@@ -50,7 +51,7 @@ const Vision = () => {
           src="images/icons/objective.svg"
           alt="bus icon"
         />
-        <p className="w-2/3 mx-auto text-blueText sm:text-lg">
+        <p className="max-w-2/3 md:max-w-[90%] text-left mx-auto text-blueTex">
           Our objective is to continue to be a trusted partner in
           transportation and tourism, providing our clients with safe,
           reliable, and efficient services that exceed their
@@ -60,6 +61,7 @@ const Vision = () => {
           we serve
         </p>
       </div>
+      <div className="hidden md:block absolute bg-lightGreen w-full h-[80%] border-t-[2px] border-[#2D334A] bottom-0 -z-10" />
     </div>
   );
 };
