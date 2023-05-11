@@ -3,7 +3,7 @@ import Vision from "./Vision";
 
 const AboutUs = () => (
   <>
-    <div className="hidden relative pt-16 md:mt-24 mb-52 sm:mb-36 md:mb-0 md:h-[80vh] lg:mb-[150px] 2xl:h-[90vh] ">
+    <div className="relative pt-16 md:mt-24 mb-52 sm:mb-36 md:mb-0 md:h-[80vh] lg:mb-[150px] 2xl:h-[90vh] ">
       <h1
         className="text-center my-12 text-2xl font-semibold text-blueText 
                      md:mt-0 md:mb-12 md:text-3xl
@@ -37,7 +37,7 @@ const AboutUs = () => (
           </button>
           {/* Background div */}
           <div
-            className="bg-lightGreen absolute h-full max-h-[540px] w-[100%] left-0 top-80 -z-10 
+            className="bg-lightGreen absolute h-full max-h-[540px] w-[100%] left-0 -bottom-[90px] -z-10 
                           aboutBg sm:max-w-[90%] 
                           sm:-top-5 sm:left-0 md:max-w-[80vw] md:max-h-[57vh] 
                           lg:max-h-[72vh] lg:max-w-[80vw] 
