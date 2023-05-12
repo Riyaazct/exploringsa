@@ -5,7 +5,7 @@ const Vision = () => {
     <div className="">
       <div className="relative flex flex-col md:h-full md:text-center md:flex-row ">
         <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] mx-auto 2xl:max-w-[25%]">
-          <h2 className="text-2xl text-blueText font-semibold">
+          <h2 className="text-2xl text-blueText font-semibold animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in">
             OUR VISION
           </h2>
           <img
@@ -13,7 +13,7 @@ const Vision = () => {
             src="images/icons/vision.svg"
             alt="binoculars icon"
           />
-          <p className="md:max-w-[90%] text-left mx-auto text-blueText lg:text-lg xl:text-xl 2xl:ml-7">
+          <p className="md:max-w-[90%] text-left mx-auto text-blueText lg:text-lg xl:text-xl 2xl:ml-7 animate-fade-right animate-once animate-duration-[3000ms] animate-ease-linear">
             To become the premier provider of transportation and
             tourism services in South Africa. We strive to
             continuously improve and innovate our services to exceed
@@ -23,7 +23,7 @@ const Vision = () => {
           </p>
         </div>
         <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] mx-auto 2xl:max-w-[25%]">
-          <h2 className="text-2xl text-blueText font-semibold">
+          <h2 className="text-2xl text-blueText font-semibold animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in">
             OUR MISSION
           </h2>
           <img
@@ -31,7 +31,7 @@ const Vision = () => {
             src="images/icons/mission.svg"
             alt="compass icon"
           />
-          <p className="md:max-w-[90%] text-left mx-auto text-blueText lg:text-lg xl:text-xl 2xl:ml-7">
+          <p className="md:max-w-[90%] text-left mx-auto text-blueText lg:text-lg xl:text-xl 2xl:ml-7 animate-fade-right animate-once animate-duration-[3000ms] animate-ease-linear">
             To provide reliable and exceptional transportation and
             tour services that exceed our clients' expectations. We
             strive to showcase the diverse beauty of South Africa
@@ -43,7 +43,7 @@ const Vision = () => {
           </p>
         </div>
         <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] mx-auto 2xl:max-w-[25%]">
-          <h2 className="text-2xl text-blueText font-semibold">
+          <h2 className="text-2xl text-blueText font-semibold animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in">
             OUR OBJECTIVE
           </h2>
           <img
@@ -51,7 +51,7 @@ const Vision = () => {
             src="images/icons/objective.svg"
             alt="bus icon"
           />
-          <p className="md:max-w-[90%] text-left mx-auto text-blueText lg:text-lg xl:text-xl 2xl:ml-7">
+          <p className="md:max-w-[90%] text-left mx-auto text-blueText lg:text-lg xl:text-xl 2xl:ml-7 animate-fade-right animate-once animate-duration-[3000ms] animate-ease-linear">
             To continue to be a trusted partner in transportation and
             tourism, providing our clients with safe, reliable, and
             efficient services that exceed their expectations. We are
