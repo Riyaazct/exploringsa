@@ -14,10 +14,10 @@ const Vision = () => {
             alt="binoculars icon"
           />
           <p className="md:max-w-[90%] text-left mx-auto text-blueText lg:text-lg xl:text-xl 2xl:ml-7">
-            Our vision is to become the premier provider of
-            transportation and tourism services in South Africa. We
-            strive to continuously improve and innovate our services
-            to exceed our clients' expectations, while also promoting
+            To become the premier provider of transportation and
+            tourism services in South Africa. We strive to
+            continuously improve and innovate our services to exceed
+            our clients' expectations, while also promoting
             sustainable and responsible tourism practices that benefit
             both our clients and the communities we serve.
           </p>
@@ -52,13 +52,12 @@ const Vision = () => {
             alt="bus icon"
           />
           <p className="md:max-w-[90%] text-left mx-auto text-blueText lg:text-lg xl:text-xl 2xl:ml-7">
-            Our objective is to continue to be a trusted partner in
-            transportation and tourism, providing our clients with
-            safe, reliable, and efficient services that exceed their
-            expectations. We are committed to preserving the natural
-            beauty of South Africa and to promoting sustainable
-            tourism practices that benefit both our clients and the
-            communities we serve
+            To continue to be a trusted partner in transportation and
+            tourism, providing our clients with safe, reliable, and
+            efficient services that exceed their expectations. We are
+            committed to preserving the natural beauty of South Africa
+            and to promoting sustainable tourism practices that
+            benefit both our clients and the communities we serve
           </p>
         </div>
         <div
