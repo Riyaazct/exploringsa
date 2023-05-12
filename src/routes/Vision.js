@@ -2,14 +2,16 @@ import React from "react";
 
 const Vision = () => {
   return (
-    <div className="">
+    <div>
+      {/* cards container */}
       <div className="relative flex flex-col md:h-full md:text-center md:flex-row ">
-        <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] mx-auto 2xl:max-w-[25%]">
+        {/* card #1 */}
+        <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] mx-auto xl:max-w-[33%]">
           <h2 className="text-2xl text-blueText font-semibold animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in">
             OUR VISION
           </h2>
           <img
-            className="md:mx-auto h-[75px] my-4"
+            className="md:mx-auto h-[75px] md:h-[85px] lg:h-[95px] my-4 xl:h-[105px] 2xl:h-[115px]"
             src="images/icons/vision.svg"
             alt="binoculars icon"
           />
@@ -22,12 +24,13 @@ const Vision = () => {
             both our clients and the communities we serve.
           </p>
         </div>
-        <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] mx-auto 2xl:max-w-[25%]">
+        {/* card #2 */}
+        <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] mx-auto xl:max-w-[33%]">
           <h2 className="text-2xl text-blueText font-semibold animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in">
             OUR MISSION
           </h2>
           <img
-            className="md:mx-auto h-[75px] my-4"
+            className="md:mx-auto h-[75px] md:h-[85px] lg:h-[95px] my-4 xl:h-[105px] 2xl:h-[115px]"
             src="images/icons/mission.svg"
             alt="compass icon"
           />
@@ -42,12 +45,13 @@ const Vision = () => {
             experiences for our clients.
           </p>
         </div>
-        <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] mx-auto 2xl:max-w-[25%]">
+        {/* card #3 */}
+        <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] mx-auto xl:max-w-[33%]">
           <h2 className="text-2xl text-blueText font-semibold animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in">
             OUR OBJECTIVE
           </h2>
           <img
-            className="md:mx-auto h-[75px] my-4"
+            className="md:mx-auto h-[75px] md:h-[85px] lg:h-[95px] my-4 xl:h-[105px] 2xl:h-[115px]"
             src="images/icons/objective.svg"
             alt="bus icon"
           />
@@ -61,7 +65,7 @@ const Vision = () => {
           </p>
         </div>
         <div
-          className="hidden md:block md: top-[85px] absolute bg-lightGreen w-full h-full border-t-[2px]
+          className="hidden md:block md:top-[105px] absolute bg-lightGreen w-full h-full border-t-[2px]
                    border-[#2D334A] -z-10 2xl:left-0"
         />
       </div>
