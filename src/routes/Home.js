@@ -15,11 +15,11 @@ const Home = () => (
         </button>
       </div>
       {/* IMAGE */}
-      <div className="relative">
+      <div className="relative ">
         <img
           src={bgPath}
           alt="Company vehicle"
-          className="max-h-[90vh] min-w-full object-fill xl:min-w-[45vw] xl:max-h-[100vh] md:min-h-[90vh] md:min-w-[55vw] "
+          className="max-h-[90vh] min-w-full object-fill xl:min-w-[45vw] xl:max-h-[100vh] md:max-h-[65vh] md:min-w-[55vw] "
         />
         <div className="w-full h-full bg-[#000000a7] absolute top-0 xl:min-w-[45vw] md:hidden"></div>
       </div>
