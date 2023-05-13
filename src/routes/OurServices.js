@@ -3,18 +3,18 @@ import Services from "./Services";
 
 const OurServices = () => (
   <>
-    <div className="mt-14 h-[50vh] sm:h-[55vh] relative mb-72">
+    <div className="mt-14 h-[50vh] sm:h-[55vh] relative mb-72 2xl:h-[80vh]">
       {/* IMAGE AND OVERLAY */}
-      <div className="absolute -z-10 top-0 left-0 w-full h-full lg:max-h-[65vh]">
+      <div className="absolute -z-10 top-0 left-0 w-full h-full lg:max-h-[65vh] 2xl:max-h-[95vh]">
         <img
-          className="w-full h-full"
+          className="w-full h-full 2xl:h-[75vh]"
           src="images/services.jpg"
           alt=""
         />
-        <div className="bg-[#FFE4C4] bg-opacity-[50%] w-full h-full absolute top-0 left-0 z-10" />
+        <div className="bg-[#FFE4C4] bg-opacity-[50%] w-full h-full absolute top-0 left-0 z-10 2xl:h-[75vh]" />
       </div>
       {/* TEXT CONTENT */}
-      <div className="w-[90%] mx-auto absolute top-[60%] left-6 sm:left-9 md:left-11 lg:left-[5%] lg:max-w-[90%] lg:top-[55%] xl:max-w-[80%] xl:left-[9.5%]">
+      <div className="w-[90%] mx-auto absolute top-[60%] left-6 sm:left-9 md:left-11 lg:left-[5%] lg:max-w-[90%] lg:top-[55%] xl:max-w-[80%] xl:left-[9.5%] 2xl:top-[55%]">
         <h1 className="text-2xl text-blueText font-extrabold mb-10 md:mb-12 sm:text-3xl lg:text-4xl lg:mb-20 xl:-ml-24 2xl:-ml-20 2xl:mb-24">
           OUR SERVICES
         </h1>
