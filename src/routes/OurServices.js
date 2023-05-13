@@ -1,6 +1,7 @@
 import React from "react";
 import Services from "./Services";
 import WhyChooseUs from "./WhyChooseUs";
+import OurFleet from "./OurFleet";
 
 const OurServices = () => (
   <>
@@ -39,6 +40,7 @@ const OurServices = () => (
     </div>
     <Services />
     <WhyChooseUs />
+    <OurFleet />
   </>
 );
 
