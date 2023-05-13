@@ -4,10 +4,10 @@ const Vision = () => {
   return (
     <div>
       {/* cards container */}
-      <div className="relative flex flex-col md:h-full md:text-center md:flex-row ">
+      <div className="relative ml-5 md:ml-0 flex flex-col md:h-full md:text-center md:flex-row md:justify-center md:gap-2 lg:gap-5">
         {/* card #1 */}
-        <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] mx-auto xl:max-w-[33%]">
-          <h2 className="text-2xl text-blueText font-semibold animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in">
+        <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] xl:max-w-[27%]">
+          <h2 className="text-2xl xl:text-3xl text-blueText font-semibold animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in">
             OUR VISION
           </h2>
           <img
@@ -25,12 +25,12 @@ const Vision = () => {
           </p>
         </div>
         {/* card #2 */}
-        <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] mx-auto xl:max-w-[33%]">
-          <h2 className="text-2xl text-blueText font-semibold animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in">
+        <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] xl:max-w-[27%]">
+          <h2 className="text-2xl xl:text-3xl text-blueText font-semibold animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in">
             OUR MISSION
           </h2>
           <img
-            className="md:mx-auto h-[75px] md:h-[85px] lg:h-[95px] my-4 xl:h-[105px] 2xl:h-[115px]"
+            className="md:mx-auto h-[75px] md:h-[85px] lg:h-[95px] my-4 xl:h-[105px] 2xl:h-[110px] 2xl:mt-5"
             src="images/icons/mission.svg"
             alt="compass icon"
           />
@@ -46,8 +46,8 @@ const Vision = () => {
           </p>
         </div>
         {/* card #3 */}
-        <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] mx-auto xl:max-w-[33%]">
-          <h2 className="text-2xl text-blueText font-semibold animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in">
+        <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] xl:max-w-[27%]">
+          <h2 className="text-2xl xl:text-3xl text-blueText font-semibold animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in">
             OUR OBJECTIVE
           </h2>
           <img
@@ -65,8 +65,8 @@ const Vision = () => {
           </p>
         </div>
         <div
-          className="hidden md:block md:top-[105px] absolute bg-lightGreen w-full h-full border-t-[2px]
-                   border-[#2D334A] -z-10 2xl:left-0"
+          className="hidden md:block md:top-[90px] lg:top-[95px] xl:top-[105px] absolute bg-lightGreen w-full h-full border-t-[2px]
+                   border-[#2D334A] -z-10"
         />
       </div>
     </div>
