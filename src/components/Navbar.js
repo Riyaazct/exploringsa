@@ -73,7 +73,7 @@ const Navbar = () => {
           className={
             active
               ? "text-blueText font-bold z-30 text-xl "
-              : "text-xl font-bold xl:text-2xl "
+              : "text-[#DCDCDC] text-xl font-bold xl:text-2xl "
           }
         >
           Exploring SA
@@ -82,7 +82,7 @@ const Navbar = () => {
           className={
             active
               ? "text-blueText font-bold z-30 text-sm pt-[7px] ml-1"
-              : "ml-1 pt-[7px] text-sm xl:text-lg xl:pt-[3.8px]"
+              : "text-[#DCDCDC] ml-1 pt-[7px] text-sm xl:text-lg xl:pt-[3.8px]"
           }
         >
           Travel and Tours
