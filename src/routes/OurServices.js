@@ -3,7 +3,7 @@ import Services from "./Services";
 
 const OurServices = () => (
   <>
-    <div className="mt-14 h-[70vh] relative mb-72 lg:bg-darkGreen lg:bg-opacity-30">
+    <div className="mt-14 h-[50vh] sm:h-[55vh] relative mb-72">
       {/* IMAGE AND OVERLAY */}
       <div className="absolute -z-10 top-0 left-0 w-full h-full lg:max-h-[65vh]">
         <img
@@ -14,8 +14,8 @@ const OurServices = () => (
         <div className="bg-[#FFE4C4] bg-opacity-[50%] w-full h-full absolute top-0 left-0 z-10" />
       </div>
       {/* TEXT CONTENT */}
-      <div className="w-[90%] mx-auto absolute top-[37%] md:top-[30%] left-6 sm:left-9 md:left-11 lg:left-[7%] lg:max-w-4xl lg:top-[50%] xl:left-[12%] xl:max-w-5xl 2xl:left-[18%]">
-        <h1 className="text-2xl text-blueText font-extrabold mb-10 md:mb-12 sm:text-3xl lg:text-4xl lg:-ml-16 lg:mb-20 xl:-ml-36 2xl:-ml-44 2xl:mb-28">
+      <div className="w-[90%] mx-auto absolute top-[60%] left-6 sm:left-9 md:left-11 lg:left-[5%] lg:max-w-[90%] lg:top-[55%] xl:max-w-[80%] xl:left-[9.5%]">
+        <h1 className="text-2xl text-blueText font-extrabold mb-10 md:mb-12 sm:text-3xl lg:text-4xl lg:mb-20 xl:-ml-24 2xl:-ml-20 2xl:mb-24">
           OUR SERVICES
         </h1>
         <div className="bg-[#FFFFFF] w-full h-full px-3 py-1 rounded-2xl sm:p-5 xl:p-6">
