@@ -3,19 +3,23 @@ import Services from "./Services";
 
 const OurServices = () => (
   <>
-    <div className="mt-14 h-[70vh] relative">
+    <div className="mt-14 h-[70vh] relative mb-72 lg:bg-darkGreen lg:bg-opacity-30">
       {/* IMAGE AND OVERLAY */}
-      <div className="absolute -z-10 top-0 left-0">
-        <img src="images/services.jpg" alt="" />
-        <div className="bg-[#FFE4C4] bg-opacity-[54%] w-full h-full absolute top-0 left-0 z-10" />
+      <div className="absolute -z-10 top-0 left-0 w-full h-full lg:max-h-[65vh]">
+        <img
+          className="w-full h-full"
+          src="images/services.jpg"
+          alt=""
+        />
+        <div className="bg-[#FFE4C4] bg-opacity-[50%] w-full h-full absolute top-0 left-0 z-10" />
       </div>
       {/* TEXT CONTENT */}
-      <div className="w-[90%] mx-auto absolute top-52 left-6 ">
-        <h1 className="text-2xl text-blueText font-extrabold mb-10">
+      <div className="w-[90%] mx-auto absolute top-[37%] md:top-[30%] left-6 sm:left-9 md:left-11 lg:left-[7%] lg:max-w-4xl lg:top-[50%] xl:left-[12%] xl:max-w-5xl 2xl:left-[18%]">
+        <h1 className="text-2xl text-blueText font-extrabold mb-10 md:mb-12 sm:text-3xl lg:text-4xl lg:-ml-16 lg:mb-20 xl:-ml-36 2xl:-ml-44 2xl:mb-28">
           OUR SERVICES
         </h1>
-        <div className="bg-[#FFFFFF] w-full h-full px-3 py-1 rounded-2xl">
-          <p className="">
+        <div className="bg-[#FFFFFF] w-full h-full px-3 py-1 rounded-2xl sm:p-5 xl:p-6">
+          <p className="sm:text-lg md:text-xl lg:text-2xl xl:font-semibold  ">
             At Exploring SA Transport and Tours, we offer a range of
             transportation and tourism services to meet your needs.
             With over 20 years of experience in the industry, we take
