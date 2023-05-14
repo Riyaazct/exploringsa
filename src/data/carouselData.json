@@ -1,0 +1,20 @@
+[
+  {
+    "image": "images/carousel/22-seater.jpg",
+    "alt": "white 22 seater bus",
+    "vehicle": "Nulla eu faucibus est. Pellentesque.",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel condimentum sapien, sit amet porta sapien. Sed convallis felis ut."
+  },
+  {
+    "image": "images/carousel/hyundai-h1.jpg",
+    "alt": "Silver Hyunday H1",
+    "vehicle": "Nulla eu faucibus est. Pellentesque.",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel condimentum sapien, sit amet porta sapien. Sed convallis felis ut."
+  },
+  {
+    "image": "images/carousel/mercedes benz.jpg",
+    "alt": "black mercedes benz",
+    "vehicle": "Nulla eu faucibus est. Pellentesque.",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel condimentum sapien, sit amet porta sapien. Sed convallis felis ut."
+  }
+]

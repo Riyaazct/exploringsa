@@ -2,13 +2,13 @@ import React from "react";
 
 const WhyChooseUs = () => {
   return (
-    <div className="mt-48 h-screen w-full relative mb-48">
+    <div className="mt-48 h-screen w-full relative mb-96">
       <h1 className="md:mb-20 mb-20 text-center text-2xl text-blueText font-bold md:text-3xl lg:text-4xl xl:text-5xl ">
         WHY CHOOSE US ?
       </h1>
       <div className="relative">
         <img
-          className="w-full h-screen object-cover z-10 "
+          className="w-full h-[115vh] object-cover xl:object-fill z-10 "
           src="images/WhyChooseUs.jpg"
           alt=""
         />
@@ -16,9 +16,20 @@ const WhyChooseUs = () => {
       </div>
 
       {/* CARDS CONTAINER */}
-      <div className="text-blueText absolute top-32 md:top-44 grid grid-cols-2 p-1 z-20 gap-3 sm:gap-y-5 lg:max-w-[90%] lg:left-[5%] xl:max-w-[85%] xl:left-[8%]">
+      <div
+        className="text-blueText absolute top-32 md:top-44 grid grid-cols-1 p-1 z-20 gap-3 
+                        sm:gap-y-5 sm:grid-cols-2
+                        lg:max-w-[90%] lg:left-[5%]
+                        xl:max-w-[85%] xl:left-[8%]"
+      >
         {/* CARD #1 */}
-        <div className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl sm:max-w-[90%] md:max-w-[95%] mx-auto lg:max-w-[90%] 2xl:max-w-[95%] hover:scale-105 duration-700">
+        <div
+          className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 duration-700
+                        sm:max-w-[90%]
+                        md:max-w-[95%] 
+                        lg:max-w-[90%]
+                        2xl:max-w-[95%]"
+        >
           <h2 className="font-extrabold text-xl mb-1 lg:text-3xl 2xl:text-4xl">
             Experience
           </h2>
@@ -33,11 +44,25 @@ const WhyChooseUs = () => {
           </p>
         </div>
         {/* CARD #2 */}
-        <div className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl sm:max-w-[90%] md:max-w-[95%] mx-auto lg:max-w-[90%] 2xl:max-w-[95%] hover:scale-105 duration-700">
-          <h2 className="font-extrabold text-xl mb-1 lg:text-3xl 2xl:text-4xl">
+        <div
+          className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 duration-700
+                        sm:max-w-[90%]
+                        md:max-w-[95%] 
+                        lg:max-w-[90%]
+                        2xl:max-w-[95%]"
+        >
+          <h2
+            className="font-extrabold text-xl mb-1 
+                         lg:text-3xl
+                         2xl:text-4xl"
+          >
             Range of Vehicles
           </h2>
-          <h3 className="font-extrabold text-sm mb-2 lg:text-xl 2xl:text-2xl">
+          <h3
+            className="font-extrabold text-sm mb-2 
+                         lg:text-xl
+                         2xl:text-2xl"
+          >
             Fleet of Vehicles to Meet Any Need
           </h3>
           <p className="text-sm md:text-lg 2xl:text-2xl">
@@ -47,7 +72,13 @@ const WhyChooseUs = () => {
           </p>
         </div>
         {/* CARD #3 */}
-        <div className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl sm:max-w-[90%] md:max-w-[95%] mx-auto lg:max-w-[90%] 2xl:max-w-[95%] hover:scale-105 duration-700">
+        <div
+          className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 duration-700
+                        sm:max-w-[90%]
+                        md:max-w-[95%] 
+                        lg:max-w-[90%]
+                        2xl:max-w-[95%]"
+        >
           <h2 className="font-extrabold text-xl mb-1 lg:text-3xl 2xl:text-4xl">
             Quality Assurance
           </h2>
@@ -63,7 +94,13 @@ const WhyChooseUs = () => {
           </p>
         </div>
         {/* CARD #4 */}
-        <div className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl sm:max-w-[90%] md:max-w-[95%] mx-auto lg:max-w-[90%] 2xl:max-w-[95%] hover:scale-105 duration-700">
+        <div
+          className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 duration-700
+                        sm:max-w-[90%]
+                        md:max-w-[95%] 
+                        lg:max-w-[90%]
+                        2xl:max-w-[95%]"
+        >
           <h2 className="font-extrabold text-xl mb-1 lg:text-3xl 2xl:text-4xl">
             Customized Service
           </h2>
@@ -77,7 +114,13 @@ const WhyChooseUs = () => {
           </p>
         </div>
         {/* CARD #5 */}
-        <div className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl sm:max-w-[90%] md:max-w-[95%] mx-auto lg:max-w-[90%] 2xl:max-w-[95%] hover:scale-105 duration-700">
+        <div
+          className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 duration-700
+                        sm:max-w-[90%]
+                        md:max-w-[95%] 
+                        lg:max-w-[90%]
+                        2xl:max-w-[95%] "
+        >
           <h2 className="font-extrabold text-xl mb-1 lg:text-3xl 2xl:text-4xl">
             Trustworthy Partner
           </h2>
