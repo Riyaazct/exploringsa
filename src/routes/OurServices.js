@@ -2,6 +2,7 @@ import React from "react";
 import Services from "./Services";
 import WhyChooseUs from "./WhyChooseUs";
 import OurFleet from "./OurFleet";
+import Carousel from "../components/Carousel";
 
 const OurServices = () => (
   <>
@@ -61,6 +62,7 @@ const OurServices = () => (
     <Services />
     <WhyChooseUs />
     <OurFleet />
+    <Carousel />
   </>
 );
 

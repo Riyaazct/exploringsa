@@ -4,7 +4,11 @@ const Services = () => {
   return (
     <div className="p-5 flex flex-col gap-2 md:flex-row md:flex-wrap w-full h-full xl:gap-1">
       {/* CARD #1 */}
-      <div className="w-80 mx-auto text-center p-2 border-2 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105 duration-700">
+      <div
+        className="w-80 mx-auto text-center p-2 border-2 
+                    border-darkGreen border-opacity-5 hover:border-opacity-20
+                    hover:rounded-lg hover:scale-105 duration-700"
+      >
         <img
           className="mx-auto my-3 h-16 lg:h-20 lg:mb-5"
           src="images/icons/tourist.png"

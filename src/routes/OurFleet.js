@@ -1,10 +1,9 @@
 import React from "react";
-// import Carousel from "../components/Carousel";
 
 const OurFleet = () => {
   return (
     <>
-      <div className="relative h-[50vh]">
+      <div className="relative -mt-28 h-[32vh] sm:h-[50vh]">
         <div
           className="bg-lightGreen w-[70%] h-72 absolute top-0 right-0 -z-20 
                        md:h-[22rem] md:w-[65%] 
@@ -43,7 +42,6 @@ const OurFleet = () => {
           </p>
         </div>
       </div>
-      {/* <Carousel /> */}
     </>
   );
 };
