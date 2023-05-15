@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <nav
       className="sticky top-0 bg-bluebg h-16 items-center border-b-[#DCDCDC] border-b-2 md:border-none w-full flex p-3 text-[#DCDCDC] 
-                 md:justify-between md:items-center lg:justify-around z-20 md:h-24"
+                 md:justify-between md:items-center lg:justify-around z-30 md:h-24"
       data-testid="Navbar-1"
     >
       {/* TITLE */}
@@ -69,13 +69,14 @@ const Navbar = () => {
           Travel and Tours
         </p>
       </div>
+
       {/* MENU LINKS */}
       {/* LINKS */}
       <div
         className={
           active
-            ? "w-full fixed !left-0 !top-0 h-screen bg-lightGreen bg-opacity-95 z-20 text-blueText flex justify-center items-center !ease-in !duration-300 flex-col"
-            : "w-full absolute !top-0 !left-[-100%] h-full z-20 text-blueText flex flex-col justify-center items-center !ease-in-out !duration-700 md:static md:w-fit md:flex-row"
+            ? "w-full fixed left-0 top-0 h-screen bg-lightGreen bg-opacity-95 z-20 text-blueText flex justify-center items-center ease-in duration-300 flex-col"
+            : "w-full absolute top-0 left-[-100%] h-screen z-20 text-blueText flex flex-col justify-center items-center ease-in-out duration-700 md:static md:w-fit md:flex-row"
         }
       >
         <Link

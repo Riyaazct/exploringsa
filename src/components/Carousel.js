@@ -5,7 +5,7 @@ const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   return (
-    <div className="m-auto p-5 rounded-xl">
+    <div className="m-auto rounded-xl">
       <img
         className="w-screen"
         src={data[currentIndex].image}
