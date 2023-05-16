@@ -75,7 +75,7 @@ const Navbar = () => {
       <div
         className={
           active
-            ? "w-full fixed left-0 top-0 h-screen bg-lightGreen bg-opacity-95 z-20 text-blueText flex justify-center items-center ease-in duration-300 flex-col"
+            ? "w-full fixed left-0 top-0 h-screen bg-lightGreen bg-opacity-90 z-20 text-blueText flex justify-center items-center ease-in duration-300 flex-col"
             : "w-full absolute top-0 left-[-100%] h-screen z-20 text-blueText flex flex-col justify-center items-center ease-in-out duration-700 md:static md:w-fit md:flex-row"
         }
       >
@@ -142,7 +142,7 @@ const Navbar = () => {
       <div
         className={
           active
-            ? "absolute right-2 top-3 cursor-pointer text-blueText z-30 md:hidden"
+            ? "absolute right-6 top-3 cursor-pointer text-blueText z-30 md:hidden"
             : "hidden"
         }
         onClick={handleNav}

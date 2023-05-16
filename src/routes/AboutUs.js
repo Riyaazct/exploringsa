@@ -6,7 +6,8 @@ const AboutUs = () => (
     <div className="relative mb-52 sm:mb-36 md:mb-0 md:h-[80vh] lg:mb-[150px] 2xl:h-[90vh] ">
       <h1
         className="text-center my-12 text-2xl font-semibold text-blueText 
-                     md:mt-0 md:pt-12 md:mb-12 md:text-3xl lg:text-4xl lg:mb-24 animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in"
+                     md:mt-0 md:pt-12 md:mb-12 md:text-3xl lg:text-4xl lg:mb-24 xl:text-5xl
+                     animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in"
       >
         OUR STORY
       </h1>
@@ -18,7 +19,7 @@ const AboutUs = () => (
         {/* TEXT */}
         <div
           className="max-w-[90%] sm:max-w-[50%] text-center rounded-lg mt-5 
-                        md:max-w-[45%] lg:max-w-[50%] xl:max-w-[45%]"
+                        md:max-w-[45%] lg:max-w-[55%] xl:max-w-[45%]"
         >
           <p
             className="my-auto text-blueText font-semibold 
@@ -43,13 +44,13 @@ const AboutUs = () => (
           </button>
           {/* Background div */}
           <div
-            className="bg-lightGreen absolute h-full max-h-[540px] w-[100%] left-0 -bottom-[90px] -z-10 
-                          aboutBg sm:max-w-[90%] 
-                          sm:-top-5 sm:left-0 
+            className="bg-lightGreen absolute h-full max-h-[340px] w-[100%] left-0 top-[475px] -z-10 
+                          aboutBg 
+                          sm:max-w-[90%] sm:-top-[3rem] sm:left-0 
                           md:max-w-[80vw] md:max-h-[57vh] 
-                          lg:max-h-[56vh] lg:max-w-[80vw] lg:top-28
-                          xl:max-h-[76vh] 
-                          2xl:max-w-[75vw] 2xl:max-h-[88vh]"
+                          lg:max-h-[72vh] lg:max-w-[80vw] 
+                          xl:max-h-[78vh] 
+                          2xl:max-w-[75vw] 2xl:max-h-[82vh]"
           />
         </div>
         {/* IMAGE */}
