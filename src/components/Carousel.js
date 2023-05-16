@@ -18,11 +18,11 @@ const Carousel = () => {
   };
 
   return (
-    <div className="xl:bg-orange 2xl:bg-[#171717] w-full h-full -mt-5">
+    <section className="h-screen mt-5">
       {/* IMAGE */}
       <div className="relative group ">
         <img
-          className="w-full h-[40vh] mx-auto
+          className="h-[40vh] mx-auto
                      sm:h-[60vh]"
           src={data[currentIndex].image}
           alt={data[currentIndex].alt}
@@ -47,25 +47,29 @@ const Carousel = () => {
       {/* TEXT CONTENT */}
       <div className="p-2 text-blueText">
         {/* TITLE */}
-        <h2 className="text-2xl font-semibold mt-2">
+        <h2 className="text-3xl font-extrabold mt-2">
           {data[currentIndex].vehicle}
         </h2>
 
-        {/* <h4 className="text-lg mt-2 font-semibold">
-          Vehicle Details:
-        </h4> */}
+        <h4 className="text-lg mt-2 font-semibold">
+          Vehicle Specifications:
+        </h4>
 
         {/* DETAILS */}
         <ul className="p-2 flex flex-row flex-wrap ">
-          {data[currentIndex].details.map((item) => (
-            <li className="list-inside list-disc w-[50%]">{item}</li>
+          {data[currentIndex].details.map((item, index) => (
+            <li key={index} className="list-inside list-disc w-[50%]">
+              {item}
+            </li>
           ))}
         </ul>
-        <button className="ml-1 text-xl p-2 mt-3 font-semibold">
+
+        {/* BUTTON */}
+        <button className="ml-1 p-2 mt-3 font-semibold opacity-95 hover:scale-105 hover:duration-500 hover:opacity-100 hover:text-orange hover:bg-offWhite hover:border-orange">
           Book now
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -119,7 +119,7 @@ const WhyChooseUs = () => {
                         sm:max-w-[90%]
                         md:max-w-[95%] 
                         lg:max-w-[90%]
-                        2xl:max-w-[95%] "
+                        2xl:max-w-[95%]"
         >
           <h2 className="font-extrabold text-xl mb-1 lg:text-3xl 2xl:text-4xl">
             Trustworthy Partner
