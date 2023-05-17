@@ -18,14 +18,18 @@ const Carousel = () => {
   };
 
   return (
-    <section className="h-full mt-5 mx-auto mb-[15%] xl:flex xl:flex-row xl:justify-center xl:gap-5 xl:items-center xl:p-5 xl:mt-0 xl:max-w-[]">
+    <section
+      className="h-full mt-5 mx-auto mb-[15%] 
+                        lg:flex lg:flex-row lg:justify-center lg:gap-5 lg:items-end lg:p-5 lg:mt-0 "
+    >
       {/*  */}
 
       {/* IMAGE */}
       <div className="relative group ">
         <img
-          className="w-full h-full xl:max-w-[40vw]
-                       sm:h-[60vh] lg:h-[65vh] lg:rounded-xl"
+          className="w-full h-full 
+                       sm:h-[60vh] lg:h-[65vh] lg:rounded-xl
+                       xl:max-w-[50vw]"
           src={data[currentIndex].image}
           alt={data[currentIndex].alt}
         />
@@ -49,16 +53,16 @@ const Carousel = () => {
       {/* TEXT CONTENT */}
       <div
         className=" m-1 p-2 text-blueText border-2 border-blueText rounded-2xl border-opacity-10 
-                       hover:scale-[1.01] hover:border-opacity-70 duration-700 xl:h-max xl:max-w-[580px] 2xl:max-w-[600px]"
+                       hover:scale-[1.01] hover:border-opacity-70 duration-700 xl:h-max xl:max-w-[550px] 2xl:max-w-[570px]"
       >
         {/* TITLE */}
-        <h2 className="text-2xl font-extrabold mt-2 lg:text-3xl">
+        <h2 className="text-2xl font-extrabold mt-2 lg:text-2xl">
           {data[currentIndex].vehicle}
         </h2>
 
         <h4
           className="text-lg mt-1 font-semibold 
-                       lg:text-xl"
+                       xl:text-xl"
         >
           Vehicle Specifications:
         </h4>
@@ -68,7 +72,7 @@ const Carousel = () => {
           {data[currentIndex].details.map((item, index) => (
             <li
               key={index}
-              className="list-inside list-disc w-[50%] lg:text-xl"
+              className="list-inside list-disc w-[50%] xl:text-xl"
             >
               {item}
             </li>
