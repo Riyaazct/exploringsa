@@ -18,7 +18,7 @@ const Carousel = () => {
   };
 
   return (
-    <section className="h-full mt-5 mx-auto mb-[15%] xl:flex xl:flex-row xl:justify-center xl:gap-5 xl:items-center xl:p-5 xl:mt-0 xl:max-w-[80%]">
+    <section className="h-full mt-5 mx-auto mb-[15%] xl:flex xl:flex-row xl:justify-center xl:gap-5 xl:items-center xl:p-5 xl:mt-0 xl:max-w-[]">
       {/*  */}
 
       {/* IMAGE */}
@@ -49,7 +49,7 @@ const Carousel = () => {
       {/* TEXT CONTENT */}
       <div
         className=" m-1 p-2 text-blueText border-2 border-blueText rounded-2xl border-opacity-10 
-                       hover:scale-[1.01] hover:border-opacity-70 duration-700 xl:h-max "
+                       hover:scale-[1.01] hover:border-opacity-70 duration-700 xl:h-max xl:max-w-[580px] 2xl:max-w-[600px]"
       >
         {/* TITLE */}
         <h2 className="text-2xl font-extrabold mt-2 lg:text-3xl">

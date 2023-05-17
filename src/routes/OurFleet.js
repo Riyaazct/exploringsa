@@ -3,7 +3,7 @@ import React from "react";
 const OurFleet = () => {
   return (
     <>
-      <div className="relative mt-28 h-[32vh] mb-[15%] md:mb-[20%]">
+      <div className="relative mt-28 h-[32vh] mb-[15%] md:mb-[20%] lg:mb-[15%]">
         <div
           className="bg-lightGreen w-[70%] h-72 absolute top-0 right-0 -z-20 
                        md:h-[22rem] md:w-[65%] 
