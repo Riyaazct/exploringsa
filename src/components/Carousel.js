@@ -18,17 +18,18 @@ const Carousel = () => {
   };
 
   return (
-    <section className="h-screen mt-5">
+    <section className="h-full mt-5 mx-auto mb-[15%] xl:flex xl:flex-row xl:justify-center xl:gap-5 xl:items-center xl:p-5 xl:mt-0 xl:max-w-[80%]">
       {/*  */}
 
       {/* IMAGE */}
       <div className="relative group ">
         <img
-          className="w-full h-full
-                     sm:h-[60vh]"
+          className="w-full h-full xl:max-w-[40vw]
+                       sm:h-[60vh] lg:h-[65vh] lg:rounded-xl"
           src={data[currentIndex].image}
           alt={data[currentIndex].alt}
         />
+        <div className="absolute w-full h-full bg-[black] top-0 opacity-20 lg:rounded-xl" />
 
         {/* LEFT AND RIGHT SCROLL BUTTON */}
         <BiChevronLeft
@@ -43,24 +44,32 @@ const Carousel = () => {
           className="absolute top-[50%] translate-x-0 translate-y-[-50%] opacity-20 group-hover:opacity-40 cursor-pointer z-10 -right-4"
           onClick={handleClickRight}
         />
-        <div className="absolute w-full h-full bg-[black] top-0 opacity-25" />
       </div>
 
       {/* TEXT CONTENT */}
-      <div className="p-2 text-blueText">
+      <div
+        className=" m-1 p-2 text-blueText border-2 border-blueText rounded-2xl border-opacity-10 
+                       hover:scale-[1.01] hover:border-opacity-70 duration-700 xl:h-max "
+      >
         {/* TITLE */}
-        <h2 className="text-3xl font-extrabold mt-2">
+        <h2 className="text-2xl font-extrabold mt-2 lg:text-3xl">
           {data[currentIndex].vehicle}
         </h2>
 
-        <h4 className="text-lg mt-2 font-semibold">
+        <h4
+          className="text-lg mt-1 font-semibold 
+                       lg:text-xl"
+        >
           Vehicle Specifications:
         </h4>
 
         {/* DETAILS */}
-        <ul className="p-2 flex flex-row flex-wrap ">
+        <ul className="p-2 flex flex-row flex-wrap">
           {data[currentIndex].details.map((item, index) => (
-            <li key={index} className="list-inside list-disc w-[50%]">
+            <li
+              key={index}
+              className="list-inside list-disc w-[50%] lg:text-xl"
+            >
               {item}
             </li>
           ))}

@@ -10,12 +10,8 @@
     background-color: #eeeeee;
   }
 
-  p {
-    /* color: #272343; */
-  }
-
   button {
-    @apply border border-blueText py-1 px-2 rounded-lg bg-orange w-auto;
+    @apply border border-blueText py-1 px-2 rounded-lg bg-[#ef5b0c] w-auto;
   }
 }
 .active {

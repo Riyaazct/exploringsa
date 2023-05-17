@@ -15,9 +15,6 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [
-    require("tailwindcss-animated"),
-    require("tw-elements/dist/plugin.cjs"),
-  ],
+  plugins: [require("tailwindcss-animated")],
   darkMode: "class",
 };
