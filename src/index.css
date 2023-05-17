@@ -7,15 +7,11 @@
 @layer base {
   html {
     font-family: "Lato", sans-serif;
-    background-color: #f5f5f5;
+    background-color: #eeeeee;
   }
 
-  /* body {
-    @apply pt-[4rem] md:pt-[5rem];
-  } */
-
   button {
-    @apply border border-blueText py-1 px-2 rounded-lg bg-orange w-auto;
+    @apply border border-blueText py-1 px-2 rounded-lg bg-[#ef5b0c] w-auto;
   }
 }
 .active {

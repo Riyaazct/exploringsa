@@ -1,0 +1,40 @@
+[
+  {
+    "image": "images/carousel/22-seater.jpg",
+    "alt": "white 22 seater bus",
+    "vehicle": "VW Crafter",
+    "details": [
+      "22 Seater",
+      "White",
+      "Air-conditioner",
+      "Sound System",
+      "PA System",
+      "Recliner seats"
+    ]
+  },
+  {
+    "image": "images/carousel/hyundai-h1.jpg",
+    "alt": "Silver Hyunday H1",
+    "vehicle": "Hyunday H1",
+    "details": [
+      "14 Seater",
+      "Silver",
+      "Air-conditioner",
+      "Sound System",
+      "PA System",
+      "Recliner seats"
+    ]
+  },
+  {
+    "image": "images/carousel/mercedes benz.jpg",
+    "alt": "black mercedes benz",
+    "vehicle": "Mercedes Benz",
+    "details": [
+      "5 Seater",
+      "Black",
+      "Air-conditioner",
+      "Tinted windows for privacy",
+      "Sound system"
+    ]
+  }
+]
