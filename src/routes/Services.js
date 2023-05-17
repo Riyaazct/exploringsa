@@ -7,7 +7,7 @@ const Services = () => {
       <div
         className="w-80 mx-auto text-center p-2 border-2 
                     border-darkGreen border-opacity-5 hover:border-opacity-20
-                    hover:rounded-lg hover:scale-105 duration-700"
+                    hover:rounded-lg hover:scale-105 duration-500"
       >
         <img
           className="mx-auto my-3 h-16 lg:h-20 lg:mb-5"
@@ -26,7 +26,7 @@ const Services = () => {
         </p>
       </div>
       {/* CARD #2 */}
-      <div className="w-80 mx-auto text-center p-2 border-2 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105 duration-700">
+      <div className="w-80 mx-auto text-center p-2 border-2 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105 duration-500">
         <img
           className="mx-auto my-3 h-16 lg:h-20 lg:mb-5"
           src="images/icons/charter.png"
@@ -43,7 +43,7 @@ const Services = () => {
         </p>
       </div>
       {/* CARD #3 */}
-      <div className="w-80 mx-auto text-center p-2 border-2 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105 duration-700">
+      <div className="w-80 mx-auto text-center p-2 border-2 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105 duration-500">
         <img
           className="mx-auto my-3 h-16 lg:h-20 lg:mb-5"
           src="images/icons/airport.png"
@@ -60,7 +60,7 @@ const Services = () => {
         </p>
       </div>
       {/* CARD #4 */}
-      <div className="w-80 mx-auto text-center p-2 border-2 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105 duration-700">
+      <div className="w-80 mx-auto text-center p-2 border-2 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105 duration-500">
         <img
           className="mx-auto my-3 h-16 lg:h-20 lg:mb-5"
           src="images/icons/corporate.png"
@@ -77,7 +77,7 @@ const Services = () => {
         </p>
       </div>
       {/* CARD #5 */}
-      <div className="w-80 mx-auto text-center p-2 border-2 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105 duration-700">
+      <div className="w-80 mx-auto text-center p-2 border-2 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105 duration-500">
         <img
           className="mx-auto my-3 h-16 lg:h-20 lg:mb-5"
           src="images/icons/confetti.png"

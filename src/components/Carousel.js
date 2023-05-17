@@ -19,10 +19,12 @@ const Carousel = () => {
 
   return (
     <section className="h-screen mt-5">
+      {/*  */}
+
       {/* IMAGE */}
       <div className="relative group ">
         <img
-          className="h-[40vh] mx-auto
+          className="w-full h-full
                      sm:h-[60vh]"
           src={data[currentIndex].image}
           alt={data[currentIndex].alt}

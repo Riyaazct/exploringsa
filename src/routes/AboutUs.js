@@ -27,7 +27,7 @@ const AboutUs = () => (
           md:text-[1.06rem] md:px-4
           lg:text-lg
           xl:text-2xl
-          animate-fade-right animate-once animate-duration-[3000ms] animate-ease-linear"
+          animate-fade-right animate-once animate-duration-[1000ms] animate-ease-linear"
           >
             Exploring SA Transport and Tours was founded in 2018 by a
             team with over 20 years of experience in transportation
@@ -54,7 +54,7 @@ const AboutUs = () => (
           />
         </div>
         {/* IMAGE */}
-        <div className="relative sm:mb-10 md:max-w-[58%] lg:max-w-[55%] animate-fade-left animate-once animate-duration-[3000ms] animate-ease-linear">
+        <div className="relative sm:mb-10 md:max-w-[58%] lg:max-w-[55%] animate-fade-left animate-once animate-duration-[1000ms] animate-ease-linear">
           <img
             className=" m-auto sm:min-h-[280px] sm:w-auto sm:rounded-lg md:max-h-[40%] lg:max-w-[480px] 
                         xl:max-w-[550px] 2xl:max-w-[650px] "

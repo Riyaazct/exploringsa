@@ -24,7 +24,7 @@ const WhyChooseUs = () => {
       >
         {/* CARD #1 */}
         <div
-          className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 duration-700
+          className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 duration-500
                         sm:max-w-[90%]
                         md:max-w-[95%] 
                         lg:max-w-[90%]
@@ -45,7 +45,7 @@ const WhyChooseUs = () => {
         </div>
         {/* CARD #2 */}
         <div
-          className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 duration-700
+          className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 duration-500
                         sm:max-w-[90%]
                         md:max-w-[95%] 
                         lg:max-w-[90%]
@@ -73,7 +73,7 @@ const WhyChooseUs = () => {
         </div>
         {/* CARD #3 */}
         <div
-          className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 duration-700
+          className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 duration-500
                         sm:max-w-[90%]
                         md:max-w-[95%] 
                         lg:max-w-[90%]
@@ -95,7 +95,7 @@ const WhyChooseUs = () => {
         </div>
         {/* CARD #4 */}
         <div
-          className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 duration-700
+          className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 duration-500
                         sm:max-w-[90%]
                         md:max-w-[95%] 
                         lg:max-w-[90%]
@@ -115,7 +115,7 @@ const WhyChooseUs = () => {
         </div>
         {/* CARD #5 */}
         <div
-          className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 duration-700
+          className="h-full w-full p-3 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 duration-500
                         sm:max-w-[90%]
                         md:max-w-[95%] 
                         lg:max-w-[90%]

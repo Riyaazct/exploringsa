@@ -5,9 +5,11 @@ const Vision = () => {
     <div>
       {/* cards container */}
       <div className="relative ml-5 md:ml-0 flex flex-col md:h-full md:text-center md:flex-row md:justify-center md:gap-2 lg:gap-5">
+        {/*  */}
+
         {/* card #1 */}
         <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] xl:max-w-[27%]">
-          <h2 className="text-2xl xl:text-3xl text-blueText font-semibold animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in">
+          <h2 className="text-2xl xl:text-3xl text-blueText font-semibold animate-jump-in animate-once animate-duration-[1000ms] animate-ease-in">
             OUR VISION
           </h2>
           <img
@@ -15,7 +17,7 @@ const Vision = () => {
             src="images/icons/vision.svg"
             alt="binoculars icon"
           />
-          <p className="md:max-w-[90%] text-left mx-auto text-blueText lg:text-lg xl:text-xl 2xl:ml-7 animate-fade-right animate-once animate-duration-[3000ms] animate-ease-linear">
+          <p className="md:max-w-[90%] text-left mx-auto text-blueText lg:text-lg xl:text-xl 2xl:ml-7 animate-fade-right animate-once animate-duration-[1000ms] animate-ease-linear">
             To become the premier provider of transportation and
             tourism services in South Africa. We strive to
             continuously improve and innovate our services to exceed
@@ -24,9 +26,14 @@ const Vision = () => {
             both our clients and the communities we serve.
           </p>
         </div>
+        {/*  */}
+
         {/* card #2 */}
         <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] xl:max-w-[27%]">
-          <h2 className="text-2xl xl:text-3xl text-blueText font-semibold animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in">
+          <h2
+            className="text-2xl xl:text-3xl text-blueText font-semibold 
+                         animate-jump-in animate-once animate-duration-[1000ms] animate-ease-in"
+          >
             OUR MISSION
           </h2>
           <img
@@ -34,7 +41,10 @@ const Vision = () => {
             src="images/icons/mission.svg"
             alt="compass icon"
           />
-          <p className="md:max-w-[90%] text-left mx-auto text-blueText lg:text-lg xl:text-xl 2xl:ml-7 animate-fade-right animate-once animate-duration-[3000ms] animate-ease-linear">
+          <p
+            className="md:max-w-[90%] text-left mx-auto text-blueText lg:text-lg xl:text-xl 2xl:ml-7 
+                        animate-fade-right animate-once animate-duration-[1000ms] animate-ease-linear"
+          >
             To provide reliable and exceptional transportation and
             tour services that exceed our clients' expectations. We
             strive to showcase the diverse beauty of South Africa
@@ -45,9 +55,14 @@ const Vision = () => {
             experiences for our clients.
           </p>
         </div>
+        {/*  */}
+
         {/* card #3 */}
         <div className="mb-16 max-w-[75%] md:mb-8 md:max-h-[500px] xl:max-w-[27%]">
-          <h2 className="text-2xl xl:text-3xl text-blueText font-semibold animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in">
+          <h2
+            className="text-2xl xl:text-3xl text-blueText font-semibold 
+                         animate-jump-in animate-once animate-duration-[1000ms] animate-ease-in"
+          >
             OUR OBJECTIVE
           </h2>
           <img
@@ -55,7 +70,10 @@ const Vision = () => {
             src="images/icons/objective.svg"
             alt="bus icon"
           />
-          <p className="md:max-w-[90%] text-left mx-auto text-blueText lg:text-lg xl:text-xl 2xl:ml-7 animate-fade-right animate-once animate-duration-[3000ms] animate-ease-linear">
+          <p
+            className="md:max-w-[90%] text-left mx-auto text-blueText lg:text-lg xl:text-xl 2xl:ml-7 
+                        animate-fade-right animate-once animate-duration-[1000ms] animate-ease-linear"
+          >
             To continue to be a trusted partner in transportation and
             tourism, providing our clients with safe, reliable, and
             efficient services that exceed their expectations. We are
