@@ -2,13 +2,17 @@ import React from "react";
 
 const WhyChooseUs = () => {
   return (
-    <section className="mt-48 h-screen w-full relative mb-96">
+    <section className="mt-48 h-screen w-full relative mb-[20rem]">
       <h1 className="md:mb-20 mb-20 text-center text-2xl text-blueText font-bold md:text-3xl lg:text-4xl xl:text-5xl ">
         WHY CHOOSE US ?
       </h1>
+
+      {/* IMAGE */}
       <div className="relative">
         <img
-          className="w-full h-[115vh] object-cover xl:object-fill z-10 "
+          className="w-full h-[100vh] object-cover xl:object-fill z-10 
+                     
+                     "
           src="images/WhyChooseUs.jpg"
           alt=""
         />
@@ -17,7 +21,7 @@ const WhyChooseUs = () => {
 
       {/* CARDS CONTAINER */}
       <div
-        className="text-blueText absolute top-32 md:top-44 grid grid-cols-1 p-1 z-20 gap-3 
+        className="text-blueText absolute top-32 md:top-44 grid grid-cols-1 p-1 z-20 gap-3
                         sm:gap-y-5 sm:grid-cols-2
                         lg:max-w-[90%] lg:left-[5%]
                         xl:max-w-[85%] xl:left-[8%]"
