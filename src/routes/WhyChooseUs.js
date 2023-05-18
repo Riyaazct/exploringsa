@@ -21,7 +21,7 @@ const WhyChooseUs = () => {
       <div
         className="text-blueText relative top-5 md:top-44 grid grid-cols-2 p-1 z-20 gap-3 w-screen
                         sm:gap-y-5 sm:top-[20%] sm:grid-cols-2
-                        lg:max-w-[90%] lg:left-[5%]
+                        lg:max-w-[90%] lg:left-[5%] lg:top-[3rem]
                         xl:max-w-[85%] xl:left-[8%]"
       >
         {/* CARD #1 */}
