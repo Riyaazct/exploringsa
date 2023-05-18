@@ -18,18 +18,16 @@ const Carousel = () => {
   };
 
   return (
-    <section
-      className="h-full mt-5 mx-auto mb-[15%] 
-                        lg:flex lg:flex-row lg:justify-center lg:gap-5 lg:items-end lg:p-5 lg:mt-0 "
-    >
+    <section className="h-full mb-5 mx-auto xl:max-w-4xl ">
       {/*  */}
 
       {/* IMAGE */}
-      <div className="relative group ">
+      <div className="relative group xl:h-[600px] w-full">
         <img
-          className="w-full h-auto 
-                       sm:h-[60vh] lg:h-[65vh] lg:rounded-xl
-                       xl:max-w-[50vw] xl:h-[70%]"
+          className=" h-full w-full"
+          // w-full h-auto
+          //  sm:h-[60vh] lg:h-[65vh] lg:rounded-xl
+          //  xl:max-w-[50vw] xl:h-[70%]
           src={data[currentIndex].image}
           alt={data[currentIndex].alt}
         />
@@ -51,36 +49,43 @@ const Carousel = () => {
       </div>
 
       {/* TEXT CONTENT */}
-      <div className=" m-1 p- text-blueText xl:max-w-[40%] ">
-        {/* TITLE */}
-        <h2 className="text-2xl font-extrabold lg:text-2xl">
-          {data[currentIndex].vehicle}
-        </h2>
+      <div
+        className=" mt-4 text-blueText w-full flex items-end
+                       md:ml-2"
+      >
+        <div className="w-full">
+          {/* TITLE */}
+          <h2 className="text-2xl font-extrabold lg:text-2xl">
+            {data[currentIndex].vehicle}
+          </h2>
 
-        <h4 className="text-lg font-semibold ">
-          Vehicle Specifications:
-        </h4>
+          <h4 className="text-lg font-semibold ">
+            Vehicle Specifications:
+          </h4>
 
-        {/*DETAILS */}
-        <ul className="flex flex-row flex-wrap">
-          {data[currentIndex].details.map((item, index) => (
-            <li
-              key={index}
-              className="list-inside list-disc w-[45%] xl:text-lg"
-            >
-              {item}
-            </li>
-          ))}
-        </ul>
+          {/*DETAILS */}
+          <ul className="flex flex-row flex-wrap">
+            {data[currentIndex].details.map((item, index) => (
+              <li
+                key={index}
+                className="list-inside list-disc w-[45%] xl:text-lg"
+              >
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
 
         {/* BUTTON */}
-        <button
-          className="ml-1 p-2 mt-3 font-semibold opacity-95 
+        <div>
+          <button
+            className="w-max p-2 font-semibold opacity-95
                            hover:scale-105 hover:duration-500 hover:opacity-100
                            hover:text-orange hover:bg-offWhite hover:border-orange"
-        >
-          Book now
-        </button>
+          >
+            Book now
+          </button>
+        </div>
       </div>
     </section>
   );

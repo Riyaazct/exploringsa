@@ -1,6 +1,6 @@
 [
   {
-    "image": "images/carousel/22-seater.jpg",
+    "image": "images/carousel/vw.jpg",
     "alt": "white 22 seater bus",
     "vehicle": "VW Crafter",
     "details": [
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "image": "images/carousel/hyundai-h1.jpg",
+    "image": "images/carousel/hyundai.jpg",
     "alt": "Silver Hyunday H1",
     "vehicle": "Hyunday H1",
     "details": [
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "image": "images/carousel/mercedes benz.jpg",
+    "image": "images/carousel/mercedes.jpg",
     "alt": "black mercedes benz",
     "vehicle": "Mercedes Benz",
     "details": [
