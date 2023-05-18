@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyChooseUs = () => {
   return (
-    <div className="mt-48 h-screen w-full relative mb-96">
+    <section className="mt-48 h-screen w-full relative mb-96">
       <h1 className="md:mb-20 mb-20 text-center text-2xl text-blueText font-bold md:text-3xl lg:text-4xl xl:text-5xl ">
         WHY CHOOSE US ?
       </h1>
@@ -135,7 +135,7 @@ const WhyChooseUs = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

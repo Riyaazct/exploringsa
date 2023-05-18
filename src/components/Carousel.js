@@ -27,9 +27,9 @@ const Carousel = () => {
       {/* IMAGE */}
       <div className="relative group ">
         <img
-          className="w-full h-full 
+          className="w-full h-auto 
                        sm:h-[60vh] lg:h-[65vh] lg:rounded-xl
-                       xl:max-w-[50vw]"
+                       xl:max-w-[50vw] xl:h-[70%]"
           src={data[currentIndex].image}
           alt={data[currentIndex].alt}
         />
@@ -51,28 +51,22 @@ const Carousel = () => {
       </div>
 
       {/* TEXT CONTENT */}
-      <div
-        className=" m-1 p-2 text-blueText border-2 border-blueText rounded-2xl border-opacity-10 
-                       hover:scale-[1.01] hover:border-opacity-70 duration-700 xl:h-max xl:max-w-[550px] 2xl:max-w-[570px]"
-      >
+      <div className=" m-1 p- text-blueText xl:max-w-[40%] ">
         {/* TITLE */}
-        <h2 className="text-2xl font-extrabold mt-2 lg:text-2xl">
+        <h2 className="text-2xl font-extrabold lg:text-2xl">
           {data[currentIndex].vehicle}
         </h2>
 
-        <h4
-          className="text-lg mt-1 font-semibold 
-                       xl:text-xl"
-        >
+        <h4 className="text-lg font-semibold ">
           Vehicle Specifications:
         </h4>
 
-        {/* DETAILS */}
-        <ul className="p-2 flex flex-row flex-wrap">
+        {/*DETAILS */}
+        <ul className="flex flex-row flex-wrap">
           {data[currentIndex].details.map((item, index) => (
             <li
               key={index}
-              className="list-inside list-disc w-[50%] xl:text-xl"
+              className="list-inside list-disc w-[45%] xl:text-lg"
             >
               {item}
             </li>
@@ -80,7 +74,11 @@ const Carousel = () => {
         </ul>
 
         {/* BUTTON */}
-        <button className="ml-1 p-2 mt-3 font-semibold opacity-95 hover:scale-105 hover:duration-500 hover:opacity-100 hover:text-orange hover:bg-offWhite hover:border-orange">
+        <button
+          className="ml-1 p-2 mt-3 font-semibold opacity-95 
+                           hover:scale-105 hover:duration-500 hover:opacity-100
+                           hover:text-orange hover:bg-offWhite hover:border-orange"
+        >
           Book now
         </button>
       </div>

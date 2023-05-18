@@ -2,7 +2,7 @@ import React from "react";
 const bgPath = "/images/home.jpg";
 
 const Home = () => (
-  <div className="md:flex">
+  <section className="md:flex">
     <div className="relative">
       {/* TEXT CONTENT & BUTTON */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-offWhite text-center z-10 w-full max-w-[85%] md:top-52 ">
@@ -40,7 +40,7 @@ const Home = () => (
         Explore our Services
       </button>
     </div>
-  </div>
+  </section>
 );
 
 export default Home;

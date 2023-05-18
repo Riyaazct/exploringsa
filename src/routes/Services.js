@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="p-5 flex flex-col gap-2 md:flex-row md:flex-wrap w-full h-full xl:gap-1">
+    <section className="p-5 flex flex-col gap-2 md:flex-row md:flex-wrap w-full h-full xl:gap-1">
       {/* CARD #1 */}
       <div
         className="w-80 mx-auto text-center p-2 border-2 
@@ -93,7 +93,7 @@ const Services = () => {
           of various sizes, so we can accommodate groups of any size.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 

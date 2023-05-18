@@ -2,7 +2,7 @@ import React from "react";
 
 const Vision = () => {
   return (
-    <div>
+    <section>
       {/* cards container */}
       <div className="relative ml-5 md:ml-0 flex flex-col md:h-full md:text-center md:flex-row md:justify-center md:gap-2 lg:gap-5">
         {/*  */}
@@ -87,7 +87,7 @@ const Vision = () => {
                    border-[#2D334A] -z-10"
         />
       </div>
-    </div>
+    </section>
   );
 };
 

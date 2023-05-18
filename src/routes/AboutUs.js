@@ -2,7 +2,7 @@ import React from "react";
 import Vision from "./Vision";
 
 const AboutUs = () => (
-  <>
+  <section>
     <div className="relative mb-52 sm:mb-36 md:mb-0 md:h-[80vh] lg:mb-[150px] 2xl:h-[90vh] ">
       <h1
         className="text-center my-12 text-2xl font-semibold text-blueText 
@@ -66,7 +66,7 @@ const AboutUs = () => (
       </div>
     </div>
     <Vision />
-  </>
+  </section>
 );
 
 export default AboutUs;
