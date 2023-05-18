@@ -18,41 +18,47 @@ const Carousel = () => {
   };
 
   return (
-    <section className="h-full mb-5 mx-auto xl:max-w-4xl ">
+    <section className="h-screen mb-5 mx-auto lg:max-w-4xl">
       {/*  */}
 
       {/* IMAGE */}
-      <div className="relative group xl:h-[600px] w-full">
-        <img
+      <div
+        className="relative group w-full
+                   h-[400px]
+                   sm:h-[550px]
+                   md:h-[600px]
+                  "
+      >
+        <div
+          className=" h-full w-full bg-cover bg-bottom ease-out duration-300"
+          style={{
+            backgroundImage: `url(${data[currentIndex].image})`,
+          }}
+        />
+        {/* <img
           className=" h-full w-full"
-          // w-full h-auto
-          //  sm:h-[60vh] lg:h-[65vh] lg:rounded-xl
-          //  xl:max-w-[50vw] xl:h-[70%]
           src={data[currentIndex].image}
           alt={data[currentIndex].alt}
-        />
-        <div className="absolute w-full h-full bg-[black] top-0 opacity-20 lg:rounded-xl" />
+        /> */}
+        <div className="absolute w-full h-full bg-[black] top-0 opacity-20" />
 
         {/* LEFT AND RIGHT SCROLL BUTTON */}
         <BiChevronLeft
           size={75}
           color="white"
-          className="absolute top-[50%] translate-x-0 translate-y-[-50%] opacity-20 group-hover:opacity-40 cursor-pointer z-10 -left-4"
+          className="absolute top-[50%] translate-x-0 translate-y-[-50%] opacity-20 group-hover:opacity-60 group-hover:scale-110 duration-500 cursor-pointer z-10 -left-4"
           onClick={handleClickLeft}
         />
         <BiChevronRight
           size={75}
           color="white"
-          className="absolute top-[50%] translate-x-0 translate-y-[-50%] opacity-20 group-hover:opacity-40 cursor-pointer z-10 -right-4"
+          className="absolute top-[50%] translate-x-0 translate-y-[-50%] opacity-20 group-hover:opacity-60 group-hover:scale-110 duration-500 cursor-pointer z-10 -right-4"
           onClick={handleClickRight}
         />
       </div>
 
       {/* TEXT CONTENT */}
-      <div
-        className=" mt-4 text-blueText w-full flex items-end
-                       md:ml-2"
-      >
+      <div className=" mt-4 text-blueText w-full flex items-end px-2">
         <div className="w-full">
           {/* TITLE */}
           <h2 className="text-2xl font-extrabold lg:text-2xl">
