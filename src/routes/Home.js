@@ -8,11 +8,15 @@ const Home = () => (
 
       {/* TEXT CONTENT & BUTTON */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-offWhite text-center z-10 w-full max-w-[85%] md:top-52 ">
-        <h1 className="font-semibold text-[1.2rem] sm:text-[1.3rem] 2xl:text-3xl xl:text-2xl md:hidden animate-fade-down animate-once animate-duration-1000 animate-ease-in">
+        <h1 className="font-semibold text-[1.1rem] sm:text-[1.3rem] 2xl:text-3xl xl:text-2xl md:hidden animate-fade-down animate-once animate-duration-1000 animate-ease-in">
           Welcome to Exploring SA Transport and Tours, your premier
           transportation and tourism provider in South Africa
         </h1>
-        <button className="p-2 mt-4 text-lg sm:text-[1.3rem] opacity-80 hover:opacity-100 text-blueText font-semibold xl:p-4 xl:text-2xl 2xl:font-extrabold md:hidden animate-shake animate-twice animate-duration-[1000ms] animate-ease-in">
+        <button
+          className="p-2 mt-4 text-sm opacity-80 hover:opacity-100 text-blueText font-semibold duration-500 animate-shake animate-twice animate-duration-[1000ms] animate-ease-in
+                     sm:text-[1.4rem] sm:p-3
+                     xl:p-4 xl:text-2xl 2xl:font-extrabold md:hidden"
+        >
           Explore our Services
         </button>
       </div>
@@ -23,7 +27,9 @@ const Home = () => (
         <img
           src={bgPath}
           alt="Company vehicle"
-          className="max-h-[90vh] min-w-full object-fill xl:min-w-[45vw] xl:max-h-[100vh] md:max-h-[65vh] md:min-w-[55vw] "
+          className="max-h-[90vh] min-w-full
+                     md:max-h-[65vh] md:min-w-[55vw] 
+                     xl:min-w-[45vw] xl:max-h-[90vh]"
         />
         <div className="w-full h-full bg-[#000000a7] absolute top-0 xl:min-w-[45vw] md:hidden"></div>
       </div>

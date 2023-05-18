@@ -87,8 +87,7 @@ const Carousel = () => {
         <div>
           <button
             className="w-max p-2 font-semibold opacity-95
-                           hover:scale-105 hover:duration-500 hover:opacity-100
-                           hover:text-orange hover:bg-offWhite hover:border-orange"
+                           hover:scale-105 hover:duration-500 hover:opacity-100"
           >
             Book now
           </button>

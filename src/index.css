@@ -13,6 +13,9 @@
   button {
     @apply border border-blueText py-1 px-2 rounded-lg bg-[#ef5b0c] w-auto;
   }
+  button:hover {
+    @apply hover:bg-offWhite text-orange border-[1px] border-orange transform scale-105;
+  }
 }
 .active {
   /* @apply border-b-orange border-b-[1px]; */
