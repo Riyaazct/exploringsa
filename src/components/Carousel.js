@@ -26,11 +26,12 @@ const Carousel = () => {
         className="relative group w-full
                    h-[400px]
                    sm:h-[550px]
-                   md:h-[600px]
+                   md:h-[590px]
+                   
                   "
       >
         <div
-          className=" h-full w-full bg-cover bg-bottom ease-out duration-300"
+          className=" h-full w-full bg-cover bg-bottom ease-out duration-300 lg:rounded-xl"
           style={{
             backgroundImage: `url(${data[currentIndex].image})`,
           }}
@@ -40,13 +41,13 @@ const Carousel = () => {
           src={data[currentIndex].image}
           alt={data[currentIndex].alt}
         /> */}
-        <div className="absolute w-full h-full bg-[black] top-0 opacity-20" />
+        <div className="absolute w-full h-full bg-[black] top-0 opacity-20 lg:rounded-xl" />
 
         {/* LEFT AND RIGHT SCROLL BUTTON */}
         <BiChevronLeft
           size={75}
           color="white"
-          className="absolute top-[50%] translate-x-0 translate-y-[-50%] opacity-20 group-hover:opacity-60 group-hover:scale-110 duration-500 cursor-pointer z-10 -left-4"
+          className="absolute top-[50%] translate-x-0 translate-y-[-50%] opacity-20 group-hover:opacity-60 group-hover:scale-110 duration-500 cursor-pointer z-10 -left-4 "
           onClick={handleClickLeft}
         />
         <BiChevronRight
