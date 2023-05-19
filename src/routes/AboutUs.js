@@ -44,9 +44,9 @@ const AboutUs = () => (
           </button>
           {/* Background div */}
           <div
-            className="bg-lightGreen absolute h-full max-h-[340px] w-[100%] left-0 top-[475px] -z-10 
+            className="bg-lightGreen absolute h-full max-h-[550px] w-[100%] left-0 top-[300px] -z-10 
                           aboutBg 
-                          sm:max-w-[90%] sm:-top-[3rem] sm:left-0 
+                          sm:-top-[3rem] sm:left-0 
                           md:max-w-[80vw] md:max-h-[57vh] 
                           lg:max-h-[72vh] lg:max-w-[80vw] 
                           xl:max-h-[78vh] 
