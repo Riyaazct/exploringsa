@@ -13,8 +13,8 @@ const OurFleet = () => {
                        "
         />
         <div
-          className="bg-[#04420C] w-[45%] h-24 absolute top-[4.01rem] left-0 -z-10 flex
-                       sm:h-36 sm:top-[4.2rem]
+          className="bg-[#04420C] w-[45%] h-24 absolute top-[4.01rem] left-0 -z-10 flex rounded-r-lg
+                       sm:h-36 sm:top-[4.2rem] sm:rounded-r-none
                        md:h-48 md:top-[5.2rem] md:w-[50%] 
                        lg:h-48 lg:top-[6.5rem]
                        2xl:top-[8.2rem]
@@ -32,8 +32,8 @@ const OurFleet = () => {
           </h1>
         </div>
         <div
-          className="sm:bg-[#04420C] w-[60%] h-36 p-1 absolute top-[2.5rem] left-[40%] pl-8
-                       sm:bg-opacity-50 -z-20 flex items-center justify-center 
+          className="bg-[#04420C] w-[60%] h-36 p-1 absolute top-[2.5rem] left-[40%] pl-8
+                       bg-opacity-50 rounded-xl -z-20 flex items-center justify-center 
                        sm:h-36 sm:top-[4.2rem] sm:w-[55%] sm:rounded-r-[3rem] sm:pr-6
                        md:h-48 md:top-[5.2rem] md:left-[48%] md:w-[50%] 
                        lg:h-48 lg:top-[6.5rem]
