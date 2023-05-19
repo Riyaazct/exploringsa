@@ -4,7 +4,7 @@ const Contact = () => (
   <section className="bg-lightGreen md:h-[55vh] lg:h-[70vh]">
     <div
       className="flex flex-col items-center w-full h-full p-2 gap-x-5 gap-y-10 max-w-7xl py-8
-                     md:flex-row md:mx-auto xl:gap-x-20 border-2"
+                     md:flex-row md:mx-auto xl:gap-x-20"
     >
       {/*  */}
 
