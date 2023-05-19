@@ -18,7 +18,7 @@ const Carousel = () => {
   };
 
   return (
-    <section className="h-full mb-5 mx-auto lg:max-w-4xl">
+    <section className="h-full mb-[10rem] mx-auto lg:max-w-4xl">
       {/*  */}
 
       {/* IMAGE */}
