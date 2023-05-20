@@ -1,4 +1,6 @@
 import React from "react";
+import { SiFacebook } from "react-icons/si";
+import { BsWhatsapp, BsTelephone } from "react-icons/bs";
 
 const Contact = () => (
   <section className="bg-lightGreen md:h-[55vh] lg:h-[70vh]">
@@ -35,18 +37,21 @@ const Contact = () => (
             className="my-1 w-full bg-lightGreen border-b-[2px] border-opacity-50  border-[#04420C] placeholder:text-[#2D334A] placeholder:opacity-50 placeholder:text-lg
                        lg:my-2 lg:h-9 lg:placeholder:text-xl focus:outline-0"
             type="text"
+            required
             placeholder="Name"
           />
           <input
             className="my-1 w-full bg-lightGreen border-b-[2px] border-opacity-50  border-[#04420C] placeholder:text-[#2D334A] placeholder:opacity-50 placeholder:text-lg focus:outline-0
                        lg:my-2 lg:h-9 lg:placeholder:text-xl"
             type="text"
+            required
             placeholder="Email"
           />
           <input
             className="my-1 w-full bg-lightGreen border-b-[2px] border-opacity-50  border-[#04420C] placeholder:text-[#2D334A] placeholder:opacity-50 placeholder:text-lg focus:outline-0
                        lg:my-2 lg:h-9 lg:placeholder:text-xl"
             type="text"
+            required
             placeholder="Phone Number"
           />
           <textarea
@@ -56,12 +61,18 @@ const Contact = () => (
             id=""
             cols="20"
             rows="1"
+            required
             placeholder="Message..."
           ></textarea>
         </form>
-        <button className="my-2 text-orange bg-opacity-20 font-bold border-orange lg:text-lg">
-          Get in Touch
-        </button>
+        <div className="flex items-center gap-5">
+          <button className="my-2 text-orange bg-opacity-20 font-bold border-orange lg:text-lg">
+            Get in Touch
+          </button>
+          <BsTelephone className="text-blueText" size={25} />
+          <SiFacebook className="text-blueText" size={25} />
+          <BsWhatsapp className="text-blueText" size={25} />
+        </div>
       </div>
     </div>
   </section>
