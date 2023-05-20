@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 
 const Services = () => {
+  const servicesSectionRef = useRef(null);
+
+  useEffect(() => {
+    if (servicesSectionRef.current) {
+      servicesSectionRef.current.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  }, []);
+
   return (
-    <section className="p-5 flex flex-col gap-2 md:flex-row md:flex-wrap w-full h-full xl:gap-1">
+    <section
+      ref={servicesSectionRef}
+      className="p-5 flex flex-col gap-2 md:flex-row md:flex-wrap w-full h-full xl:gap-1"
+    >
       {/* CARD #1 */}
       <div
         className="w-80 mx-auto text-center p-2 border-2 
