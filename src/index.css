@@ -10,9 +10,11 @@
     background-color: #eeeeee;
   }
 
-  button {
+  button,
+  .button {
     @apply border border-blueText py-1 px-2 rounded-lg bg-[#ef5b0c] w-auto;
   }
+  .button:hover,
   button:hover {
     @apply hover:bg-offWhite text-orange border-[1px] border-orange transform scale-105;
   }
@@ -38,7 +40,7 @@
   }
   .active:hover {
     /* color: #f5f5f5 !important; */
-    scale: 1 !important;
+    scale: 0.98 !important;
     transition-duration: 700ms;
   }
 }
