@@ -15,7 +15,7 @@ const Home = () => (
           transportation and tourism provider in South Africa
         </h1>
         {/* BUTTON - MOBILE ONLY */}
-        <Link to="/services#section-id">
+        <Link to="/services#services">
           <button
             className="p-2 mt-4 text-sm opacity-80 hover:opacity-100 text-blueText font-semibold 
             sm:text-[1.4rem] sm:p-3
@@ -53,7 +53,7 @@ const Home = () => (
       <h1 className="text-[1.0rem] sm:text-2xl font-extrabold md:hidden animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out up">
         "Unlock the treasures of South Africa with us"
       </h1>
-      <Link to="/services">
+      <Link to="/services#services">
         <button className="hidden md:block md:p-2 md:mt-6 md:text-lg sm:text-[1.3rem] md:opacity-95 md:hover:opacity-100 md:text-blueText md:font-semibold xl:p-4 xl:text-2xl 2xl:font-extrabold animate-jump-in animate-once animate-duration-[1500ms] animate-ease-in-out">
           Explore our Services
         </button>

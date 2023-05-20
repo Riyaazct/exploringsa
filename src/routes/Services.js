@@ -1,19 +1,26 @@
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Services = () => {
-  const servicesSectionRef = useRef(null);
+  const location = useLocation();
 
+  // function to scroll into view upon cta click on homepage, implemented using the useLocation Hook
   useEffect(() => {
-    if (servicesSectionRef.current) {
-      servicesSectionRef.current.scrollIntoView({
-        behavior: "smooth",
-      });
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView(
+          window.innerWidth >= 768
+            ? { behavior: "smooth", block: "center" }
+            : { behavior: "smooth", block: "start" }
+        );
+      }
     }
-  }, []);
+  }, [location]);
 
   return (
     <section
-      ref={servicesSectionRef}
+      id="services"
       className="p-5 flex flex-col gap-2 md:flex-row md:flex-wrap w-full h-full xl:gap-1"
     >
       {/* CARD #1 */}

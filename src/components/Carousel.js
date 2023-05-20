@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import data from "../data/carouselData";
 import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -92,12 +93,14 @@ const Carousel = () => {
 
         {/* BUTTON */}
         <div>
-          <button
-            className="w-max p-2 font-semibold opacity-95
-                           hover:scale-105 hover:duration-500 hover:opacity-100"
-          >
-            Book now
-          </button>
+          <Link to="/contact">
+            <button
+              className="w-max p-2 font-semibold opacity-95
+            hover:scale-105 hover:duration-500 hover:opacity-100"
+            >
+              Book now
+            </button>
+          </Link>
         </div>
       </div>
     </section>

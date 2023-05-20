@@ -10,8 +10,6 @@ const Contact = () => {
   const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
   const userId = process.env.REACT_APP_EMAILJS_USER_ID;
 
-  console.log({ serviceId, userId, templateId });
-
   const sendEmail = (e) => {
     e.preventDefault();
 
