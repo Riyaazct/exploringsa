@@ -29,7 +29,7 @@ const Home = () => (
           alt="Company vehicle"
           className="max-h-[90vh] min-w-full
                      md:max-h-[65vh] md:min-w-[55vw] 
-                     xl:min-w-[45vw] xl:max-h-[90vh]"
+                     xl:min-w-[45vw] xl:max-h-[100vh]"
         />
         <div className="w-full h-full bg-[#000000a7] absolute top-0 xl:min-w-[45vw] md:hidden"></div>
       </div>

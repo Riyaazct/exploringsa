@@ -4,21 +4,26 @@ const Contact = () => (
   <section className="bg-lightGreen md:h-[55vh] lg:h-[70vh]">
     <div
       className="flex flex-col items-center w-full h-full p-2 gap-x-5 gap-y-10 max-w-7xl py-8
-                     md:flex-row md:mx-auto xl:gap-x-20"
+                     md:flex-row md:mx-auto xl:gap-x-16 xl:max-w-[80rem]"
     >
       {/*  */}
 
       {/* IMAGE */}
-      <div className="w-full h-auto">
+      <div
+        className="h-[20rem] w-full
+                      md:h-[rem]
+                      lg:h-[30rem]
+                      xl:h-[35rem]"
+      >
         <img
-          className="h-full w-full object-cover rounded-xl"
+          className="object-cover rounded-xl h-full w-auto"
           src="/images/contact.jpg"
           alt=""
         />
       </div>
 
       {/* FORM */}
-      <div className="w-full h-auto">
+      <div className="w-full h-auto mb-5">
         <h1
           className="text-2xl font-extrabold text-gray mb-3 md:text-center
                        lg:text-3xl xl:text-5xl"

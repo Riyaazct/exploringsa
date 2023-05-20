@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <nav
       className="sticky top-0 bg-bluebg h-16 items-center border-b-[#DCDCDC] border-b-2 md:border-none w-full flex p-3 text-[#DCDCDC] 
-                 md:justify-between md:items-center lg:justify-around z-30 md:h-24"
+                 md:justify-between md:items-center lg:justify-around z-30 md:h-[4.5rem]"
       data-testid="Navbar-1"
     >
       {/* TITLE */}
