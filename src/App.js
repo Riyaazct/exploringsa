@@ -19,7 +19,7 @@ const App = () => (
     </Routes>
     <Footer />
     <WhatsAppWidget
-      phoneNo="27658348700"
+      phoneNo="27670285744"
       position="right"
       widgetWidth="300px"
       widgetWidthMobile="260px"
