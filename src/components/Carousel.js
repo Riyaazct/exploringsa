@@ -30,18 +30,25 @@ const Carousel = () => {
                    
                   "
       >
+        {/* image */}
+
+        {/* reference - https://csstailwind.com/add-overlay-on-background-image-in-tailwindcss/ */}
         <div
           className=" h-full w-full bg-cover bg-bottom ease-out duration-300 lg:rounded-xl"
           style={{
             backgroundImage: `url(${data[currentIndex].image})`,
           }}
         />
+
+        <div className="absolute w-full h-full bg-[black] top-0 opacity-20 lg:rounded-xl" />
+
+        {/* First method used for the carousel, it works but the above method makes the use of the positioning the text over the image much easier  */}
+
         {/* <img
           className=" h-full w-full"
           src={data[currentIndex].image}
           alt={data[currentIndex].alt}
         /> */}
-        <div className="absolute w-full h-full bg-[black] top-0 opacity-20 lg:rounded-xl" />
 
         {/* LEFT AND RIGHT SCROLL BUTTON */}
         <BiChevronLeft

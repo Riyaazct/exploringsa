@@ -28,24 +28,24 @@ const Contact = () => (
         <form action="">
           <input
             className="my-1 w-full bg-lightGreen border-b-[2px] border-opacity-50  border-[#04420C] placeholder:text-[#2D334A] placeholder:opacity-50 placeholder:text-lg
-                       lg:my-2 lg:h-9 lg:placeholder:text-xl"
+                       lg:my-2 lg:h-9 lg:placeholder:text-xl focus:outline-0"
             type="text"
             placeholder="Name"
           />
           <input
-            className="my-1 w-full bg-lightGreen border-b-[2px] border-opacity-50  border-[#04420C] placeholder:text-[#2D334A] placeholder:opacity-50 placeholder:text-lg
+            className="my-1 w-full bg-lightGreen border-b-[2px] border-opacity-50  border-[#04420C] placeholder:text-[#2D334A] placeholder:opacity-50 placeholder:text-lg focus:outline-0
                        lg:my-2 lg:h-9 lg:placeholder:text-xl"
             type="text"
             placeholder="Email"
           />
           <input
-            className="my-1 w-full bg-lightGreen border-b-[2px] border-opacity-50  border-[#04420C] placeholder:text-[#2D334A] placeholder:opacity-50 placeholder:text-lg
+            className="my-1 w-full bg-lightGreen border-b-[2px] border-opacity-50  border-[#04420C] placeholder:text-[#2D334A] placeholder:opacity-50 placeholder:text-lg focus:outline-0
                        lg:my-2 lg:h-9 lg:placeholder:text-xl"
             type="text"
             placeholder="Phone Number"
           />
           <textarea
-            className=" relative my-1 w-full bg-lightGreen border-b-[2px] border-opacity-50  border-[#04420C] placeholder:text-[#2D334A] placeholder:opacity-50 placeholder:text-lg
+            className=" relative my-1 w-full bg-lightGreen border-b-[2px] border-opacity-50  border-[#04420C] placeholder:text-[#2D334A] placeholder:opacity-50 placeholder:text-lg focus:outline-0
                        lg:my-2 lg:h-9 lg:placeholder:text-xl"
             name=""
             id=""

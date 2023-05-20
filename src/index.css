@@ -20,6 +20,8 @@
 .active {
   /* @apply border-b-orange border-b-[1px]; */
   color: #ef5b0c !important;
+  font-weight: bold !important;
+  scale: 0.88;
 }
 
 .aboutBg {
@@ -29,6 +31,15 @@
 @media only screen and (min-width: 768px) {
   .aboutBg {
     border-radius: 0 260px;
+  }
+  .active {
+    font-weight: bold !important;
+    scale: 0.88;
+  }
+  .active:hover {
+    /* color: #f5f5f5 !important; */
+    scale: 1 !important;
+    transition-duration: 500ms;
   }
 }
 @media only screen and (min-width: 1280px) {
