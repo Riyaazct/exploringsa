@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import data from "../data/carouselData";
 import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -30,18 +31,25 @@ const Carousel = () => {
                    
                   "
       >
+        {/* image */}
+
+        {/* reference - https://csstailwind.com/add-overlay-on-background-image-in-tailwindcss/ */}
         <div
           className=" h-full w-full bg-cover bg-bottom ease-out duration-300 lg:rounded-xl"
           style={{
             backgroundImage: `url(${data[currentIndex].image})`,
           }}
         />
+
+        <div className="absolute w-full h-full bg-[black] top-0 opacity-20 lg:rounded-xl" />
+
+        {/* First method used for the carousel, it works but the above method makes the use of the positioning the text over the image much easier  */}
+
         {/* <img
           className=" h-full w-full"
           src={data[currentIndex].image}
           alt={data[currentIndex].alt}
         /> */}
-        <div className="absolute w-full h-full bg-[black] top-0 opacity-20 lg:rounded-xl" />
 
         {/* LEFT AND RIGHT SCROLL BUTTON */}
         <BiChevronLeft
@@ -85,12 +93,14 @@ const Carousel = () => {
 
         {/* BUTTON */}
         <div>
-          <button
-            className="w-max p-2 font-semibold opacity-95
-                           hover:scale-105 hover:duration-500 hover:opacity-100"
-          >
-            Book now
-          </button>
+          <Link to="/contact">
+            <button
+              className="w-max p-2 font-semibold opacity-95
+            hover:scale-105 hover:duration-500 hover:opacity-100"
+            >
+              Book now
+            </button>
+          </Link>
         </div>
       </div>
     </section>

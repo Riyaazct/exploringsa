@@ -1,5 +1,6 @@
 import React from "react";
 import Vision from "./Vision";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => (
   <section>
@@ -39,9 +40,11 @@ const AboutUs = () => (
             satisfied clients.
           </p>
           {/* BUTTON */}
-          <button className="mt-5 mb-6 h-12 text-sm font-semibold md:mb-0">
-            Reserve your Spot
-          </button>
+          <Link to="/contact">
+            <button className="mt-5 mb-6 h-12 text-sm font-semibold md:mb-0">
+              Reserve your Spot
+            </button>
+          </Link>
           {/* Background div */}
           <div
             className="bg-lightGreen absolute h-full max-h-[550px] w-[100%] left-0 top-[300px] -z-10 

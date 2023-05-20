@@ -1,8 +1,12 @@
 import React from "react";
-// import { BsWhatsapp, BsInstagram } from "react-icons/bs";
-// import { SiFacebook } from "react-icons/si";
+import { ScrollToSection } from "../functions/scrollUtil";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const handleButtonClick = () => {
+    ScrollToSection("services");
+  };
+
   return (
     <>
       <footer className="bg-bluebg text-center text-navText dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
@@ -123,76 +127,61 @@ const Footer = () => {
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 Services
               </h6>
-              <p className="mb-4">
-                <a
-                  href="#!"
-                  className="text-neutral-600 dark:text-neutral-200"
-                >
-                  Service 1
-                </a>
-              </p>
-              <p className="mb-4">
-                <a
-                  href="#!"
-                  className="text-neutral-600 dark:text-neutral-200"
-                >
-                  Service 2
-                </a>
-              </p>
-              <p className="mb-4">
-                <a
-                  href="#!"
-                  className="text-neutral-600 dark:text-neutral-200"
-                >
-                  Service 3
-                </a>
-              </p>
-              <p>
-                <a
-                  href="#!"
-                  className="text-neutral-600 dark:text-neutral-200"
-                >
-                  Service 4
-                </a>
-              </p>
+
+              <Link
+                to="services#services"
+                className="text-neutral-600 dark:text-neutral-200"
+              >
+                <p className="mb-4">Tourist Service</p>
+              </Link>
+              <Link
+                to="services#services"
+                className="text-neutral-600 dark:text-neutral-200"
+              >
+                <p className="mb-4">Charter Service</p>
+              </Link>
+              <Link
+                to="services#services"
+                className="text-neutral-600 dark:text-neutral-200"
+              >
+                <p className="mb-4">Airport Transfers</p>
+              </Link>
+              <Link
+                to="services#services"
+                className="text-neutral-600 dark:text-neutral-200"
+              >
+                <p className="mb-4">Corporate Transfers</p>
+              </Link>
             </div>
             {/* <!-- Useful links section --> */}
             <div className="">
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 Site links
               </h6>
-              <p className="mb-4">
-                <a
-                  href="#!"
-                  className="text-neutral-600 dark:text-neutral-200"
-                >
-                  Home
-                </a>
-              </p>
-              <p className="mb-4">
-                <a
-                  href="#!"
-                  className="text-neutral-600 dark:text-neutral-200"
-                >
-                  About Us
-                </a>
-              </p>
-              <p className="mb-4">
-                <a
-                  href="#!"
-                  className="text-neutral-600 dark:text-neutral-200"
-                >
-                  Our Services
-                </a>
-              </p>
-              <p>
-                <a
-                  href="#!"
-                  className="text-neutral-600 dark:text-neutral-200"
-                >
-                  Contact Us
-                </a>
-              </p>
+              <Link
+                to="/"
+                className="text-neutral-600 dark:text-neutral-200"
+              >
+                <p className="mb-4">Home</p>
+              </Link>
+              <Link
+                to="/about"
+                className="text-neutral-600 dark:text-neutral-200"
+              >
+                <p className="mb-4">About Us</p>
+              </Link>
+              <Link
+                to="/services"
+                className="text-neutral-600 dark:text-neutral-200"
+              >
+                <p className="mb-4">Our Services</p>
+              </Link>
+              <Link
+                to="/contact"
+                className="text-neutral-600 dark:text-neutral-200"
+              >
+                <p className="mb-4">Contact Us</p>
+              </Link>
             </div>
             {/* <!-- Contact section --> */}
             <div>
@@ -239,21 +228,6 @@ const Footer = () => {
                 </svg>
                 +27 21 396 1145
               </p>
-              <p className="flex items-center justify-center md:justify-start">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  className="mr-3 h-5 w-5"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M7.875 1.5C6.839 1.5 6 2.34 6 3.375v2.99c-.426.053-.851.11-1.274.174-1.454.218-2.476 1.483-2.476 2.917v6.294a3 3 0 003 3h.27l-.155 1.705A1.875 1.875 0 007.232 22.5h9.536a1.875 1.875 0 001.867-2.045l-.155-1.705h.27a3 3 0 003-3V9.456c0-1.434-1.022-2.7-2.476-2.917A48.716 48.716 0 0018 6.366V3.375c0-1.036-.84-1.875-1.875-1.875h-8.25zM16.5 6.205v-2.83A.375.375 0 0016.125 3h-8.25a.375.375 0 00-.375.375v2.83a49.353 49.353 0 019 0zm-.217 8.265c.178.018.317.16.333.337l.526 5.784a.375.375 0 01-.374.409H7.232a.375.375 0 01-.374-.409l.526-5.784a.373.373 0 01.333-.337 41.741 41.741 0 018.566 0zm.967-3.97a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H18a.75.75 0 01-.75-.75V10.5zM15 9.75a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V10.5a.75.75 0 00-.75-.75H15z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                + 01 234 567 89
-              </p>
             </div>
           </div>
         </div>
@@ -263,7 +237,7 @@ const Footer = () => {
           <span>© 2023 Copyright: </span>
           <a
             className="font-semibold text-neutral-600 dark:text-neutral-400"
-            href="https://tailwind-elements.com/"
+            href="#."
           >
             Exploring SA (PTY) Ltd
           </a>

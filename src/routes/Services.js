@@ -1,8 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Services = () => {
+  const location = useLocation();
+
+  // function to scroll into view upon cta click on homepage, implemented using the useLocation Hook
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView(
+          window.innerWidth >= 768
+            ? { behavior: "smooth", block: "center" }
+            : { behavior: "smooth", block: "start" }
+        );
+      }
+    }
+  }, [location]);
+
   return (
-    <section className="p-5 flex flex-col gap-2 md:flex-row md:flex-wrap w-full h-full xl:gap-1">
+    <section
+      id="services"
+      className="p-5 flex flex-col gap-2 md:flex-row md:flex-wrap w-full h-full xl:gap-1"
+    >
       {/* CARD #1 */}
       <div
         className="w-80 mx-auto text-center p-2 border-2 

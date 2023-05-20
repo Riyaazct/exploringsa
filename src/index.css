@@ -10,9 +10,11 @@
     background-color: #eeeeee;
   }
 
-  button {
+  button,
+  .button {
     @apply border border-blueText py-1 px-2 rounded-lg bg-[#ef5b0c] w-auto;
   }
+  .button:hover,
   button:hover {
     @apply hover:bg-offWhite text-orange border-[1px] border-orange transform scale-105;
   }
@@ -20,6 +22,8 @@
 .active {
   /* @apply border-b-orange border-b-[1px]; */
   color: #ef5b0c !important;
+  font-weight: bold !important;
+  scale: 0.88;
 }
 
 .aboutBg {
@@ -29,6 +33,15 @@
 @media only screen and (min-width: 768px) {
   .aboutBg {
     border-radius: 0 260px;
+  }
+  .active {
+    font-weight: bold !important;
+    scale: 0.88;
+  }
+  .active:hover {
+    /* color: #f5f5f5 !important; */
+    scale: 0.98 !important;
+    transition-duration: 700ms;
   }
 }
 @media only screen and (min-width: 1280px) {

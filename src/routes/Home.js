@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const bgPath = "/images/home.jpg";
 
 const Home = () => (
@@ -8,17 +9,21 @@ const Home = () => (
 
       {/* TEXT CONTENT & BUTTON */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-offWhite text-center z-10 w-full max-w-[85%] md:top-52 ">
-        <h1 className="font-semibold text-[1.1rem] sm:text-[1.3rem] 2xl:text-3xl xl:text-2xl md:hidden animate-fade-down animate-once animate-duration-1000 animate-ease-in">
+        <h1 className="font-semibold text-[1.1rem] sm:text-[1.3rem] 2xl:text-3xl xl:text-2xl md:hidden ">
+          {/* animate-fade-down animate-once animate-duration-1000 animate-ease-in */}
           Welcome to Exploring SA Transport and Tours, your premier
           transportation and tourism provider in South Africa
         </h1>
-        <button
-          className="p-2 mt-4 text-sm opacity-80 hover:opacity-100 text-blueText font-semibold duration-500 animate-shake animate-twice animate-duration-[1000ms] animate-ease-in
-                     sm:text-[1.4rem] sm:p-3
-                     xl:p-4 xl:text-2xl 2xl:font-extrabold md:hidden"
-        >
-          Explore our Services
-        </button>
+        {/* BUTTON - MOBILE ONLY */}
+        <Link to="/services#services">
+          <button
+            className="p-2 mt-4 text-sm opacity-80 hover:opacity-100 text-blueText font-semibold 
+            sm:text-[1.4rem] sm:p-3
+            xl:p-4 xl:text-2xl 2xl:font-extrabold md:hidden duration-500 animate-shake animate-twice animate-duration-[1000ms] animate-ease-in"
+          >
+            Explore our Services
+          </button>
+        </Link>
       </div>
       {/*  */}
 
@@ -29,7 +34,7 @@ const Home = () => (
           alt="Company vehicle"
           className="max-h-[90vh] min-w-full
                      md:max-h-[65vh] md:min-w-[55vw] 
-                     xl:min-w-[45vw] xl:max-h-[90vh]"
+                     xl:min-w-[45vw] xl:max-h-[100vh]"
         />
         <div className="w-full h-full bg-[#000000a7] absolute top-0 xl:min-w-[45vw] md:hidden"></div>
       </div>
@@ -48,9 +53,11 @@ const Home = () => (
       <h1 className="text-[1.0rem] sm:text-2xl font-extrabold md:hidden animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out up">
         "Unlock the treasures of South Africa with us"
       </h1>
-      <button className="hidden md:block md:p-2 md:mt-6 md:text-lg sm:text-[1.3rem] md:opacity-95 md:hover:opacity-100 md:text-blueText md:font-semibold xl:p-4 xl:text-2xl 2xl:font-extrabold animate-jump-in animate-once animate-duration-[1500ms] animate-ease-in-out">
-        Explore our Services
-      </button>
+      <Link to="/services#services">
+        <button className="hidden md:block md:p-2 md:mt-6 md:text-lg sm:text-[1.3rem] md:opacity-95 md:hover:opacity-100 md:text-blueText md:font-semibold xl:p-4 xl:text-2xl 2xl:font-extrabold animate-jump-in animate-once animate-duration-[1500ms] animate-ease-in-out">
+          Explore our Services
+        </button>
+      </Link>
     </div>
   </section>
 );
