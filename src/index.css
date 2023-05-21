@@ -16,7 +16,7 @@
   }
   .button:hover,
   button:hover {
-    @apply hover:bg-offWhite text-orange border-[1px] border-orange transform scale-105;
+    @apply hover:bg-offWhite text-orange border-[1px] border-orange;
   }
 }
 .active {
