@@ -1,12 +1,7 @@
 import React from "react";
-import { ScrollToSection } from "../functions/scrollUtil";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const handleButtonClick = () => {
-    ScrollToSection("services");
-  };
-
   return (
     <>
       <footer className="bg-bluebg text-center text-navText dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
