@@ -1,8 +1,10 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { SiFacebook } from "react-icons/si";
-import { BsWhatsapp, BsTelephone } from "react-icons/bs";
+// import { BsWhatsapp, BsTelephone } from "react-icons/bs";
+import { BsTelephone } from "react-icons/bs";
 import Modal from "../components/Modal";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   const form = useRef();
@@ -102,18 +104,26 @@ const Contact = () => {
                 value="Submit"
                 className="button my-2 text-orange bg-opacity-20 font-bold border-orange lg:text-lg cursor-pointer"
               />
-              <BsTelephone
+              <a href="tel:+27 21 396 1145">
+                <BsTelephone
+                  className="text-blueText cursor-pointer"
+                  size={window.innerWidth >= 640 ? 30 : 20}
+                />
+              </a>
+              <a
+                href="https://web.facebook.com/avalonexpresstours"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <SiFacebook
+                  className="text-blueText cursor-pointer"
+                  size={window.innerWidth >= 640 ? 30 : 20}
+                />
+              </a>
+              {/* <BsWhatsapp
                 className="text-blueText cursor-pointer"
                 size={window.innerWidth >= 640 ? 30 : 20}
-              />
-              <SiFacebook
-                className="text-blueText cursor-pointer"
-                size={window.innerWidth >= 640 ? 30 : 20}
-              />
-              <BsWhatsapp
-                className="text-blueText cursor-pointer"
-                size={window.innerWidth >= 640 ? 30 : 20}
-              />
+              /> */}
             </div>
           </form>
         </div>
