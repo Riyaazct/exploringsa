@@ -1,10 +1,12 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { SiFacebook } from "react-icons/si";
 import { BsWhatsapp, BsTelephone } from "react-icons/bs";
+import Modal from "../components/Modal";
 
 const Contact = () => {
   const form = useRef();
+  const [showModal, setShowModal] = useState(false);
 
   const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
   const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
@@ -18,6 +20,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setShowModal(!showModal);
+          // close Modal after 5 seconds
+          setTimeout(() => {
+            setShowModal(false);
+          }, 5000);
           form.current.reset();
         },
         (error) => {
@@ -56,8 +63,8 @@ const Contact = () => {
           </h1>
           <form ref={form} onSubmit={sendEmail}>
             <input
-              className="my-2 w-full bg-lightGreen border-b-[2px] border-opacity-50  border-[#04420C] placeholder:text-[#2D334A] placeholder:opacity-50 placeholder:text-lg
-                       lg:my-2 lg:h-9 lg:placeholder:text-xl focus:outline-0"
+              className="my-2 w-full bg-lightGreen border-b-[2px] border-opacity-50  border-[#04420C] placeholder:text-[#2D334A] placeholder:opacity-50 placeholder:text-lg 
+                       lg:my-2 lg:h-9 lg:placeholder:text-xl focus:outline-0 "
               type="text"
               name="name"
               required
@@ -67,7 +74,7 @@ const Contact = () => {
               className="my-2 w-full bg-lightGreen border-b-[2px] border-opacity-50  border-[#04420C] placeholder:text-[#2D334A] placeholder:opacity-50 placeholder:text-lg focus:outline-0
                        lg:my-2 lg:h-9 lg:placeholder:text-xl"
               name="email"
-              type="text"
+              type="email"
               required
               placeholder="Email"
             />
@@ -93,7 +100,7 @@ const Contact = () => {
               <input
                 type="submit"
                 value="Submit"
-                className="button my-2 text-orange bg-opacity-20 font-bold border-orange lg:text-lg"
+                className="button my-2 text-orange bg-opacity-20 font-bold border-orange lg:text-lg cursor-pointer"
               />
               <BsTelephone
                 className="text-blueText cursor-pointer"
@@ -111,6 +118,8 @@ const Contact = () => {
           </form>
         </div>
       </div>
+
+      <Modal showModal={showModal} setShowModal={setShowModal} />
     </section>
   );
 };

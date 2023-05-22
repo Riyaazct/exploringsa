@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import WhatsAppWidget from "react-whatsapp-chat-widget";
 import "react-whatsapp-chat-widget/index.css";
+import Modal from "./components/Modal";
 
 const App = () => (
   <>
@@ -16,6 +17,7 @@ const App = () => (
       <Route path="/about" element={<About />} />
       <Route path="/services" element={<OurServices />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/modal" element={<Modal />} />
     </Routes>
     <Footer />
     <WhatsAppWidget
