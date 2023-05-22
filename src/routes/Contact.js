@@ -63,8 +63,8 @@ const Contact = () => {
           </h1>
           <form ref={form} onSubmit={sendEmail}>
             <input
-              className="my-2 w-full bg-lightGreen border-b-[2px] border-opacity-50  border-[#04420C] placeholder:text-[#2D334A] placeholder:opacity-50 placeholder:text-lg
-                       lg:my-2 lg:h-9 lg:placeholder:text-xl focus:outline-0"
+              className="my-2 w-full bg-lightGreen border-b-[2px] border-opacity-50  border-[#04420C] placeholder:text-[#2D334A] placeholder:opacity-50 placeholder:text-lg 
+                       lg:my-2 lg:h-9 lg:placeholder:text-xl focus:outline-0 "
               type="text"
               name="name"
               required
@@ -74,7 +74,7 @@ const Contact = () => {
               className="my-2 w-full bg-lightGreen border-b-[2px] border-opacity-50  border-[#04420C] placeholder:text-[#2D334A] placeholder:opacity-50 placeholder:text-lg focus:outline-0
                        lg:my-2 lg:h-9 lg:placeholder:text-xl"
               name="email"
-              type="text"
+              type="email"
               required
               placeholder="Email"
             />
