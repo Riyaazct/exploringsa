@@ -4,7 +4,6 @@ import { SiFacebook } from "react-icons/si";
 // import { BsWhatsapp, BsTelephone } from "react-icons/bs";
 import { BsTelephone } from "react-icons/bs";
 import Modal from "../components/Modal";
-import { Link } from "react-router-dom";
 
 const Contact = () => {
   const form = useRef();
