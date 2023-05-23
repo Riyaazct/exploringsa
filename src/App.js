@@ -18,6 +18,7 @@ const App = () => (
       <Route path="/services" element={<OurServices />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/modal" element={<Modal />} />
+      <Route path="*" element={<Home />} />
     </Routes>
     <Footer />
     <WhatsAppWidget
