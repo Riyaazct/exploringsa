@@ -64,8 +64,8 @@ const Footer = () => {
                 South Africa
               </p>
             </div>
-            {/* <!-- Products section --> */}
-            <div className="">
+            {/* <!-- services section --> */}
+            <div className={window.innerWidth >= 768 ? "" : "hidden"}>
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 Services
               </h6>
