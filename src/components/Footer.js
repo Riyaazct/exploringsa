@@ -65,7 +65,7 @@ const Footer = () => {
               </p>
             </div>
             {/* <!-- services section --> */}
-            <div className={window.innerWidth >= 768 ? "" : "hidden"}>
+            <div className="hidden md:block">
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 Services
               </h6>
@@ -96,7 +96,7 @@ const Footer = () => {
               </Link>
             </div>
             {/* <!-- Useful links section --> */}
-            <div className="">
+            <div className="hidden md:block">
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 Site links
               </h6>
