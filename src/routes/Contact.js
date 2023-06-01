@@ -93,7 +93,7 @@ const Contact = () => {
               name="message"
               id="message"
               cols="20"
-              rows="10"
+              rows="7"
               required
               placeholder="Message..."
             />
@@ -103,22 +103,36 @@ const Contact = () => {
                 value="Submit"
                 className="button my-2 text-orange bg-opacity-20 font-bold border-orange lg:text-lg cursor-pointer"
               />
-              <a href="tel:+27 21 396 1145">
-                <BsTelephone
-                  className="text-blueText cursor-pointer"
-                  size={window.innerWidth >= 640 ? 30 : 20}
-                />
-              </a>
-              <a
-                href="https://web.facebook.com/avalonexpresstours"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <SiFacebook
-                  className="text-blueText cursor-pointer"
-                  size={window.innerWidth >= 640 ? 30 : 20}
-                />
-              </a>
+
+              {/* social media */}
+              <div className="flex justify-around w-full md:flex-col xl:flex-row">
+                <div className="flex gap-2 w-max">
+                  <p className="text-blueText font-bold">
+                    Give us a call
+                  </p>
+                  <a href="tel:+27 21 396 1145">
+                    <BsTelephone
+                      className="text-blueText cursor-pointer"
+                      size={window.innerWidth >= 640 ? 25 : 20}
+                    />
+                  </a>
+                </div>
+                <div className="flex gap-2 w-max">
+                  <p className="text-blueText font-bold">
+                    Visit our Facebook page
+                  </p>
+                  <a
+                    href="https://web.facebook.com/avalonexpresstours"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <SiFacebook
+                      className="text-blueText cursor-pointer"
+                      size={window.innerWidth >= 640 ? 25 : 20}
+                    />
+                  </a>
+                </div>
+              </div>
               {/* <BsWhatsapp
                 className="text-blueText cursor-pointer"
                 size={window.innerWidth >= 640 ? 30 : 20}
