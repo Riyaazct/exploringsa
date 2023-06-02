@@ -54,7 +54,7 @@ The following technologies and tools were utilized in the development of this pr
 
 I would like to express my gratitude to Exploring Sa Travel and Tours for providing me with the opportunity to work on this project. Their support and collaboration were invaluable in delivering a successful end result.
 
-## Contact Me
+## Closing remarks
 
 If you have any questions or would like to connect regarding this project, please feel free to reach out to me.
 
