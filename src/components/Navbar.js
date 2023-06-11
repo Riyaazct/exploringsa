@@ -66,7 +66,7 @@ const Navbar = () => {
               : "text-[#DCDCDC] ml-2 pt-[7px] text-sm xl:text-xl xl:pt-[3.8px]"
           }
         >
-          Travel and Tours
+          Transport and Tours
         </p>
       </div>
 
