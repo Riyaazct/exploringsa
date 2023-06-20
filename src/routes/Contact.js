@@ -106,7 +106,7 @@ const Contact = () => {
               <a href="tel:+27 21 396 1145">
                 <BsTelephone
                   className="text-blueText cursor-pointer"
-                  size={window.innerWidth >= 640 ? 30 : 20}
+                  size={window.innerWidth >= 640 ? 26 : 20}
                 />
               </a>
               <a
@@ -116,7 +116,7 @@ const Contact = () => {
               >
                 <SiFacebook
                   className="text-blueText cursor-pointer"
-                  size={window.innerWidth >= 640 ? 30 : 20}
+                  size={window.innerWidth >= 640 ? 26 : 20}
                 />
               </a>
               {/* <BsWhatsapp
