@@ -36,13 +36,12 @@
   }
   .active {
     font-weight: bold !important;
-    scale: 0.88;
+    scale: 0.8;
   }
-  .active:hover {
-    /* color: #f5f5f5 !important; */
+  /* .active:hover {
     scale: 0.98 !important;
     transition-duration: 700ms;
-  }
+  } */
 }
 @media only screen and (min-width: 1280px) {
   .aboutBg {
