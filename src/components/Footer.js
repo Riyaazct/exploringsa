@@ -16,6 +16,7 @@ const Footer = () => {
               target="_blank"
               className="mr-6 text-neutral-600 dark:text-neutral-200"
               rel="noreferrer"
+              aria-label="connect with us on facebook"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -30,6 +31,7 @@ const Footer = () => {
             <a
               href="#!"
               className="mr-6 text-neutral-600 dark:text-neutral-200"
+              aria-label="connect with us on instagram"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
