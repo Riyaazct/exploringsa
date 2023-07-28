@@ -3,9 +3,17 @@ import Services from "./Services";
 import WhyChooseUs from "./WhyChooseUs";
 import OurFleet from "./OurFleet";
 import Carousel from "../components/Carousel";
+import { Helmet } from "react-helmet-async";
 
 const OurServices = () => (
   <>
+    <Helmet>
+      <title>Our Services</title>
+      <meta
+        name="description"
+        content="Discover our comprehensive range of travel services, including tour packages, transportation options, and personalized itineraries. Start your dream adventure today!"
+      />
+    </Helmet>
     <section className="h-[55vh] relative mb-48 2xl:h-[95vh]">
       {/*  */}
 
@@ -30,17 +38,11 @@ const OurServices = () => (
            2xl:bottom-[12%]
            "
       >
-        <h1
-          className="text-2xl text-blueText font-extrabold mb-10 
-                       sm:text-3xl
-                       md:mb-12 
-                       lg:text-4xl lg:mb-20 
-                       xl:-ml-24 2xl:-ml-20 2xl:mb-24"
-        >
+        <h1 className="mb-10 text-2xl font-extrabold text-blueText sm:text-3xl md:mb-12 lg:text-4xl lg:mb-20 xl:-ml-24 2xl:-ml-20 2xl:mb-24">
           OUR SERVICES
         </h1>
         <div className="bg-[#FFFFFF] w-full h-full px-3 py-1 rounded-2xl sm:p-5 xl:p-6">
-          <p className="sm:text-lg md:text-xl lg:text-2xl xl:font-semibold  ">
+          <p className="sm:text-lg md:text-xl lg:text-2xl xl:font-semibold ">
             At Exploring SA Transport and Tours, we offer a range of
             transportation and tourism services to meet your needs.
             With over 20 years of experience in the industry, we take

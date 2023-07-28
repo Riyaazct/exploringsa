@@ -1,8 +1,8 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { SiFacebook } from "react-icons/si";
-// import { BsWhatsapp, BsTelephone } from "react-icons/bs";
 import { BsTelephone } from "react-icons/bs";
+
 import Modal from "../components/Modal";
 
 const Contact = () => {
@@ -46,9 +46,9 @@ const Contact = () => {
         {/*  */}
 
         {/* IMAGE */}
-        <div className="h-auto w-full">
+        <div className="w-full h-auto">
           <img
-            className="object-cover rounded-xl h-auto w-full"
+            className="object-cover w-full h-auto rounded-xl"
             src="/images/contact.jpg"
             alt=""
           />
@@ -57,8 +57,7 @@ const Contact = () => {
         {/* FORM */}
         <div className="w-full h-auto mb-5 md:max-w-[45%]">
           <h1
-            className="text-2xl font-extrabold text-gray mb-3 md:text-center
-                       lg:text-3xl xl:text-5xl"
+            className="mb-3 text-2xl font-extrabold text-gray md:text-center lg:text-3xl xl:text-5xl"
           >
             Get In Touch With Us
           </h1>
@@ -101,11 +100,11 @@ const Contact = () => {
               <input
                 type="submit"
                 value="Submit"
-                className="button my-2 text-orange bg-opacity-20 font-bold border-orange lg:text-lg cursor-pointer"
+                className="my-2 font-bold cursor-pointer button text-orange bg-opacity-20 border-orange lg:text-lg"
               />
               <a href="tel:+27 21 396 1145">
                 <BsTelephone
-                  className="text-blueText cursor-pointer"
+                  className="cursor-pointer text-blueText"
                   size={window.innerWidth >= 640 ? 26 : 20}
                 />
               </a>
@@ -115,12 +114,12 @@ const Contact = () => {
                 rel="noreferrer"
               >
                 <SiFacebook
-                  className="text-blueText cursor-pointer"
+                  className="cursor-pointer text-blueText"
                   size={window.innerWidth >= 640 ? 26 : 20}
                 />
               </a>
               {/* <BsWhatsapp
-                className="text-blueText cursor-pointer"
+                className="cursor-pointer text-blueText"
                 size={window.innerWidth >= 640 ? 30 : 20}
               /> */}
             </div>
