@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet-async";
 const AboutUs = () => (
   <>
     <Helmet>
-      <title>About Us - Exploring Sa Travel and Tours</title>
+      <title>About Us - Exploring Sa Transport and Tours</title>
       <meta
         name="description"
         content="Discover our story, vision, and mission as a reliable travel company offering unforgettable tours in South Africa. Explore with us today!"
