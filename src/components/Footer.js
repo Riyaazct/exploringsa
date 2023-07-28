@@ -68,9 +68,9 @@ const Footer = () => {
             </div>
             {/* <!-- services section --> */}
             <div className="hidden md:block">
-              <h6 className="flex justify-center mb-4 font-semibold uppercase md:justify-start">
+              <p className="flex justify-center mb-4 font-semibold uppercase md:justify-start">
                 Services
-              </h6>
+              </p>
 
               <Link
                 to="services#services"
@@ -102,9 +102,9 @@ const Footer = () => {
             </div>
             {/* <!-- Useful links section --> */}
             <div className="hidden md:block">
-              <h6 className="flex justify-center mb-4 font-semibold uppercase md:justify-start">
+              <p className="flex justify-center mb-4 font-semibold uppercase md:justify-start">
                 Site links
-              </h6>
+              </p>
               <Link
                 to="/"
                 className="text-neutral-600 dark:text-neutral-200"
@@ -136,9 +136,9 @@ const Footer = () => {
             </div>
             {/* <!-- Contact section --> */}
             <div>
-              <h6 className="flex justify-center mb-4 font-semibold uppercase md:justify-start">
+              <p className="flex justify-center mb-4 font-semibold uppercase md:justify-start">
                 Contact
-              </h6>
+              </p>
               <p className="flex items-center justify-center mb-4 md:justify-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
