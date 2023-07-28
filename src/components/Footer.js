@@ -157,6 +157,7 @@ const Footer = () => {
                 target="_blank"
                 className="flex items-center justify-center mb-4 md:justify-start"
                 rel="noreferrer"
+                aria-label="click to contact us via email"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -172,6 +173,7 @@ const Footer = () => {
               <a
                 href="tel:+27 21 396 1145"
                 className="flex items-center justify-center mb-4 md:justify-start"
+                aria-label="click to give us a call"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -197,6 +199,7 @@ const Footer = () => {
           <a
             className="font-semibold text-neutral-600 dark:text-neutral-400"
             href="/"
+            aria-label="our website link to take you back to the home page"
           >
             Exploring SA Transport and Tours (PTY) Ltd
           </a>
