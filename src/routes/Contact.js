@@ -42,6 +42,7 @@ const Contact = () => {
           name="description"
           content="Get in touch with us directly through our contact form. Send us a message and we'll be happy to assist you with any inquiries or travel plans. Let's start your unforgettable journey together!"
         />
+        <link rel="canonical" href="/contact" />
       </Helmet>
       <section className="bg-lightGreen md:h-[55vh] lg:h-[70vh] w-full h-auto">
         {/*  */}
