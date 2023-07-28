@@ -13,6 +13,7 @@ const OurServices = () => (
         name="description"
         content="Discover our comprehensive range of travel services, including tour packages, transportation options, and personalized itineraries. Start your dream adventure today!"
       />
+      <link rel="canonical" href="/services" />
     </Helmet>
     <section className="h-[55vh] relative mb-48 2xl:h-[95vh]">
       {/*  */}
