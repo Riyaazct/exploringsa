@@ -11,6 +11,7 @@ const AboutUs = () => (
         name="description"
         content="Discover our story, vision, and mission as a reliable travel company offering unforgettable tours in South Africa. Explore with us today!"
       />
+      <link rel="canonical" href="/about" />
     </Helmet>
     <section>
       <div className="relative mb-52 sm:mb-36 md:mb-0 md:h-[80vh] lg:mb-[150px] 2xl:h-[90vh] ">
