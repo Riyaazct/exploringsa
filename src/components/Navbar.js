@@ -87,6 +87,7 @@ const Navbar = () => {
               : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-orange"
           }
           onClick={handleNav}
+          aria-label="a link to our home page"
         >
           HOME
         </Link>
@@ -98,6 +99,7 @@ const Navbar = () => {
               : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-orange"
           }
           onClick={handleNav}
+          aria-label="a link to our about us page"
         >
           ABOUT US
         </Link>
@@ -109,6 +111,7 @@ const Navbar = () => {
               : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-orange"
           }
           onClick={handleNav}
+          aria-label="a link to our services page"
         >
           OUR SERVICES
         </Link>
@@ -121,6 +124,7 @@ const Navbar = () => {
               : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-orange"
           }
           onClick={handleNav}
+          aria-label="a link to our contact page"
         >
           CONTACT US
         </Link>
