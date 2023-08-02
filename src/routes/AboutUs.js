@@ -6,10 +6,13 @@ import { Helmet } from "react-helmet-async";
 const AboutUs = () => (
   <>
     <Helmet>
-      <title>About Us - Exploring Sa Transport and Tours</title>
+      <title>
+        Exploring SA Transport and Tours: Your Premier Transportation
+        and Tourism Provider in South Africa
+      </title>
       <meta
-        name="description"
-        content="Discover our story, vision, and mission as a reliable travel company offering unforgettable tours in South Africa. Explore with us today!"
+        name="Exploring SA Transport and Tours | South Africa Travel Agency | South Africa Tour Operator | South Africa executive car Service"
+        content="Exploring SA Transport and Tours is your premier transportation and tourism provider in South Africa. We offer a range of services to meet your needs, including tourist services, charter services, airport transfers, and corporate transfers."
       />
       <link rel="canonical" href="/about" />
     </Helmet>

@@ -37,10 +37,10 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us</title>
+        <title>Contact Exploring SA Transport and Tours</title>
         <meta
-          name="description"
-          content="Get in touch with us directly through our contact form. Send us a message and let's start your unforgettable journey together!"
+          name="Contact Exploring SA Transport and Tours | South Africa Travel Contact | South Africa Tourism Contact"
+          content="Contact Exploring SA Transport and Tours today to learn more about our services and how we can help you plan your trip to South Africa."
         />
         <link rel="canonical" href="/contact" />
       </Helmet>

@@ -8,10 +8,13 @@ import { Helmet } from "react-helmet-async";
 const OurServices = () => (
   <>
     <Helmet>
-      <title>Our Services</title>
+      <title>
+        Exploring SA Transport and Tours: Your Complete Guide to
+        Transportation and Tourism in South Africa
+      </title>
       <meta
         name="description"
-        content="Discover our comprehensive range of travel services, including tour packages, transportation options, and personalized itineraries. Start your dream adventure today!"
+        content="Exploring SA Transport and Tours offers a complete range of transportation and tourism services in South Africa. We can help you with everything from planning your trip to getting around once you're here."
       />
       <link rel="canonical" href="/services" />
     </Helmet>
