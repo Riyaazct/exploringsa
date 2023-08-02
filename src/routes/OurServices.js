@@ -39,26 +39,23 @@ const OurServices = () => (
            md:left-11
            lg:left-[5%] lg:max-w-[90%]
            xl:max-w-[80%] xl:left-[9.5%]
-           2xl:bottom-[12%]
+           2xl:bottom-[5%]
            "
       >
-        <h1 className="mb-10 text-2xl font-extrabold text-blueText sm:text-3xl md:mb-12 lg:text-4xl lg:mb-20 xl:-ml-24 2xl:-ml-20 2xl:mb-24">
+        <h1 className="mb-10 text-2xl font-extrabold text-blueText sm:text-3xl md:mb-12 lg:text-4xl lg:mb-20 xl:-ml-24 2xl:-ml-20 2xl:mb-20">
           OUR SERVICES
         </h1>
-        <div className="bg-[#FFFFFF] w-full h-full px-3 py-1 rounded-2xl sm:p-5 xl:p-6">
+        <div className="bg-[#FFFFFF] w-[75%] h-full px-3 py-1 rounded-2xl sm:p-5 xl:p-6 mx-auto">
           <p className="sm:text-lg md:text-xl lg:text-2xl xl:font-semibold ">
-            At Exploring SA Transport and Tours, we offer a range of
-            transportation and tourism services to meet your needs.
-            With over 20 years of experience in the industry, we take
-            pride in providing high-quality and reliable services to
-            our clients. Our fleet ranges from 4-seater sedans to
-            22-seater buses, all of which are well-maintained,
-            roadworthy, and fully licensed. Whether you're looking for
-            charter services or tourist services, we've got you
-            covered. Our team of professional drivers and registered
-            tour guides are committed to ensuring that you have a safe
-            and enjoyable experience with us. We look forward to
-            serving you and creating a long-lasting relationship.
+            Exploring SA Transport and Tours is a trusted provider of
+            transportation and tourism services in South Africa. With
+            over 20 years of experience, we offer a wide range of
+            services, including charter services, tourist services,
+            and more. Our fleet of well-maintained vehicles is perfect
+            for any occasion, and our team of professional drivers and
+            registered tour guides are committed to ensuring your
+            safety and enjoyment. We look forward to serving you and
+            creating a long-lasting relationship.
           </p>
         </div>
       </div>
