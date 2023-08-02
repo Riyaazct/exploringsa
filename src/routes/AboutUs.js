@@ -43,14 +43,12 @@ const AboutUs = () => (
           xl:text-2xl
           animate-fade-right animate-once animate-duration-[1000ms] animate-ease-linear"
             >
-              Exploring SA Transport and Tours was founded in 2018 by
-              a team with over 20 years of experience in
-              transportation and tourism. Our mission is to provide
-              exceptional service while showcasing the beauty of South
-              Africa. From our humble beginnings as a family-operated
-              business, we've worked tirelessly to ensure that our
-              services are of the highest quality and have earned the
-              loyalty of many satisfied clients.
+              Established in 2018 by a team with over 20 years of
+              experience, Exploring SA Transport and Tours is a
+              family-operated business that provides exceptional
+              service while showcasing the beauty of South Africa. Our
+              commitment to quality has earned us the loyalty of many
+              satisfied clients.
             </p>
             {/* BUTTON */}
             <Link to="/contact">
