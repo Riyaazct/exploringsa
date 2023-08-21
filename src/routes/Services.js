@@ -21,41 +21,37 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="p-5 flex flex-col gap-2 md:flex-row md:flex-wrap w-full h-full xl:gap-1"
+      className="flex flex-col w-full h-full gap-2 p-5 md:flex-row md:flex-wrap xl:gap-1"
     >
       {/* CARD #1 */}
-      <div
-        className="w-80 mx-auto text-center p-2 border-2 
-                    border-darkGreen border-opacity-5 hover:border-opacity-20
-                    hover:rounded-lg hover:scale-105 duration-500"
-      >
+      <div className="p-2 mx-auto text-center duration-500 border-2 w-80 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105">
         <img
-          className="mx-auto my-3 h-16 lg:h-20 lg:mb-5"
+          className="h-16 mx-auto my-3 lg:h-20 lg:mb-5"
           src="images/icons/tourist.png"
           alt=""
         />
-        <h2 className="text-blueText font-semibold text-xl lg:text-2xl my-3">
+        <h2 className="my-3 text-xl font-semibold text-blueText lg:text-2xl">
           Tourist Service
         </h2>
-        <p className=" text-lg lg:text-xl text-blueText text-left">
-          As a registered tour guide, one of our owners can offer
-          personalized tours of South Africa's most popular tourist
-          destinations. We can provide everything from day trips to
-          longer tours, and can tailor the experience to suit your
-          preferences.
+        <p className="text-lg text-left  lg:text-xl text-blueText">
+          Exploring SA Transport and Tours offers personalized tours
+          of South Africa. Our tours are tailored to your interests
+          and preferences, and can be anything from a day trip to a
+          longer excursion. One of our owners is a registered tour
+          guide, so you can be sure that you are in good hands.
         </p>
       </div>
       {/* CARD #2 */}
-      <div className="w-80 mx-auto text-center p-2 border-2 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105 duration-500">
+      <div className="p-2 mx-auto text-center duration-500 border-2 w-80 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105">
         <img
-          className="mx-auto my-3 h-16 lg:h-20 lg:mb-5"
+          className="h-16 mx-auto my-3 lg:h-20 lg:mb-5"
           src="images/icons/charter.png"
           alt=""
         />
-        <h2 className="text-blueText font-semibold text-xl lg:text-2xl my-3">
+        <h2 className="my-3 text-xl font-semibold text-blueText lg:text-2xl">
           Charter Service
         </h2>
-        <p className=" text-lg lg:text-xl text-blueText text-left">
+        <p className="text-lg text-left  lg:text-xl text-blueText">
           If you need to transport a group of people for any reason,
           we offer charter services that can be customized to your
           needs. Our vehicles are well-maintained and equipped with
@@ -63,16 +59,16 @@ const Services = () => {
         </p>
       </div>
       {/* CARD #3 */}
-      <div className="w-80 mx-auto text-center p-2 border-2 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105 duration-500">
+      <div className="p-2 mx-auto text-center duration-500 border-2 w-80 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105">
         <img
-          className="mx-auto my-3 h-16 lg:h-20 lg:mb-5"
+          className="h-16 mx-auto my-3 lg:h-20 lg:mb-5"
           src="images/icons/airport.png"
           alt=""
         />
-        <h2 className="text-blueText font-semibold text-xl lg:text-2xl my-3">
+        <h2 className="my-3 text-xl font-semibold text-blueText lg:text-2xl">
           Airport Transfers
         </h2>
-        <p className=" text-lg lg:text-xl text-blueText text-left">
+        <p className="text-lg text-left  lg:text-xl text-blueText">
           We offer reliable and affordable airport transfers to and
           from all major airports in South Africa. Our experienced
           drivers will ensure that you arrive at your destination on
@@ -80,16 +76,16 @@ const Services = () => {
         </p>
       </div>
       {/* CARD #4 */}
-      <div className="w-80 mx-auto text-center p-2 border-2 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105 duration-500">
+      <div className="p-2 mx-auto text-center duration-500 border-2 w-80 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105">
         <img
-          className="mx-auto my-3 h-16 lg:h-20 lg:mb-5"
+          className="h-16 mx-auto my-3 lg:h-20 lg:mb-5"
           src="images/icons/corporate.png"
           alt=""
         />
-        <h2 className="text-blueText font-semibold text-xl lg:text-2xl my-3">
+        <h2 className="my-3 text-xl font-semibold text-blueText lg:text-2xl">
           Corporate Transfers
         </h2>
-        <p className=" text-lg lg:text-xl text-blueText text-left">
+        <p className="text-lg text-left  lg:text-xl text-blueText">
           Our fleet of vehicles is perfect for corporate transport,
           whether you need to attend a business meeting or event, or
           transport clients or employees. We can provide customized
@@ -97,16 +93,16 @@ const Services = () => {
         </p>
       </div>
       {/* CARD #5 */}
-      <div className="w-80 mx-auto text-center p-2 border-2 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105 duration-500">
+      <div className="p-2 mx-auto text-center duration-500 border-2 w-80 border-darkGreen border-opacity-5 hover:border-opacity-20 hover:rounded-lg hover:scale-105">
         <img
-          className="mx-auto my-3 h-16 lg:h-20 lg:mb-5"
+          className="h-16 mx-auto my-3 lg:h-20 lg:mb-5"
           src="images/icons/confetti.png"
           alt=""
         />
-        <h2 className="text-blueText font-semibold text-xl lg:text-2xl my-3">
+        <h2 className="my-3 text-xl font-semibold text-blueText lg:text-2xl">
           Special Events
         </h2>
-        <p className=" text-lg lg:text-xl text-blueText text-left">
+        <p className="text-lg text-left  lg:text-xl text-blueText">
           Whether you're planning a wedding, conference, or other
           special event, we can provide transport services to ensure
           that everything runs smoothly. Our fleet includes vehicles
