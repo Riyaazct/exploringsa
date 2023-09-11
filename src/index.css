@@ -21,13 +21,23 @@
 }
 .active {
   /* @apply border-b-orange border-b-[1px]; */
-  color: #ef5b0c !important;
+  /* color: #ef5b0c !important; */
   font-weight: bold !important;
-  scale: 0.88;
+  /* scale: 0.88; */
+  background-color: #dcdcdc;
+  padding: 15px 10px !important;
+  border-radius: 7px;
+  color: #172b4d !important;
 }
 
 .aboutBg {
   border-radius: 0px 180px;
+}
+
+@media only screen and (max-width: 640px) {
+  .aboutBg {
+    border-radius: 0 0 0 120px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -35,8 +45,8 @@
     border-radius: 0 260px;
   }
   .active {
-    font-weight: bold !important;
-    scale: 0.8;
+    /* font-weight: bold !important; */
+    /* scale: 0.8; */
   }
   /* .active:hover {
     scale: 0.98 !important;

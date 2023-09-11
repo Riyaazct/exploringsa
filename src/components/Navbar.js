@@ -75,7 +75,7 @@ const Navbar = () => {
       <div
         className={
           active
-            ? "w-full fixed left-0 top-0 h-screen bg-lightGreen bg-opacity-90 z-20 text-blueText flex justify-center items-center ease-in duration-300 flex-col"
+            ? "w-full fixed left-0 top-0 h-screen bg-lightGreen bg-opacity-[0.97] z-20 text-blueText flex justify-center items-center ease-in duration-300 flex-col"
             : "w-full absolute top-0 left-[-100%] h-screen z-20 text-blueText flex flex-col justify-center items-center ease-in-out duration-700 md:static md:w-fit md:flex-row md:h-max"
         }
       >
@@ -84,7 +84,7 @@ const Navbar = () => {
           className={
             IsActive("/")
               ? "active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
-              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:opacity-90"
+              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-orange"
           }
           onClick={handleNav}
           aria-label="a link to our home page"
@@ -96,7 +96,7 @@ const Navbar = () => {
           className={
             IsActive("/about")
               ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
-              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:opacity-90"
+              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-orange"
           }
           onClick={handleNav}
           aria-label="a link to our about us page"
@@ -108,7 +108,7 @@ const Navbar = () => {
           className={
             IsActive("/services")
               ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
-              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:opacity-90"
+              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-orange"
           }
           onClick={handleNav}
           aria-label="a link to our services page"
@@ -121,7 +121,7 @@ const Navbar = () => {
           className={
             IsActive("/contact")
               ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
-              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:opacity-90"
+              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-orange"
           }
           onClick={handleNav}
           aria-label="a link to our contact page"

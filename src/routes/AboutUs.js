@@ -58,9 +58,9 @@ const AboutUs = () => (
             </Link>
             {/* Background div */}
             <div
-              className="bg-lightGreen absolute h-full max-h-[500px] w-[100%] left-0 top-[250px] -z-10 
+              className="bg-lightGreen absolute h-full max-h-[500px] w-[100%] left-0 top-[280px] -z-10 
                           aboutBg 
-                          sm:-top-[1rem] sm:left-0 
+                          sm:-top-[5rem] sm:left-0 
                           md:max-w-[80vw] md:max-h-[55vh] md:top-10
                           lg:max-h-[72vh] lg:max-w-[80vw] 
                           xl:max-h-[78vh] 
