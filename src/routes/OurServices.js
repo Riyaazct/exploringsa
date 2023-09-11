@@ -34,9 +34,9 @@ const OurServices = () => (
 
       {/* TEXT CONTENT */}
       <div
-        className="w-[90%] mx-auto absolute -bottom-36 left-6 
+        className="mx-auto absolute -bottom-20 p-2 
            sm:left-9
-           md:left-11
+           md:left-1
            lg:left-[5%] lg:max-w-[90%]
            xl:max-w-[80%] xl:left-[9.5%]
            2xl:bottom-[5%]
@@ -45,7 +45,7 @@ const OurServices = () => (
         <h1 className="mb-10 text-2xl font-extrabold text-blueText sm:text-3xl md:mb-12 lg:text-4xl lg:mb-20 xl:-ml-24 2xl:-ml-20 2xl:mb-20">
           OUR SERVICES
         </h1>
-        <div className="bg-[#FFFFFF] w-[75%] h-full px-3 py-1 rounded-2xl sm:p-5 xl:p-6 mx-auto">
+        <div className="bg-[#FFFFFF] w-[95%] h-full px-3 py-1 rounded-2xl sm:p-5 xl:p-6 mx-auto">
           <p className="sm:text-lg md:text-xl lg:text-2xl xl:font-semibold ">
             Exploring SA Transport and Tours is a trusted provider of
             transportation and tourism services in South Africa. With
