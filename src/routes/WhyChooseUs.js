@@ -2,8 +2,8 @@ import React from "react";
 
 const WhyChooseUs = () => {
   return (
-    <section className="mt-48 w-full mx-auto">
-      <h1 className="md:mb-20 mb-20 text-center text-2xl text-blueText font-bold md:text-3xl lg:text-4xl xl:text-5xl ">
+    <section className="w-full mx-auto mt-48">
+      <h1 className="mb-20 text-2xl font-bold text-center md:mb-20 text-blueText md:text-3xl lg:text-4xl xl:text-5xl ">
         WHY CHOOSE US ?
       </h1>
 
@@ -19,7 +19,7 @@ const WhyChooseUs = () => {
         }}
       >
         {/* <img
-          className="w-full object-cover  z-10 "
+          className="z-10 object-cover w-full "
           src="images/WhyChooseUs.jpg"
           alt=""
         /> */}
@@ -34,16 +34,16 @@ const WhyChooseUs = () => {
         >
           {/* CARD #1 */}
           <div
-            className="h-max w-full p-1 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 hover:bg-opacity-100 duration-500
+            className="h-max w-full p-1 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto lg:hover:scale-105 lg:hover:bg-opacity-100 duration-500
                         sm:max-w-[90%] sm:p-3
                         md:max-w-[95%] 
                         lg:max-w-[90%]
                         2xl:max-w-[95%]"
           >
-            <h2 className="font-extrabold text-lg sm:text-xl mb-1 lg:text-3xl 2xl:text-4xl">
+            <h2 className="mb-1 text-lg font-extrabold sm:text-xl lg:text-3xl 2xl:text-4xl">
               Experience
             </h2>
-            <h3 className="font-extrabold text-xs sm:text-sm mb-2 lg:text-xl 2xl:text-2xl">
+            <h3 className="mb-2 text-xs font-extrabold sm:text-sm lg:text-xl 2xl:text-2xl">
               Over 20 Years of Experience
             </h3>
             <p className="text-xs sm:text-sm md:text-lg 2xl:text-2xl">
@@ -55,16 +55,16 @@ const WhyChooseUs = () => {
           </div>
           {/* CARD #2 */}
           <div
-            className="h-max w-full p-1 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 hover:bg-opacity-100 duration-500
+            className="h-max w-full p-1 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto lg:hover:scale-105 lg:hover:bg-opacity-100 duration-500
                         sm:max-w-[90%] sm:p-3
                         md:max-w-[95%] 
                         lg:max-w-[90%]
                         2xl:max-w-[95%]"
           >
-            <h2 className="font-extrabold text-lg sm:text-xl mb-1 lg:text-3xl 2xl:text-4xl">
+            <h2 className="mb-1 text-lg font-extrabold sm:text-xl lg:text-3xl 2xl:text-4xl">
               Range of Vehicles
             </h2>
-            <h3 className="font-extrabold text-xs sm:text-sm mb-2 lg:text-xl 2xl:text-2xl">
+            <h3 className="mb-2 text-xs font-extrabold sm:text-sm lg:text-xl 2xl:text-2xl">
               Fleet of Vehicles to Meet Any Need
             </h3>
             <p className="text-xs sm:text-sm md:text-lg 2xl:text-2xl">
@@ -75,16 +75,16 @@ const WhyChooseUs = () => {
           </div>
           {/* CARD #3 */}
           <div
-            className="h-max w-full p-1 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 hover:bg-opacity-100 duration-500
+            className="h-max w-full p-1 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto lg:hover:scale-105 lg:hover:bg-opacity-100 duration-500
                         sm:max-w-[90%] sm:p-3
                         md:max-w-[95%] 
                         lg:max-w-[90%]
                         2xl:max-w-[95%]"
           >
-            <h2 className="font-extrabold text-lg sm:text-xl mb-1 lg:text-3xl 2xl:text-4xl">
+            <h2 className="mb-1 text-lg font-extrabold sm:text-xl lg:text-3xl 2xl:text-4xl">
               Quality Assurance
             </h2>
-            <h3 className="font-extrabold text-xs sm:text-sm mb-2 lg:text-xl 2xl:text-2xl">
+            <h3 className="mb-2 text-xs font-extrabold sm:text-sm lg:text-xl 2xl:text-2xl">
               Your Safety is Our Top Priority
             </h3>
             <p className="text-xs sm:text-sm md:text-lg 2xl:text-2xl">
@@ -98,16 +98,16 @@ const WhyChooseUs = () => {
           </div>
           {/* CARD #4 */}
           <div
-            className="h-max w-full p-1 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 hover:bg-opacity-100 duration-500
+            className="h-max w-full p-1 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto lg:hover:scale-105 lg:hover:bg-opacity-100 duration-500
                         sm:max-w-[90%] sm:p-3
                         md:max-w-[95%] 
                         lg:max-w-[90%]
                         2xl:max-w-[95%]"
           >
-            <h2 className="font-extrabold text-lg sm:text-xl mb-1 lg:text-3xl 2xl:text-4xl">
+            <h2 className="mb-1 text-lg font-extrabold sm:text-xl lg:text-3xl 2xl:text-4xl">
               Customized Service
             </h2>
-            <h3 className="font-extrabold text-xs sm:text-sm mb-2 lg:text-xl 2xl:text-2xl">
+            <h3 className="mb-2 text-xs font-extrabold sm:text-sm lg:text-xl 2xl:text-2xl">
               Services Tailored to Your Needs
             </h3>
             <p className="text-xs sm:text-sm md:text-lg 2xl:text-2xl">
@@ -118,16 +118,16 @@ const WhyChooseUs = () => {
           </div>
           {/* CARD #5 */}
           <div
-            className=" h-max w-full p-1 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto hover:scale-105 hover:bg-opacity-100 duration-500
+            className=" h-max w-full p-1 bg-[#FFFFFF] bg-opacity-[85%] rounded-xl mx-auto lg:hover:scale-105 lg:hover:bg-opacity-100 duration-500
                         sm:max-w-[90%] sm:p-3
                         md:max-w-[95%] 
                         lg:max-w-[90%]
                         2xl:max-w-[95%]"
           >
-            <h2 className="font-extrabold text-lg sm:text-xl mb-1 lg:text-3xl 2xl:text-4xl">
+            <h2 className="mb-1 text-lg font-extrabold sm:text-xl lg:text-3xl 2xl:text-4xl">
               Trustworthy Partner
             </h2>
-            <h3 className="font-extrabold text-xs sm:text-sm mb-2 lg:text-xl 2xl:text-2xl">
+            <h3 className="mb-2 text-xs font-extrabold sm:text-sm lg:text-xl 2xl:text-2xl">
               Choose a Reliable and Trustworthy Partner
             </h3>
             <p className="text-xs sm:text-sm md:text-lg 2xl:text-2xl">
