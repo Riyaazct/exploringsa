@@ -29,6 +29,8 @@ const Services = () => {
           className="h-16 mx-auto my-3 lg:h-20 lg:mb-5"
           src="images/icons/tourist.png"
           alt=""
+          width={"250px"}
+          height={"250px"}
         />
         <h2 className="my-3 text-xl font-semibold text-blueText lg:text-2xl">
           Tourist Service
@@ -47,6 +49,8 @@ const Services = () => {
           className="h-16 mx-auto my-3 lg:h-20 lg:mb-5"
           src="images/icons/charter.png"
           alt=""
+          width={"250px"}
+          height={"250px"}
         />
         <h2 className="my-3 text-xl font-semibold text-blueText lg:text-2xl">
           Charter Service
@@ -64,6 +68,8 @@ const Services = () => {
           className="h-16 mx-auto my-3 lg:h-20 lg:mb-5"
           src="images/icons/airport.png"
           alt=""
+          width={"250px"}
+          height={"250px"}
         />
         <h2 className="my-3 text-xl font-semibold text-blueText lg:text-2xl">
           Airport Transfers
@@ -81,6 +87,8 @@ const Services = () => {
           className="h-16 mx-auto my-3 lg:h-20 lg:mb-5"
           src="images/icons/corporate.png"
           alt=""
+          width={"250px"}
+          height={"250px"}
         />
         <h2 className="my-3 text-xl font-semibold text-blueText lg:text-2xl">
           Corporate Transfers
@@ -98,6 +106,8 @@ const Services = () => {
           className="h-16 mx-auto my-3 lg:h-20 lg:mb-5"
           src="images/icons/confetti.png"
           alt=""
+          width={"250px"}
+          height={"250px"}
         />
         <h2 className="my-3 text-xl font-semibold text-blueText lg:text-2xl">
           Special Events
