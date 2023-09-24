@@ -74,6 +74,8 @@ const AboutUs = () => (
                         xl:max-w-[550px] 2xl:max-w-[650px] "
               src="images/our story 2.jpg"
               alt="the company tour guide and owner with some tourists"
+              width={"1250px"}
+              height={"1050px"}
             />
             <div className="absolute bg-[#000000] bg-opacity-[10%] top-0 w-full h-full rounded-lg" />
           </div>

@@ -60,6 +60,8 @@ const Contact = () => {
               className="object-cover w-full h-auto rounded-xl"
               src="/images/contact.jpg"
               alt=""
+              width={"1250px"}
+              height={"1050px"}
             />
           </div>
 

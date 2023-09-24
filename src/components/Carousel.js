@@ -35,9 +35,11 @@ const Carousel = () => {
 
         {/* reference - https://csstailwind.com/add-overlay-on-background-image-in-tailwindcss/ */}
         <div
-          className=" h-full w-full bg-cover bg-bottom ease-out duration-300 lg:rounded-xl"
+          className="w-full h-full duration-300 ease-out bg-bottom bg-cover lg:rounded-xl"
           style={{
             backgroundImage: `url(${data[currentIndex].image})`,
+            width: "100%",
+            height: "100%",
           }}
         />
 
@@ -46,7 +48,7 @@ const Carousel = () => {
         {/* First method used for the carousel, it works but the above method makes the use of the positioning the text over the image much easier  */}
 
         {/* <img
-          className=" h-full w-full"
+          className="w-full h-full "
           src={data[currentIndex].image}
           alt={data[currentIndex].alt}
         /> */}
@@ -67,7 +69,7 @@ const Carousel = () => {
       </div>
 
       {/* TEXT CONTENT */}
-      <div className=" mt-4 text-blueText w-full flex items-end px-2">
+      <div className="flex items-end w-full px-2 mt-4 text-blueText">
         <div className="w-full">
           {/* TITLE */}
           <h2 className="text-2xl font-extrabold lg:text-2xl">
@@ -94,10 +96,7 @@ const Carousel = () => {
         {/* BUTTON */}
         <div>
           <Link to="/contact">
-            <button
-              className="w-max p-2 font-semibold opacity-95
-            hover:scale-105 hover:duration-500 hover:opacity-100"
-            >
+            <button className="p-2 font-semibold w-max opacity-95 hover:scale-105 hover:duration-500 hover:opacity-100">
               Book now
             </button>
           </Link>

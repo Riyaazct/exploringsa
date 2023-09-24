@@ -26,7 +26,9 @@ const OurServices = () => (
         <img
           className="w-full h-full 2xl:h-[75vh]"
           src="images/services.jpg"
-          alt=""
+          alt="cape town view from table mountain"
+          width={"1250px"}
+          height={"1050px"}
         />
         <div className="bg-[#FFE4C4] bg-opacity-[50%] w-full h-full absolute top-0 left-0 z-10 2xl:h-[75vh]" />
       </div>
