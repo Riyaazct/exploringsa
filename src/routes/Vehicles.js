@@ -4,7 +4,7 @@ import data from "../data/carouselData.json";
 const Vehicles = () => {
   return (
     <>
-      <section className="text-gray-600 body-font">
+      <section className="mb-20 text-gray-600 body-font">
         <div className="flex flex-wrap p-5 mx-auto sm:container ">
           <div className="mx-auto lg:w-2/3 ">
             <div className="relative flex flex-wrap w-full px-10 py-32 mb-4 bg-gray-100">
