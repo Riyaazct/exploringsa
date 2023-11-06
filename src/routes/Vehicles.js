@@ -10,18 +10,18 @@ const Vehicles = () => {
             <div className="relative flex flex-wrap w-full px-10 py-32 mb-4 bg-gray-100">
               <img
                 alt={data[0].alt}
-                className="absolute inset-0 block object-cover object-center h-full opacity-30 w-[650px] mx-auto"
+                className="absolute inset-0 block object-cover object-center h-full opacity-30 w-[600px] mx-auto"
                 src={data[0].image}
               />
               <div className="relative z-10 w-full text-center">
                 <h2 className="mb-2 text-2xl font-medium text-gray-900 title-font">
                   {data[0].vehicle}
                 </h2>
-                <p className="leading-relaxed">
-                  {data[0].details.map((detail) => detail)}
+                <p className="max-w-xl mx-auto leading-relaxed">
+                  {data[0].description}
                 </p>
                 <a
-                  className="inline-flex items-center mt-3 text-indigo-500"
+                  className="inline-flex items-center mt-3 font-bold text-indigo-500 "
                   href="."
                 >
                   Learn More
@@ -52,10 +52,10 @@ const Vehicles = () => {
                       {data[1].vehicle}
                     </h2>
                     <p className="leading-relaxed">
-                      {data[1].details}
+                      {data[1].description}
                     </p>
                     <a
-                      className="inline-flex items-center mt-3 text-indigo-500"
+                      className="inline-flex items-center mt-3 font-bold text-indigo-500 "
                       href="."
                     >
                       Learn More
@@ -86,10 +86,10 @@ const Vehicles = () => {
                       {data[2].vehicle}
                     </h2>
                     <p className="leading-relaxed">
-                      {data[2].details}
+                      {data[2].description}
                     </p>
                     <a
-                      className="inline-flex items-center mt-3 text-indigo-500"
+                      className="inline-flex items-center mt-3 font-bold text-indigo-500 "
                       href="."
                     >
                       Learn More

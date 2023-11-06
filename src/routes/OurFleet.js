@@ -2,8 +2,8 @@ import React from "react";
 
 const OurFleet = () => {
   return (
-    <section className="flex p-4 m-20 mx-auto md md:container lg:justify-center ">
-      <div className="flex flex-col items-center justify-center gap-5 lg:flex-row lg:gap-10 ">
+    <section className="flex mx-auto mt-20 bg-white rounded-lg mb-14 py-7 lg:mt-36 md md:container lg:justify-center">
+      <div className="flex flex-col items-center justify-center gap-5 lg:flex-row lg:gap-28 ">
         <div>
           <h1 className="text-3xl font-semibold text-gray lg:text-4xl xl:text-5xl ">
             OUR FLEET

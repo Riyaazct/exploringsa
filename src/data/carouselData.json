@@ -3,33 +3,19 @@
     "image": "images/carousel/vw.jpg",
     "alt": "white 22 seater bus",
     "vehicle": "VW Crafter",
-    "details": [
-      "22 Seater",
-      "White",
-      "Air-conditioner",
-      "Sound System",
-      "PA System",
-      "Recliner seats"
-    ]
+    "description": "The ultimate choice for your charter services and group travel. Spacious, comfortable, and perfect for unforgettable tourist journeys."
   },
   {
-    "image": "images/carousel/hyundai.jpg",
-    "alt": "Silver Hyundai H1",
-    "vehicle": "Hyundai H1",
-    "details": [
-      "8 Seater",
-      "Silver",
-      "Air-conditioner",
-      "Sound System",
-      "PA System",
-      "Recliner seats"
-    ]
+    "image": "images/carousel/kombi.jpg",
+    "alt": "White vw transporter kombi",
+    "vehicle": "VW Transporter (T6) Kombi",
+    "description": "Explore the world with our Transporter fleet, designed for unbeatable charter services, airport transfers, and tourist adventures. Reliable and comfortable for your travel needs!"
   },
   {
     "image": "images/carousel/mercedes.jpg",
     "alt": "black mercedes benz",
     "vehicle": "Mercedes Benz",
-    "details": [
+    "description": [
       "4 Seater",
       "Black",
       "Air-conditioner",
