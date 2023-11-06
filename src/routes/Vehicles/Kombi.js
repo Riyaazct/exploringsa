@@ -16,44 +16,49 @@ const Kombi = () => {
         </div>
         <div className="mx-auto lg:max-w-5xl ">
           <h3 className="mb-3 text-lg font-semibold lg:text-xl 2xl:text-2xl">
-            Explore the VW Transporter, your perfect partner in
-            tourism:
+            Explore the VW Transporter, your ideal choice for tourism:
           </h3>
           <ol className="mx-auto text-left list-decimal list-inside lg:text-lg ">
             <li className="p-1 leading-tight 2xl:leading-7">
-              Spacious Interior: Accommodate up to 9 passengers
-              comfortably.
+              Spacious Interior: Perfect for group tours, airport
+              transfers, and charter services.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Safe Journeys: Equipped with advanced safety features.
+              Safe Journeys: Advanced safety features ensure secure
+              travel.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Scenic Views: Large windows for sightseeing.
+              Scenic Views: Large windows for sightseeing adventures.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Comfortable Seating: Plush, adjustable seats for long
-              trips.
+              Comfortable Seating: Plush, adjustable seats for
+              long-distance trips.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Climate Control: Keep everyone cozy during all seasons.
+              Climate Control: Enjoy comfort in all weather
+              conditions.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Ample Luggage Space: Store your travel gear with ease.
+              Ample Luggage Space: Easily accommodate luggage for
+              tourists.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Modern Infotainment: Keep your guests entertained.
+              Modern Infotainment: Keep guests entertained during the
+              journey.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Efficient Fuel Economy: Save on travel costs.
+              Efficient Fuel Economy: Cost-effective for your tourist
+              service.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Eco-Friendly: Reduced emissions for responsible tourism.
+              Eco-Friendly: Reduced emissions for sustainable tourism.
             </li>
           </ol>
         </div>
       </div>
       <h4 className="py-5 text-lg text-center md:text-2xl lg:text-3xl">
-        "Embark on memorable journeys with the VW Transporter!"
+        "Choose the VW Transporter for memorable, eco-friendly tours
+        and excursions"
       </h4>
       <ImageGallery items={images} autoPlay={true} />
     </section>
