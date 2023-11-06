@@ -8,16 +8,18 @@ import "react-image-gallery/styles/css/image-gallery.css";
 const Kombi = () => {
   return (
     <section className="my-16">
-      <div className="flex items-center p-5 mx-16 mb-20 text-4xl text-center">
+      <div className="flex flex-col items-center w-full p-5 mb-20 text-center lg:mx-16 lg:flex-row">
         <div>
-          <h2 className="p-3 text-5xl">VW Transporter Kombi (T6)</h2>
-          <h3 className="pb-4 text-2xl">
+          <h2 className="p-3 mb-5 text-3xl lg:text-5xl">
+            VW Transporter Kombi (T6)
+          </h2>
+          <h3 className="mb-3 text-xl lg:pb-4 lg:text-2xl">
             Explore the VW Transporter, your perfect partner in
             tourism:
           </h3>
         </div>
         <div className="max-w-5xl mx-auto">
-          <ol className="max-w-2xl mx-auto text-xl text-left list-decimal list-inside ">
+          <ol className="max-w-2xl mx-auto text-left list-decimal list-inside lg:text-xl ">
             <li className="p-1">
               Spacious Interior: Accommodate up to 9 passengers
               comfortably.
@@ -50,7 +52,10 @@ const Kombi = () => {
           </ol>
         </div>
       </div>
-      <ImageGallery items={images} />
+      <h4 className="py-5 text-4xl text-center">
+        "Embark on memorable journeys with the VW Transporter!"
+      </h4>
+      <ImageGallery items={images} autoPlay={true} />
     </section>
   );
 };
