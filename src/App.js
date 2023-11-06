@@ -22,6 +22,7 @@ const App = () => (
       <Route path="/modal" element={<Modal />} />
       <Route path="/crafter01" element={<Crafter />} />
       <Route path="/kombi01" element={<Kombi />} />
+      <Route path="/crafter01" element={<Crafter />} />
       <Route path="*" element={<Home />} />
     </Routes>
     <Footer />

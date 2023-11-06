@@ -16,14 +16,12 @@
   }
 }
 .active {
-  /* @apply border-b-orange border-b-[1px]; */
-  /* color: #ef5b0c !important; */
   font-weight: bold !important;
-  /* scale: 0.88; */
-  background-color: #dcdcdc;
+  /* background-color: #dcdcdc; */
+  border: solid #dcdcdc 2px;
   padding: 15px 10px !important;
   border-radius: 7px;
-  color: #172b4d !important;
+  /* color: #172b4d !important; */
 }
 
 .aboutBg {
