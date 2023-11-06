@@ -1,7 +1,7 @@
 import React from "react";
 
 import ImageGallery from "react-image-gallery";
-import images from "../../data/imagesForVehicleCarousel.json";
+import images from "../../data/imagesForKombiCarousel.json";
 
 import "react-image-gallery/styles/css/image-gallery.css";
 
