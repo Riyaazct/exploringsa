@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import WhatsAppWidget from "react-whatsapp-chat-widget";
 import "react-whatsapp-chat-widget/index.css";
 import Modal from "./components/Modal";
+import Vehicles from "./routes/Vehicles";
 
 const App = () => (
   <>
@@ -18,6 +19,7 @@ const App = () => (
       <Route path="/services" element={<OurServices />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/modal" element={<Modal />} />
+      <Route path="/vehicles" element={<Vehicles />} />
       <Route path="*" element={<Home />} />
     </Routes>
     <Footer />
