@@ -55,8 +55,17 @@
   }
 }
 
-.image-gallery {
-  width: 50%;
-  height: auto;
-  margin: auto;
+@media only screen and (min-width: 1050px) {
+  .image-gallery {
+    width: 75%;
+    height: auto;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  .image-gallery {
+    width: 55%;
+    height: auto;
+    margin: auto;
+  }
 }
