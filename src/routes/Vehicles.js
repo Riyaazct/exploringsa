@@ -22,7 +22,8 @@ const Vehicles = () => {
                 </p>
                 <a
                   className="inline-flex items-center mt-3 font-bold text-indigo-500 "
-                  href="."
+                  href="/crafter01"
+                  target="_blank"
                 >
                   Learn More
                   <svg
@@ -57,6 +58,7 @@ const Vehicles = () => {
                     <a
                       className="inline-flex items-center mt-3 font-bold text-indigo-500 "
                       href="/kombi01"
+                      target="_blank"
                     >
                       Learn More
                       <svg

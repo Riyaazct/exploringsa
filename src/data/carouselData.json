@@ -2,19 +2,19 @@
   {
     "image": "images/carousel/vw.jpg",
     "alt": "white 22 seater bus",
-    "vehicle": "VW Crafter",
+    "vehicle": "18/22 Seater",
     "description": "The ultimate choice for your charter services and group travel. Spacious, comfortable, and perfect for unforgettable tourist journeys."
   },
   {
     "image": "images/carousel/kombi.jpg",
-    "alt": "White vw transporter kombi",
-    "vehicle": "VW Transporter (T6) Kombi",
+    "alt": "White 7 seater vw transporter kombi",
+    "vehicle": "7 Seater",
     "description": "Explore the world with our Transporter fleet, designed for unbeatable charter services, airport transfers, and tourist adventures. Reliable and comfortable for your travel needs!"
   },
   {
     "image": "images/carousel/mercedes.jpg",
     "alt": "black mercedes benz",
-    "vehicle": "Mercedes Benz",
+    "vehicle": "4 Seater Luxury Sedan",
     "description": "Your choice for executive travel, airport transfers, and chauffeured comfort. Unparalleled style and performance await."
   }
 ]

@@ -11,12 +11,12 @@ const Kombi = () => {
       <div className="flex flex-col items-center w-full h-[60vh] p-5 mb-20 text-center lg:ml-12 md:flex-row lg:gap-6 xl:gap-0 lg:p-10 lg:container 2xl:max-w-7xl xl:mx-auto 2xl:gap-16">
         <div>
           <h2 className="p-3 mb-5 text-3xl lg:text-3xl 2xl:text-4xl">
-            VW Transporter Kombi (T6)
+            7 Seater
           </h2>
         </div>
         <div className="mx-auto lg:max-w-5xl ">
           <h3 className="mb-3 text-lg font-semibold lg:text-xl 2xl:text-2xl">
-            Explore the VW Transporter, your ideal choice for tourism:
+            Your ideal choice for tourism:
           </h3>
           <ol className="mx-auto text-left list-decimal list-inside lg:text-lg ">
             <li className="p-1 leading-tight 2xl:leading-7">
@@ -40,25 +40,32 @@ const Kombi = () => {
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
               Ample Luggage Space: Easily accommodate luggage for
-              tourists.
+              tourist.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Modern Infotainment: Keep guests entertained during the
-              journey.
+              Extra luggage trailer: Easily accommodate extra luggage
+              for tourist.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Efficient Fuel Economy: Cost-effective for your tourist
-              service.
+              Public Address System (PA): Keep tourist informed during
+              the journey.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Eco-Friendly: Reduced emissions for sustainable tourism.
+              Full comprehensive insurance plus passenger liability
+              and 3rd party cover.
+            </li>
+            <li className="p-1 leading-tight 2xl:leading-7">
+              Drivers have valid professional driving permits.
+            </li>
+            <li className="p-1 leading-tight 2xl:leading-7">
+              All operating licenses in place and routinely inspected
+              for road worthiness.
             </li>
           </ol>
         </div>
       </div>
       <h4 className="py-5 text-lg text-center md:text-2xl lg:text-3xl">
-        "Choose the VW Transporter for memorable, eco-friendly tours
-        and excursions"
+        "Choose the 7 Seater for memorable tours and excursions"
       </h4>
       <ImageGallery items={images} autoPlay={true} />
     </section>

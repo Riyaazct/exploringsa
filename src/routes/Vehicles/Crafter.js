@@ -59,7 +59,7 @@ const Crafter = () => {
           </ol>
         </div>
       </div>
-      <h4 className="py-5 text-lg text-center md:text-2xl lg:text-3xl">
+      <h4 className="py-5 text-lg text-center md:text-2xl lg:text-3xl 2xl:mb-44">
         "Opt for the VW Crafter Minibus for unforgettable,
         eco-friendly tours and excursions."
       </h4>
