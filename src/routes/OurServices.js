@@ -14,7 +14,7 @@ const OurServices = () => (
       </title>
       <meta
         name="description"
-        content="Exploring SA Transport and Tours offers a complete range of transportation and tourism services in South Africa. We can help you with everything from planning your trip to getting around once you're here."
+        content="Exploring SA Transport and Tours provides an extensive range of transportation and tourism services in South Africa. Whether you're planning your trip or navigating South Africa, we're your trusted choice for charter services, Cape Town tours, tourist service, airport transfers, and corporate transfers."
       />
       <link rel="canonical" href="/services" />
     </Helmet>

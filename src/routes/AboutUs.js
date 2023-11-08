@@ -11,7 +11,7 @@ const AboutUs = () => (
         and Tourism Provider in South Africa
       </title>
       <meta
-        name="Exploring SA Transport and Tours | South Africa Travel Agency | South Africa Tour Operator | South Africa executive car Service"
+        name="Exploring SA Transport and Tours | Tourist transport | charter services | Airport transfers | Cape town tours"
         content="Exploring SA Transport and Tours is your premier transportation and tourism provider in South Africa. We offer a range of services to meet your needs, including tourist services, charter services, airport transfers, and corporate transfers."
       />
       <link rel="canonical" href="/about" />

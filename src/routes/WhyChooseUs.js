@@ -15,7 +15,7 @@ const WhyChooseUs = () => {
          mx-auto 2xl:h-[65rem]
         "
         style={{
-          backgroundImage: `url(${"images/WhyChooseUs.jpg"})`,
+          backgroundImage: "url(images/WhyChooseUs.jpg)",
         }}
       >
         {/* <img
