@@ -16,7 +16,7 @@ const Crafter = () => {
         </div>
         <div className="mx-auto lg:max-w-5xl ">
           <h3 className="mb-3 text-lg font-semibold lg:text-xl 2xl:text-2xl">
-            "Your top choice for group tours and charter services:
+            Your top choice for group tours and charter services:
           </h3>
           <ul className="mx-auto text-left list-disc list-inside lg:text-lg ">
             <li className="p-1 leading-tight 2xl:leading-7">
@@ -50,6 +50,17 @@ const Crafter = () => {
             <li className="p-1 leading-tight 2xl:leading-7">
               Public Address System (PA): Keep tourist informed during
               the journey.
+            </li>
+            <li className="p-1 leading-tight 2xl:leading-7">
+              Full comprehensive insurance plus passenger liability
+              and 3rd party cover.
+            </li>
+            <li className="p-1 leading-tight 2xl:leading-7">
+              Drivers have valid professional driving permits.
+            </li>
+            <li className="p-1 leading-tight 2xl:leading-7">
+              All operating licenses in place and routinely inspected
+              for road worthiness.
             </li>
           </ul>
         </div>
