@@ -14,20 +14,14 @@
   .button {
     @apply border border-blueText py-1 px-2 rounded-lg bg-[#ef5b0c] w-auto;
   }
-  .button:hover,
-  button:hover {
-    @apply hover:bg-offWhite text-orange border-[1px] border-orange;
-  }
 }
 .active {
-  /* @apply border-b-orange border-b-[1px]; */
-  /* color: #ef5b0c !important; */
   font-weight: bold !important;
-  /* scale: 0.88; */
-  background-color: #dcdcdc;
-  padding: 15px 10px !important;
-  border-radius: 7px;
-  color: #172b4d !important;
+  /* background-color: #dcdcdc; */
+  border: solid #dcdcdc 2px;
+  padding: 10px !important;
+  border-radius: 6px;
+  /* color: #172b4d !important; */
 }
 
 .aboutBg {
@@ -56,5 +50,20 @@
 @media only screen and (min-width: 1280px) {
   .aboutBg {
     border-radius: 0 360px;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .image-gallery {
+    width: 75%;
+    height: auto;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  .image-gallery {
+    width: 55%;
+    height: auto;
+    margin: auto;
   }
 }

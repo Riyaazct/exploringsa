@@ -12,9 +12,13 @@ module.exports = {
       darkGreen: "#04420C",
       blueText: "#272343",
       navText: "#DCDCDC",
+      white: "#FFFFFF",
     },
     extend: {},
   },
-  plugins: [require("tailwindcss-animated")],
+  plugins: [
+    require("tailwindcss-animated"),
+    require("tw-elements-react/dist/plugin.cjs"),
+  ],
   darkMode: "class",
 };
