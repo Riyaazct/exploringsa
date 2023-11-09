@@ -65,7 +65,7 @@ const Crafter = () => {
           </ul>
         </div>
       </div>
-      <h4 className="py-5 text-lg text-center md:text-2xl lg:text-3xl 2xl:mb-44">
+      <h4 className="py-5 text-lg text-center md:text-2xl lg:text-3xl">
         "Choose the 18/22 seater Minibus for remarkable tours and
         excursions, offering spacious seating, advanced safety,
         panoramic views, and more."
