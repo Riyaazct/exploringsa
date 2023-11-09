@@ -11,15 +11,14 @@ const Crafter = () => {
       <div className="flex flex-col items-center w-full h-[60vh] p-5 mb-20 text-center lg:ml-12 md:flex-row lg:gap-6 xl:gap-0 lg:p-10 lg:container 2xl:max-w-7xl xl:mx-auto 2xl:gap-16">
         <div>
           <h2 className="p-3 mb-5 text-3xl lg:text-3xl 2xl:text-4xl">
-            VW Crafter
+            18/22 Seater Minibus
           </h2>
         </div>
         <div className="mx-auto lg:max-w-5xl ">
           <h3 className="mb-3 text-lg font-semibold lg:text-xl 2xl:text-2xl">
-            "Discover the VW Crafter Minibus, your top choice for
-            group tours and charter services:
+            "Your top choice for group tours and charter services:
           </h3>
-          <ol className="mx-auto text-left list-decimal list-inside lg:text-lg ">
+          <ul className="mx-auto text-left list-disc list-inside lg:text-lg ">
             <li className="p-1 leading-tight 2xl:leading-7">
               Spacious Capacity: Seats up to 22 passengers for larger
               groups.
@@ -45,23 +44,20 @@ const Crafter = () => {
               tour groups.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Modern Entertainment: Keep passengers engaged with
-              advanced infotainment.
+              Extra luggage trailer: Easily accommodate extra luggage
+              for tourist.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Fuel Efficiency: Cost-effective for your charter and
-              tourism service.
+              Public Address System (PA): Keep tourist informed during
+              the journey.
             </li>
-            <li className="p-1 leading-tight 2xl:leading-7">
-              Eco-Friendly: Reduced emissions support eco-conscious
-              travel.
-            </li>
-          </ol>
+          </ul>
         </div>
       </div>
       <h4 className="py-5 text-lg text-center md:text-2xl lg:text-3xl 2xl:mb-44">
-        "Opt for the VW Crafter Minibus for unforgettable,
-        eco-friendly tours and excursions."
+        "Choose the 18/22 seater Minibus for remarkable tours and
+        excursions, offering spacious seating, advanced safety,
+        panoramic views, and more."
       </h4>
       <ImageGallery items={images} autoPlay={true} />
     </section>

@@ -18,7 +18,7 @@ const Kombi = () => {
           <h3 className="mb-3 text-lg font-semibold lg:text-xl 2xl:text-2xl">
             Your ideal choice for tourism:
           </h3>
-          <ol className="mx-auto text-left list-decimal list-inside lg:text-lg ">
+          <ul className="mx-auto text-left list-disc list-inside lg:text-lg ">
             <li className="p-1 leading-tight 2xl:leading-7">
               Spacious Interior: Perfect for group tours, airport
               transfers, and charter services.
@@ -61,7 +61,7 @@ const Kombi = () => {
               All operating licenses in place and routinely inspected
               for road worthiness.
             </li>
-          </ol>
+          </ul>
         </div>
       </div>
       <h4 className="py-5 text-lg text-center md:text-2xl lg:text-3xl">
