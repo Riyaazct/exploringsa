@@ -64,7 +64,7 @@ const Kombi = () => {
           </ul>
         </div>
       </div>
-      <h4 className="py-5 text-lg text-center md:text-2xl lg:text-3xl">
+      <h4 className="py-5 text-lg text-center mt-80 md:text-2xl lg:text-3xl md:mt-0">
         "Choose the 7 Seater for memorable tours and excursions"
       </h4>
       <ImageGallery items={images} autoPlay={true} />

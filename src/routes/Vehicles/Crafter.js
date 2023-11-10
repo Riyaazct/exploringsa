@@ -14,7 +14,7 @@ const Crafter = () => {
             18/22 Seater Minibus
           </h2>
         </div>
-        <div className="mx-auto lg:max-w-5xl ">
+        <div className="mx-auto lg:max-w-5xl">
           <h3 className="mb-3 text-lg font-semibold lg:text-xl 2xl:text-2xl">
             Your top choice for group tours and charter services:
           </h3>
@@ -65,7 +65,7 @@ const Crafter = () => {
           </ul>
         </div>
       </div>
-      <h4 className="py-5 text-lg text-center md:text-2xl lg:text-3xl">
+      <h4 className="py-5 text-lg text-center md:text-2xl lg:text-3xl mt-80 md:mt-0">
         "Choose the 18/22 seater Minibus for remarkable tours and
         excursions, offering spacious seating, advanced safety,
         panoramic views, and more."

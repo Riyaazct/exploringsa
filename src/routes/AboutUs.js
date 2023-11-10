@@ -72,7 +72,7 @@ const AboutUs = () => (
             <img
               className=" m-auto sm:min-h-[280px] sm:w-auto sm:rounded-lg md:max-h-[40%] lg:max-w-[480px] 
                         xl:max-w-[550px] 2xl:max-w-[650px] "
-              src="images/our story 2.jpg"
+              src="images/ourStory.jpg"
               alt="the company tour guide and owner with some tourists"
               width={"1250px"}
               height={"1050px"}
