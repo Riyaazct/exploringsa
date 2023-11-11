@@ -1,24 +1,7 @@
-<!-- <IfModule LiteSpeed>
+<IfModule LiteSpeed>
   RewriteEngine On RewriteRule ^index\.html$ - [L] RewriteCond
   %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule . /index.html [L]
-</IfModule> -->
-
-<IfModule LiteSpeed>
-  RewriteEngine On
-
-  # Set cache control headers
-  <FilesMatch "\.(js|css|png|jpg|jpeg|gif|ico|json)$">
-    Header set Cache-Control "max-age=31536000, public"
-  </FilesMatch>
-
-  # Disable caching for index.html
-  <Files "index.html">
-    Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
-  </Files>
-
-  RewriteRule ^index\.html$ - [L]
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule . /index.html [L]
 </IfModule>
+
+

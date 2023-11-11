@@ -66,7 +66,7 @@ const Home = () => (
       </h1>
       {/* BUTTON FOR SCREENS LG PLUS */}
       <Link to="/services#services">
-        <button className="hidden lg:block md:p-2 lg:mt-6 md:text-lg lg:text-[1.3rem] lg:opacity-95 md:hover:opacity-100 md:text-blueText md:font-semibold xl:p-3 xl:text-xl 2xl:font-extrabold lg:animate-jump-in lg:animate-once lg:animate-duration-[1500ms] lg:animate-ease-in-out">
+        <button className="hidden lg:block md:p-2 lg:mt-6 md:text-lg lg:text-[1.3rem] lg:opacity-95 md:hover:opacity-100 md:text-blueText md:font-semibold xl:p-3 xl:text-xl            2xl:font-extrabold lg:animate-jump-in lg:animate-once lg:animate-duration-[1500ms] lg:animate-ease-in-out">
           Explore our Services
         </button>
       </Link>
