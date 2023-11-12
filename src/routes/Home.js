@@ -19,7 +19,7 @@ const Home = () => (
           <button
             className="p-2 mt-5 text-sm opacity-80 hover:opacity-100 text-blueText font-semibold 
             sm:text-[1.2rem] sm:p-3
-            lg:hidden duration-500 animate-shake animate-twice animate-duration-[1000ms] animate-ease-in"
+            lg:hidden duration-500 animate-shake animate-once animate-duration-[2000ms] animate-ease-in"
           >
             Explore our Services
           </button>
