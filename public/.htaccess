@@ -1,5 +1,5 @@
-<IfModule LiteSpeed>
-  RewriteEngine On RewriteRule ^index\.html$ - [L] RewriteCond
+<IfModule mod_rewrite.c>
+  RewriteEngine On # Redirect all requests to index.html RewriteCond
   %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule . /index.html [L]
+  RewriteRule ^(.\*)$ /index.html [L]
 </IfModule>

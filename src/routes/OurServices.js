@@ -2,9 +2,7 @@ import React from "react";
 import Services from "./Services";
 import WhyChooseUs from "./WhyChooseUs";
 import OurFleet from "./OurFleet";
-import Carousel from "../components/Carousel";
 import { Helmet } from "react-helmet-async";
-import VehicleCarousel from "../components/VehicleCarousel";
 import Vehicles from "./Vehicles";
 
 const OurServices = () => (
@@ -70,8 +68,6 @@ const OurServices = () => (
     <WhyChooseUs />
     <OurFleet />
     <Vehicles />
-    {/* <Carousel /> */}
-    {/* <VehicleCarousel /> */}
   </>
 );
 
