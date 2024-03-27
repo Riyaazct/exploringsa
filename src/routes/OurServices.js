@@ -9,8 +9,8 @@ const OurServices = () => (
   <>
     <Helmet>
       <title>
-        Exploring SA Transport and Tours: Your Complete Guide to
-        Transportation and Tourism in South Africa
+        Exploring SA - Charter services || Cape Town tours || tourist
+        service || airport transfers and corporate transfers.
       </title>
       <meta
         name="description"

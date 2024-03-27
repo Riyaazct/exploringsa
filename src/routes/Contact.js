@@ -11,21 +11,21 @@ const Contact = () => {
 
   const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
   const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-  const userId = process.env.REACT_APP_EMAILJS_USER_ID;
+  const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm(serviceId, templateId, form.current, userId)
+      .sendForm(serviceId, templateId, form.current, publicKey)
       .then(
         (result) => {
           console.log(result.text);
           setShowModal(!showModal);
-          // close Modal after 5 seconds
+          // close Modal after 4 seconds
           setTimeout(() => {
             setShowModal(false);
-          }, 5000);
+          }, 4000);
           form.current.reset();
         },
         (error) => {
@@ -37,7 +37,11 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Exploring SA Transport and Tours</title>
+        <title>
+          Contact Exploring SA - Exploring SA - Charter services ||
+          Cape Town tours || tourist service || airport transfers and
+          corporate transfers.
+        </title>
         <meta
           name="Contact Exploring SA Transport and Tours | South Africa Travel Contact | South Africa Tourism Contact"
           content="Contact Exploring SA Transport and Tours today to learn more about our services and how we can help you plan your trip to South Africa."
@@ -108,7 +112,7 @@ const Contact = () => {
               <div className="flex items-center gap-5">
                 <input
                   type="submit"
-                  value="Submit"
+                  value="submit"
                   className="my-2 font-bold cursor-pointer button text-orange bg-opacity-20 border-orange lg:text-lg"
                 />
                 <a href="tel:+27 21 396 1145">
@@ -127,10 +131,6 @@ const Contact = () => {
                     size={window.innerWidth >= 640 ? 26 : 20}
                   />
                 </a>
-                {/* <BsWhatsapp
-                className="cursor-pointer text-blueText"
-                size={window.innerWidth >= 640 ? 30 : 20}
-              /> */}
               </div>
             </form>
           </div>

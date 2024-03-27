@@ -7,8 +7,9 @@ const AboutUs = () => (
   <>
     <Helmet>
       <title>
-        Exploring SA Transport and Tours: Your Premier Transportation
-        and Tourism Provider in South Africa
+        Exploring SA - Exploring SA - Charter services || Cape Town
+        tours || tourist service || airport transfers and corporate
+        transfers.
       </title>
       <meta
         name="Exploring SA Transport and Tours | Tourist transport | charter services | Airport transfers | Cape town tours"
