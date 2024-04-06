@@ -75,13 +75,16 @@ const Footer = () => {
               <Link
                 to="services#services"
                 className="text-neutral-600 dark:text-neutral-200"
+                aria-label="view information about our tourist services"
+                rel="nofollow"
               >
                 <p className="mb-4">Tourist Service</p>
               </Link>
               <Link
                 to="services#services"
                 className="text-neutral-600 dark:text-neutral-200"
-                aria-label="view information about our tourist services"
+                aria-label="view information about our charter services"
+                rel="nofollow"
               >
                 <p className="mb-4">Charter Service</p>
               </Link>
@@ -89,6 +92,7 @@ const Footer = () => {
                 to="services#services"
                 className="text-neutral-600 dark:text-neutral-200"
                 aria-label="view information about our airport transfers"
+                rel="nofollow"
               >
                 <p className="mb-4">Airport Transfers</p>
               </Link>
@@ -96,6 +100,7 @@ const Footer = () => {
                 to="services#services"
                 className="text-neutral-600 dark:text-neutral-200"
                 aria-label="view information about our corporate transfers"
+                rel="nofollow"
               >
                 <p className="mb-4">Corporate Transfers</p>
               </Link>
