@@ -10,6 +10,7 @@ import "react-whatsapp-chat-widget/index.css";
 import Modal from "./components/Modal";
 import Crafter from "./routes/Vehicles/Crafter";
 import Kombi from "./routes/Vehicles/Kombi";
+import Quantum from "./routes/Vehicles/Quantum";
 
 const App = () => (
   <>
@@ -23,6 +24,7 @@ const App = () => (
       <Route path="/crafter01" element={<Crafter />} />
       <Route path="/kombi01" element={<Kombi />} />
       <Route path="/crafter01" element={<Crafter />} />
+      <Route path="/quantum01" element={<Quantum />} />
       <Route path="*" element={<Home />} />
     </Routes>
     <Footer />
