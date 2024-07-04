@@ -10,7 +10,7 @@ const Quantum = () => {
     <section className="my-16">
       <div className="flex flex-col items-center w-full h-[60vh] p-5 mb-20 text-center lg:ml-12 md:flex-row lg:gap-6 xl:gap-0 lg:p-10 lg:container 2xl:max-w-7xl xl:mx-auto 2xl:gap-16">
         <div>
-          <h2 className="p-3 mb-5 text-3xl lg:text-3xl 2xl:text-4xl">
+          <h2 className="p-3 mb-5 text-3xl 2xl:text-4xl">
             13 Seater Minibus
           </h2>
         </div>
