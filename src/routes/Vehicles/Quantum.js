@@ -15,41 +15,43 @@ const Quantum = () => {
           </h2>
         </div>
         <div className="mx-auto lg:max-w-5xl">
-          <h3 className="mb-3 text-lg font-semibold lg:text-xl 2xl:text-2xl">
-            Your top choice for group tours and charter services:
+          <h3 className="mb-3 text-lg font-semibold lg:text-xl 2xl:text-2xl text-start">
+            Discover the Toyota Quantum, Your Ideal Vehicle for
+            Charter Services, Airport Transfers, and Tourist
+            Transport:
           </h3>
           <ul className="mx-auto text-left list-disc list-inside lg:text-lg ">
             <li className="p-1 leading-tight 2xl:leading-7">
-              Spacious Capacity: Seats up to 13 passengers for larger
-              groups.
+              Flexible Seating: Seats up to 13 passengers, perfect for
+              medium-sized groups.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Safe Travels: Equipped with advanced safety features for
-              secure journeys.
+              Robust Safety Features: Equipped with ABS, airbags, and
+              stability control for safe travel.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Panoramic Views: Large windows offer scenic vistas
-              during trips.
+              Scenic Visibility: Large windows provide panoramic
+              views, enhancing the travel experience.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Premium Comfort: Comfortable and adjustable seats for
-              extended travels.
+              Passenger Comfort: Ergonomic seats with ample legroom
+              ensure a comfortable journey.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Climate Control: Enjoy climate control for year-round
-              comfort.
+              Efficient Climate Control: Maintain a pleasant
+              temperature with advanced air conditioning.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Generous Luggage Space: Easily accommodate luggage for
-              tour groups.
+              Generous Storage Space: Adequate luggage space for group
+              tours and airport transfers.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Extra luggage trailer: Easily accommodate extra luggage
-              for tourist.
+              Entertainment Options: Available multimedia system to
+              keep passengers engaged.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
-              Public Address System (PA): Keep tourist informed during
-              the journey.
+              Eco-Friendly Design: Engineered to minimize emissions,
+              promoting sustainable travel.
             </li>
             <li className="p-1 leading-tight 2xl:leading-7">
               Full comprehensive insurance plus passenger liability
@@ -66,9 +68,9 @@ const Quantum = () => {
         </div>
       </div>
       <h4 className="py-5 text-lg text-center md:text-2xl lg:text-3xl mt-80 md:mt-0">
-        "Choose the 13 seater Minibus for remarkable tours and
-        excursions, offering spacious seating, advanced safety,
-        panoramic views, and more."
+        "Choose the Toyota Quantum for Dependable, Comfortable, and
+        Eco-Friendly Charter Services, Airport Transfers, and Tourist
+        Transport."
       </h4>
       <ImageGallery items={images} autoPlay={true} />
     </section>
