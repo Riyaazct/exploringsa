@@ -92,7 +92,8 @@ const Vehicles = () => {
                     </p>
                     <a
                       className="inline-flex items-center mt-3 font-bold text-indigo-500 "
-                      href="."
+                      href="quantum01"
+                      target="_blank"
                     >
                       Learn More
                       <svg
