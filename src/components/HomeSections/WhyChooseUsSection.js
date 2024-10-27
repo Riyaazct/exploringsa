@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyChooseUsSection = () => {
   return (
-    <section>
+    <section className="md:bg-orange">
       <div className="w-full p-16 m-auto text-center text-bluebg ">
         <h2 className="text-2xl ">
           <span className="font-light">WHY </span>

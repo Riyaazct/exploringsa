@@ -24,12 +24,23 @@ const Home = () => (
         {/*  */}
 
         {/* TEXT CONTENT & BUTTON */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-offWhite text-center z-10 w-full max-w-[85%]">
-          <h1 className="font-semibold text-[1.1rem] md:text-[1.5rem] max-w-[90%] lg:hidden ">
+        <div className="absolute top-[16rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-offWhite text-center z-10 w-full max-w-[85%] ">
+          <h1 className="text-[1.625rem] leading-tight font-extrabold md:text-[1.5rem] max-w-[90%] lg:hidden mx-auto">
             {/* animate-fade-down animate-once animate-duration-1000 animate-ease-in */}
-            Welcome to Exploring SA Transport and Tours, your premier
-            transportation and tourism provider in South Africa
+            Welcome to Exploring SA Transport and Tours
           </h1>
+          <h2 className="text-[1rem] leading-tight font-bold max-w-[85%] mx-auto mt-2">
+            Your premier transportation and tourism provider in South
+            Africa
+          </h2>
+          <p className="mt-5 mb-3 text-[0.9375rem] font-light leading-tight max-w-xs mx-auto px-2 ">
+            We offer charter services for Cape Town tours, corporate
+            transfers, and airport transfers. Whether you're visiting
+            South Africa for leisure or business, our fleet of
+            vehicles, including minibuses and executive sedans,
+            ensures a comfortable and reliable experience for all your
+            travel needs.
+          </p>
           {/* BUTTON - <= 768px ONLY */}
           <Link to="/services#services">
             <button
@@ -49,7 +60,7 @@ const Home = () => (
             src={bgPath}
             style={
               window.innerWidth <= 768
-                ? { width: "100%", height: "100vh" }
+                ? { width: "100%", height: "auto" }
                 : { width: "1080px", height: "1440px" }
             }
             alt="Company vehicle"
@@ -57,7 +68,7 @@ const Home = () => (
             width={"1250px"}
             height={"1050px"}
           />
-          <div className="w-full h-full bg-[#000000a7] absolute top-0 xl:min-w-[45vw] lg:hidden"></div>
+          <div className="w-full h-full bg-[#000000] bg-opacity-80 absolute top-0 xl:min-w-[45vw] lg:hidden"></div>
         </div>
       </div>
 
@@ -78,7 +89,7 @@ const Home = () => (
           className="text-[1.0rem] sm:text-2xl font-extrabold 
         lg:hidden animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out up"
         >
-          "Unlock the treasures of South Africa with us"
+          Unlock the treasures of South Africa with us
         </h1>
         {/* BUTTON FOR SCREENS LG PLUS */}
         <Link to="/services#services">
