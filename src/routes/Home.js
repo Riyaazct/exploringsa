@@ -27,7 +27,7 @@ const Home = () => (
 
         {/* TEXT CONTENT & BUTTON */}
         <div className="absolute top-[15rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-offWhite text-center z-10 w-full max-w-[85%] sm:top-[20rem]">
-          <h1 className="text-[1.625rem] leading-tight font-extrabold max-w-[90%] mx-auto md:text-4xl md:leading-tight lg:text-orange sm:text-orange sm:text-[2rem]">
+          <h1 className="text-[1.625rem] leading-tight font-extrabold max-w-[90%] mx-auto md:text-4xl md:leading-tight lg:text-orange sm:text-[2rem]">
             {/* animate-fade-down animate-once animate-duration-1000 animate-ease-in */}
             Welcome to Exploring SA Transport and Tours
           </h1>
@@ -57,25 +57,25 @@ const Home = () => (
         {/*  */}
 
         {/* IMAGE */}
-        <div className="relative sm:h-[95vh] md:h-[90vh]">
+        <div className="relative sm:h-[95vh] md:h-[100vh]">
           <img
             src={bgPath}
             style={
               window.innerWidth <= 768
                 ? { width: "100%", height: "100%" }
-                : { width: "1080px", height: "1440px" }
+                : { width: "1080px", height: "100%" }
             }
             alt="Company vehicle"
             width={"1250px"}
             height={"1050px"}
-            className=""
+            className="w-full h-96"
           />
           {/* background overlay */}
           <div className="w-full h-full bg-[#000000] bg-opacity-80 absolute top-0" />
 
           <h3
             className="text-[1.2rem] font-semibold text-[#3CCF4E] w-[70%] mx-auto leading-snug text-center mb-6
-        animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out up absolute bottom-4 left-20 md:text-[1.625rem] md:w-full md:left-3 sm:text-[1.45rem]"
+        animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out up absolute bottom-4 left-20 md:text-[1.625rem] md:w-full md:left-3 sm:text-[1.45rem] md:bottom-10"
           >
             Unlock the treasures of South Africa with us
           </h3>
