@@ -13,6 +13,7 @@ module.exports = {
       blueText: "#272343",
       navText: "#DCDCDC",
       white: "#FFFFFF",
+      black: "#000000",
     },
     extend: {},
   },

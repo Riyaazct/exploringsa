@@ -12,6 +12,8 @@ import Crafter from "./routes/Vehicles/Crafter";
 import Kombi from "./routes/Vehicles/Kombi";
 import Quantum from "./routes/Vehicles/Quantum";
 
+import WhyChooseUsSection from "./components/HomeSections/WhyChooseUsSection";
+
 const App = () => (
   <>
     <Navbar />
@@ -25,6 +27,7 @@ const App = () => (
       <Route path="/kombi01" element={<Kombi />} />
       <Route path="/crafter01" element={<Crafter />} />
       <Route path="/quantum01" element={<Quantum />} />
+      <Route path="/chooseus" element={<WhyChooseUsSection />} />
       <Route path="*" element={<Home />} />
     </Routes>
     <Footer />

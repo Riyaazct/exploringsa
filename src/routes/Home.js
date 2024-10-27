@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
+// import WhyChooseUs from "../components/HomeSections/WhyChooseUs";
+
 const bgPath = "/images/home.jpg";
 
 const Home = () => (
@@ -86,6 +88,7 @@ const Home = () => (
         </Link>
       </div>
     </section>
+    {/* <WhyChooseUs /> */}
   </>
 );
 
