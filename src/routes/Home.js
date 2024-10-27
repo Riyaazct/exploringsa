@@ -19,12 +19,14 @@ const Home = () => (
       />
       <link rel="canonical" href="/" />
     </Helmet>
+    {/*  */}
+
     <section className="lg:flex">
       <div className="relative">
         {/*  */}
 
         {/* TEXT CONTENT & BUTTON */}
-        <div className="absolute top-[16rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-offWhite text-center z-10 w-full max-w-[85%] ">
+        <div className="absolute top-[15rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-offWhite text-center z-10 w-full max-w-[85%] ">
           <h1 className="text-[1.625rem] leading-tight font-extrabold md:text-[1.5rem] max-w-[90%] lg:hidden mx-auto">
             {/* animate-fade-down animate-once animate-duration-1000 animate-ease-in */}
             Welcome to Exploring SA Transport and Tours
@@ -44,18 +46,18 @@ const Home = () => (
           {/* BUTTON - <= 768px ONLY */}
           <Link to="/services#services">
             <button
-              className="p-2 mt-5 text-sm opacity-80 hover:opacity-100 text-blueText font-semibold 
+              className="py-[0.6rem] px-4 mt-5 text-[0.9375rem] opacity-[86%] hover:opacity-100 text-bluebg font-extrabold
             sm:text-[1.2rem] sm:p-3
-            lg:hidden duration-500 animate-shake animate-once animate-duration-[1500ms] animate-ease-in"
+            duration-500 animate-shake animate-once animate-duration-[1500ms] animate-ease-in"
             >
-              Explore our Services
+              View Our Services
             </button>
           </Link>
         </div>
         {/*  */}
 
         {/* IMAGE */}
-        <div className="relative ">
+        <div className="relative">
           <img
             src={bgPath}
             style={
@@ -64,39 +66,20 @@ const Home = () => (
                 : { width: "1080px", height: "1440px" }
             }
             alt="Company vehicle"
-            className="w-full h-full max-h-[90vh]"
+            className="w-full"
             width={"1250px"}
             height={"1050px"}
           />
-          <div className="w-full h-full bg-[#000000] bg-opacity-80 absolute top-0 xl:min-w-[45vw] lg:hidden"></div>
-        </div>
-      </div>
+          {/* background overlay */}
+          <div className="w-full h-full bg-[#000000] bg-opacity-80 absolute top-0 xl:min-w-[45vw] lg:hidden" />
 
-      {/* TEXT CONTENT FOR SCREEN LG PLUS */}
-      <div className="text-center my-12 text-2xl text-blueText font-semibold lg:flex lg:items-center lg:m-auto xl:mx-auto xl:text-3xl 2xl:text-4xl xl:max-w-[55vw] lg:flex-col">
-        <div className="hidden lg:block">
-          <h1
-            className="font-semibold text-[1.2rem] sm:text-[1.3rem] xl:text-2xl 2xl:text-3xl lg:max-w-[80%] lg:mx-auto md:mx-5 
-          animate-fade-left animate-once animate-delay-200 animate-ease-in"
+          <h3
+            className="text-[1.2rem] font-semibold text-[#3CCF4E] w-[65%] mx-auto leading-snug text-center
+        lg:hidden animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out up absolute bottom-4 left-24"
           >
-            Welcome to Exploring SA Transport and Tours, your premier
-            transportation and tourism provider in South Africa
-          </h1>
+            Unlock the treasures of South Africa with us
+          </h3>
         </div>
-
-        {/* TEXT CONTENT DISPLAYED ON screens <= 768px */}
-        <h1
-          className="text-[1.0rem] sm:text-2xl font-extrabold 
-        lg:hidden animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out up"
-        >
-          Unlock the treasures of South Africa with us
-        </h1>
-        {/* BUTTON FOR SCREENS LG PLUS */}
-        <Link to="/services#services">
-          <button className="hidden lg:block md:p-2 lg:mt-6 md:text-lg lg:text-[1.3rem] lg:opacity-95 md:hover:opacity-100 md:text-blueText md:font-semibold xl:p-3 xl:text-xl 2xl:font-extrabold lg:animate-jump-in lg:animate-once lg:animate-duration-[1500ms] lg:animate-ease-in-out">
-            Explore our Services
-          </button>
-        </Link>
       </div>
     </section>
     {/* <WhyChooseUs /> */}
