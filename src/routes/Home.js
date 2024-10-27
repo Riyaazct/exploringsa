@@ -71,11 +71,11 @@ const Home = () => (
             height={"1050px"}
           />
           {/* background overlay */}
-          <div className="w-full h-full bg-[#000000] bg-opacity-80 absolute top-0 xl:min-w-[45vw] lg:hidden" />
+          <div className="w-full h-full bg-[#000000] bg-opacity-80 absolute top-0" />
 
           <h3
-            className="text-[1.2rem] font-semibold text-[#3CCF4E] w-[65%] mx-auto leading-snug text-center
-        lg:hidden animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out up absolute bottom-4 left-24"
+            className="text-[1.2rem] font-semibold text-[#3CCF4E] w-[70%] mx-auto leading-snug text-center mb-6
+        lg:hidden animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out up absolute bottom-4 left-20"
           >
             Unlock the treasures of South Africa with us
           </h3>
