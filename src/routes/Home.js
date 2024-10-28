@@ -27,16 +27,16 @@ const Home = () => (
         {/*  */}
 
         {/* TEXT CONTENT & BUTTON */}
-        <div className="absolute top-[16rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-offWhite text-center z-10 w-full max-w-[85%] sm:top-[20rem]">
+        <div className="absolute top-[18rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-offWhite text-center z-10 w-full max-w-[85%] sm:top-[20rem]">
           <h1 className="text-[1.625rem] leading-tight font-extrabold max-w-[90%] mx-auto md:text-4xl md:leading-tight sm:text-[2rem] xl:text-5xl md:text-orange lg:text-lightGreen xl:text-darkGreen">
             {/* animate-fade-down animate-once animate-duration-1000 animate-ease-in */}
             Welcome to Exploring SA Transport and Tours
           </h1>
-          <h2 className="text-[1rem] leading-tight font-bold max-w-[85%] mx-auto mt-2 sm:text-2xl md:max-w-lg md:my-3 xl:text-3xl xl:max-w-5xl xl:mt-6 ">
+          <h2 className="text-[1.1rem] leading-tight font-bold max-w-[85%] mx-auto mt-4 sm:text-2xl md:max-w-lg md:my-3 xl:text-3xl xl:max-w-5xl xl:mt-6 ">
             Your premier transportation and tourism provider in South
             Africa
           </h2>
-          <p className="mt-7 mb-4 text-[0.9375rem] font-light leading-tight max-w-xs mx-auto px-2 md:text-xl md:max-w-lg md:leading-snug md:my-9 sm:text-base sm:max-w-md xl:text-2xl xl:max-w-[59rem] xl:mt-10">
+          <p className="mt-7 mb-4 text-[1rem] font-light leading-tight max-w-xs mx-auto px-2 md:text-xl md:max-w-lg md:leading-snug md:my-9 sm:text-base sm:max-w-md xl:text-2xl xl:max-w-[59rem] xl:mt-10">
             We offer charter services for Cape Town tours, corporate
             transfers, and airport transfers. Whether you're visiting
             South Africa for leisure or business, our fleet of

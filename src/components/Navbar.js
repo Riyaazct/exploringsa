@@ -82,7 +82,7 @@ const Navbar = () => {
         <div
           className={
             active
-              ? "flex flex-col items-start justify-center m-auto text-left mt-60 bg-orange w-max"
+              ? "flex flex-col items-center w-max m-auto mt-64 h-56 justify-between text-xl font-bold"
               : "flex-row flex items-center"
           }
         >
@@ -90,7 +90,7 @@ const Navbar = () => {
             to="/"
             className={
               IsActive("/")
-                ? "active "
+                ? "active"
                 : "md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
             }
             onClick={handleNav}
@@ -114,7 +114,7 @@ const Navbar = () => {
             to="/services"
             className={
               IsActive("/services")
-                ? "active "
+                ? "active"
                 : "md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
             }
             onClick={handleNav}

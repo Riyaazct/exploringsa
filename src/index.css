@@ -32,6 +32,11 @@
   .aboutBg {
     border-radius: 0 0 0 120px;
   }
+  .active {
+    text-decoration: underline;
+    text-decoration-color: #ef5b0c;
+    text-decoration-thickness: 3px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
