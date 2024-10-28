@@ -75,14 +75,14 @@ const Navbar = () => {
       <div
         className={
           active
-            ? "w-full fixed left-0 top-0 h-screen bg-lightGreen bg-opacity-[0.97] z-20 text-blueText  ease-in duration-300 flex-col"
+            ? "w-full fixed left-0 top-0 h-screen bg-lightGreen bg-opacity-[0.98] z-20 text-blueText  ease-in duration-300 flex-col"
             : "w-full absolute top-0 left-[-100%] h-screen z-20 text-blueText  ease-in-out duration-700 md:static md:w-fit md:flex-row md:h-max"
         }
       >
         <div
           className={
             active
-              ? "flex flex-col items-center w-max m-auto mt-64 h-56 justify-between text-xl font-bold"
+              ? "flex flex-col items-start w-max m-auto mt-64 h-56 justify-between text-xl font-bold"
               : "flex-row flex items-center"
           }
         >
