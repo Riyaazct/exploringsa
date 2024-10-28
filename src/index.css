@@ -23,14 +23,6 @@
     font-family: "Inter", sans-serif;
   }
 }
-.active {
-  font-weight: bold !important;
-  /* background-color: #dcdcdc; */
-  border: solid #dcdcdc 2px;
-  padding: 10px !important;
-  border-radius: 6px;
-  /* color: #172b4d !important; */
-}
 
 .aboutBg {
   border-radius: 0px 180px;
@@ -45,6 +37,18 @@
 @media only screen and (min-width: 768px) {
   .aboutBg {
     border-radius: 0 260px;
+  }
+  .active {
+    display: flex;
+    align-items: center;
+    /* background-color: #dcdcdc; */
+    background-color: #ef5b0c;
+    /* border: solid #dcdcdc 2px; */
+    padding: 0 10px;
+    height: 4.5rem;
+    /* border-radius: 6px; */
+    color: #172b4d !important;
+    /* font-weight: bold; */
   }
   .active {
     /* font-weight: bold !important; */

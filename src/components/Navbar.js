@@ -75,59 +75,67 @@ const Navbar = () => {
       <div
         className={
           active
-            ? "w-full fixed left-0 top-0 h-screen bg-lightGreen bg-opacity-[0.97] z-20 text-blueText flex justify-center items-center ease-in duration-300 flex-col"
-            : "w-full absolute top-0 left-[-100%] h-screen z-20 text-blueText flex flex-col justify-center items-center ease-in-out duration-700 md:static md:w-fit md:flex-row md:h-max"
+            ? "w-full fixed left-0 top-0 h-screen bg-lightGreen bg-opacity-[0.97] z-20 text-blueText  ease-in duration-300 flex-col"
+            : "w-full absolute top-0 left-[-100%] h-screen z-20 text-blueText  ease-in-out duration-700 md:static md:w-fit md:flex-row md:h-max"
         }
       >
-        <Link
-          to="/"
+        <div
           className={
-            IsActive("/")
-              ? "active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
-              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
+            active
+              ? "flex flex-col items-start justify-center m-auto text-left mt-60 bg-orange w-max"
+              : "flex-row flex items-center"
           }
-          onClick={handleNav}
-          aria-label="a link to our home page"
         >
-          HOME
-        </Link>
-        <Link
-          to="/about"
-          className={
-            IsActive("/about")
-              ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
-              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
-          }
-          onClick={handleNav}
-          aria-label="a link to our about us page"
-        >
-          ABOUT US
-        </Link>
-        <Link
-          to="/services"
-          className={
-            IsActive("/services")
-              ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
-              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
-          }
-          onClick={handleNav}
-          aria-label="a link to our services page"
-        >
-          OUR SERVICES
-        </Link>
+          <Link
+            to="/"
+            className={
+              IsActive("/")
+                ? "active "
+                : "md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
+            }
+            onClick={handleNav}
+            aria-label="a link to our home page"
+          >
+            HOME
+          </Link>
+          <Link
+            to="/about"
+            className={
+              IsActive("/about")
+                ? "active"
+                : "md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
+            }
+            onClick={handleNav}
+            aria-label="a link to our about us page"
+          >
+            ABOUT
+          </Link>
+          <Link
+            to="/services"
+            className={
+              IsActive("/services")
+                ? "active "
+                : "md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
+            }
+            onClick={handleNav}
+            aria-label="a link to our services page"
+          >
+            SERVICES
+          </Link>
 
-        <Link
-          to="/contact"
-          className={
-            IsActive("/contact")
-              ? " active my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-lg md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7"
-              : "my-9 text-2xl font-bold text-center md:my-[unset] md:font-normal md:text-sm md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
-          }
-          onClick={handleNav}
-          aria-label="a link to our contact page"
-        >
-          CONTACT US
-        </Link>
+          <Link
+            to="/contact"
+            className={
+              IsActive("/contact")
+                ? "active"
+                : "md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
+            }
+            onClick={handleNav}
+            aria-label="a link to our contact page"
+          >
+            CONTACT
+          </Link>
+        </div>
       </div>
 
       {/* MENU BUTTON OPEN */}
