@@ -28,7 +28,7 @@ const Home = () => (
 
         {/* TEXT CONTENT & BUTTON */}
         <div className="absolute top-[18rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-offWhite text-center z-10 w-full max-w-[85%] sm:top-[20rem]">
-          <h1 className="text-[1.625rem] leading-tight font-extrabold max-w-[90%] mx-auto md:text-4xl md:leading-tight sm:text-[2rem] xl:text-5xl md:text-orange lg:text-lightGreen xl:text-darkGreen">
+          <h1 className="text-[1.625rem] leading-tight font-extrabold max-w-[90%] mx-auto md:text-4xl md:leading-tight sm:text-[2rem] xl:text-5xl ">
             {/* animate-fade-down animate-once animate-duration-1000 animate-ease-in */}
             Welcome to Exploring SA Transport and Tours
           </h1>
@@ -69,7 +69,7 @@ const Home = () => (
             alt="Company vehicle"
             width={"1250px"}
             height={"1050px"}
-            className="md:hidden"
+            className="object-bottom lg:hidden md:object-cover"
           />
           <img
             src={bgPathLg}
@@ -81,7 +81,7 @@ const Home = () => (
             alt="Company vehicle"
             width={"1250px"}
             height={"1050px"}
-            className="hidden md:block"
+            className="hidden lg:block "
           />
           {/* background overlay */}
           <div className="w-full h-full bg-[#000000] bg-opacity-80 absolute top-0" />
