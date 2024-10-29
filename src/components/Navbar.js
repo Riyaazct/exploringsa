@@ -75,26 +75,25 @@ const Navbar = () => {
       <div
         className={
           active
-            ? "w-full fixed left-0 top-0 h-screen bg-lightGreen bg-opacity-[0.98] z-20 text-blueText  ease-in duration-300 flex-col"
+            ? "w-full fixed left-0 top-0 h-screen bg-lightGreen bg-opacity-[0.98] z-20 text-blueText ease-in duration-300 flex-col"
             : "w-full absolute top-0 left-[-100%] h-screen z-20 text-blueText  ease-in-out duration-700 md:static md:w-fit md:flex-row md:h-max"
         }
       >
-        <div className="w-full">
-          <Link
-            to={"/contact"}
-            className="flex items-center justify-center md:hidden"
-            onClick={handleNav}
-          >
-            <button className="rounded-md mt-52 sm:w-[80%] py-3 px-6 text-lg font-extrabold tracking-wider border-0">
-              Book a Tour
-            </button>
-          </Link>
-        </div>
+        <Link
+          to={"/contact"}
+          className="flex items-center justify-center w-full md:hidden"
+          onClick={handleNav}
+        >
+          <button className="px-10 py-3 mt-48 text-lg font-extrabold tracking-wider transition duration-500 transform border-0 rounded-sm hover:scale-105">
+            Get a quote
+          </button>
+        </Link>
+
         <div
           className={
             active
-              ? "flex flex-col items-start w-max m-auto mt-10 h-56 justify-between text-xl font-bold"
-              : "flex-row flex items-center"
+              ? "flex flex-col items-start w-max m-auto mt-10 h-52 justify-between text-xl font-bold"
+              : "md:flex-row flex md:items-center flex-col items-start w-max m-auto mt-10 h-52 justify-between text-xl font-bold md:mt-0 md:font-normal md:text-base"
           }
         >
           <Link
