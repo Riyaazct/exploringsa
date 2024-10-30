@@ -2,13 +2,14 @@ import React from "react";
 
 const WhyChooseUsSection = () => {
   return (
-    <section className="md:bg-orange">
+    <section className="md:grid-cols-2 md:grid">
+      {/* TITLE */}
       <div className="w-full p-16 m-auto text-center text-bluebg ">
-        <h2 className="text-2xl ">
+        <h2 className="text-2xl md:text-orange lg:text-darkGreen md:text-3xl">
           <span className="font-light">WHY </span>
           <span className="font-extrabold ">CHOOSE US?</span>
         </h2>
-        <p className="px-5 text-base ">
+        <p className="px-5 text-base md:text-xl md:pt-2">
           Your Trusted Partner for{" "}
           <span className="font-semibold">
             Safe, Reliable, And Tailored Transportation
@@ -16,16 +17,21 @@ const WhyChooseUsSection = () => {
           Across South Africa
         </p>
       </div>
-      <div className="relative">
+
+      {/* IMAGE */}
+      <div className="relative md:col-span-1 md:order-first ">
         <img
           src="images/sections/why choose us.jpg"
           alt="Tourists standing behind the cape of goodhope sign board "
+          className="w-full"
         />
-        <div className="absolute top-0 w-screen h-full bg-black bg-opacity-10" />
+        <div className="absolute top-0 w-full h-full bg-black bg-opacity-10" />
       </div>
 
-      {/* Cards */}
-      <div className="bg-[#4CAF50] h-full w-screen p-14 text-center text-[#212121]">
+      {/* CARDS */}
+
+      {/* CARD 1 */}
+      <div className="bg-[#4CAF50] h-full w-screen p-14 text-center text-[#212121] md:w-full">
         <img
           className="w-24 h-24 m-auto mb-2"
           src="images/icons/sections/road.svg"
@@ -39,7 +45,9 @@ const WhyChooseUsSection = () => {
           airport transfers, and corporate travel.
         </p>
       </div>
-      <div className="bg-[#FFF3E0] h-full w-screen p-14 text-center text-[#212121]">
+
+      {/* CARD 2 */}
+      <div className="bg-[#FFF3E0] h-full w-screen p-14 text-center text-[#212121] md:w-full">
         <img
           className="w-24 h-24 m-auto mb-2"
           src="images/icons/sections/luggage.svg"
@@ -54,7 +62,8 @@ const WhyChooseUsSection = () => {
         </p>
       </div>
 
-      <div className="bg-[#1B5E20] h-full w-screen p-14 text-center text-[#E1E1E1]">
+      {/* CARD 3 */}
+      <div className="bg-[#1B5E20] h-full w-screen p-14 text-center text-[#E1E1E1] md:w-full">
         <img
           className="m-auto -mb-2 h-28"
           src="images/icons/sections/van.svg"
@@ -68,7 +77,9 @@ const WhyChooseUsSection = () => {
           Crafter Minibus, tailored for group or individual transport.
         </p>
       </div>
-      <div className="bg-[#FFE0B2] h-full w-screen p-14 text-center text-[#212121]">
+
+      {/* CARD 4 */}
+      <div className="bg-[#FFE0B2] h-full w-screen p-14 text-center text-[#212121] md:w-full">
         <img
           className="w-24 h-24 m-auto mb-2"
           src="images/icons/sections/headset.svg"
