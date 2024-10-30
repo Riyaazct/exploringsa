@@ -84,7 +84,7 @@ const Navbar = () => {
           className="flex items-center justify-center w-full md:hidden"
           onClick={handleNav}
         >
-          <button className="px-10 py-3 mt-48 text-lg font-extrabold tracking-wider transition duration-500 transform border-0 rounded-sm hover:scale-105">
+          <button className="px-10 py-3 text-lg font-extrabold tracking-wider transition duration-500 transform border-0 rounded-sm mt-80 hover:scale-105">
             Get a quote
           </button>
         </Link>
