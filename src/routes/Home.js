@@ -23,12 +23,12 @@ const Home = () => (
     {/*  */}
 
     <section className="lg:flex">
-      <div className="relative lg:h-120vh">
+      <div className="relative">
         {/*  */}
 
         {/* TEXT CONTENT & BUTTON */}
         <div className="absolute top-[18rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-offWhite text-center z-10 w-full max-w-[85%] sm:top-[20rem]">
-          <h1 className="text-[1.625rem] leading-tight font-extrabold max-w-[90%] mx-auto md:text-4xl md:leading-tight sm:text-[2rem] xl:text-5xl ">
+          <h1 className="text-[1.625rem] leading-tight font-extrabold max-w-[90%] mx-auto md:text-4xl md:leading-tight sm:text-[2rem] xl:text-5xl">
             {/* animate-fade-down animate-once animate-duration-1000 animate-ease-in */}
             Welcome to Exploring SA Transport and Tours
           </h1>
@@ -58,7 +58,7 @@ const Home = () => (
         {/*  */}
 
         {/* IMAGE */}
-        <div className="relative h-[90vh] sm:h-[95vh] md:h-screen w-full">
+        <div className="relative h-[90vh] sm:h-[95vh] md:h-screen w-full lg:h-[90vh]">
           <img
             src={bgPathSm}
             style={
@@ -88,7 +88,7 @@ const Home = () => (
 
           <h3
             className="text-[1.2rem] font-semibold text-[#3CCF4E] w-[70%] mx-auto leading-snug text-center mb-6
-        animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out up absolute bottom-4 left-20 md:text-[1.625rem] md:w-full md:left-3 sm:text-[1.45rem] md:bottom-12 xl:bottom- xl:mb-0 xl:text-3xl tracking-wider md:tracking-widest"
+        animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out up absolute bottom-4 left-20 md:text-[1.625rem] md:w-full md:left-3 sm:text-[1.45rem] md:bottom-12 lg:bottom-16 xl:text-3xl tracking-wider md:tracking-widest"
           >
             Unlock the treasures of South Africa with us
           </h3>
