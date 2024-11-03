@@ -38,11 +38,11 @@ const Home = () => (
           </h2>
           <p className="mt-7 mb-4 text-[1rem] font-light leading-tight max-w-xs mx-auto px-2 md:text-xl md:max-w-lg md:leading-snug md:my-9 sm:text-base sm:max-w-md xl:text-2xl xl:max-w-[59rem] xl:mt-10">
             We offer charter services for Cape Town tours, corporate
-            transfers, and airport transfers. Whether you're visiting
-            South Africa for leisure or business, our fleet of
-            vehicles, including minibuses and executive sedans,
-            ensures a comfortable and reliable experience for all your
-            travel needs.
+            transfers, a shuttle service, and airport transfers.
+            Whether you're visiting South Africa for leisure or
+            business, our fleet of vehicles, including minibuses and
+            executive sedans, ensures a comfortable and reliable
+            experience for all your travel needs.
           </p>
           {/* BUTTON - <= 768px ONLY */}
           <Link to="/services#services">
