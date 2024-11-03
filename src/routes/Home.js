@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
-// import WhyChooseUs from "../components/HomeSections/WhyChooseUs";
+import WhyChooseUs from "../components/HomeSections/WhyChooseUsSection";
 
 const bgPathSm = "/images/homeSm.jpg";
 const bgPathLg = "/images/homeLg.jpg";
@@ -58,7 +58,7 @@ const Home = () => (
         {/*  */}
 
         {/* IMAGE */}
-        <div className="relative h-[90vh] sm:h-[95vh] md:h-screen w-screen ">
+        <div className="relative h-[90vh] sm:h-[95vh] md:h-screen w-full">
           <img
             src={bgPathSm}
             style={
@@ -95,7 +95,7 @@ const Home = () => (
         </div>
       </div>
     </section>
-    {/* <WhyChooseUs /> */}
+    <WhyChooseUs />
   </>
 );
 
