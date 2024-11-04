@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 import data from "../../data/homepageServiceCardData.json";
 
@@ -20,11 +21,16 @@ const ServiceSection = () => {
         {/* CARDS */}
         <div className="">
           {data.map(({ image, title, description }, i) => (
-            <div className="" key={i}>
-              <img src={image} alt="camera icon" />
-              <h2>{title}</h2>
+            <div className="p-6 " key={i}>
+              <div className="flex gap-1">
+                <img src={image} alt="camera icon" />
+                <h2 className="mt-auto">{title}</h2>
+              </div>
               <p>{description}</p>
-              <Link>Read More</Link>
+              <div className="flex items-center gap-3">
+                <Link>Read More</Link>
+                <FaLongArrowAltRight className="mt-1 text-lg" />
+              </div>
             </div>
           ))}
         </div>
