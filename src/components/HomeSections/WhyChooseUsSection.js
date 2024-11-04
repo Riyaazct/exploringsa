@@ -10,9 +10,9 @@ const WhyChooseUsSection = () => {
           <span className="font-extrabold ">CHOOSE US?</span>
         </h2>
         <p className="px-5 text-sm sm:text-base md:text-xl sm:pt-2 lg:px-0 lg:text-base xl:text-lg xl:max-w-[89%] xl:ml-auto">
-          Your Trusted Partner for{" "}
+          Your Trusted Partner for&nbsp;
           <span className="font-semibold">
-            Safe, Reliable, And Tailored Transportation
+            Safe, Reliable, And Tailored Transportation&nbsp;
           </span>
           Across South Africa
         </p>
