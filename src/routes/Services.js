@@ -96,7 +96,7 @@ const Services = () => {
       <div className="p-2 mx-auto text-center duration-500 border-2 w-80 border-darkGreen border-opacity-5 lg:hover:border-opacity-20 lg:hover:rounded-lg lg:hover:scale-105">
         <img
           className="h-16 mx-auto my-3 lg:h-20 lg:mb-5"
-          src="images/icons/confetti.png"
+          src="images/icons/partyGreen.png"
           alt=""
         />
         <h2 className="my-3 text-xl font-semibold text-blueText lg:text-2xl">

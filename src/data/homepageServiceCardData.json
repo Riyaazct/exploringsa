@@ -1,31 +1,37 @@
 [
   {
     "image": "/images/sections/icons/camera.svg",
+    "alt": "A camera icon",
     "title": "Tourist Service:",
     "description": "Safe and reliable transportation for tourists exploring South Africa’s top destinations."
   },
   {
     "image": "/images/sections/icons/bus.svg",
+    "alt": "A bus icon",
     "title": "Charter Services:",
     "description": "Private and group charter solutions tailored to meet your travel needs."
   },
   {
     "image": "/images/sections/icons/plane.svg",
+    "alt": "An airplane icon",
     "title": "Airport Transfers:",
     "description": "Punctual and convenient airport transfers for hassle-free travel to and from airports."
   },
   {
     "image": "/images/sections/icons/briefcase.svg",
+    "alt": "A briefcase icon",
     "title": "Corporate Transfers:",
     "description": "Executive transport for business professionals, ensuring comfort and timeliness."
   },
   {
     "image": "/images/sections/icons/airport transfer.svg",
+    "alt": "an icon of an airplane and minibus",
     "title": "Shuttle Services",
     "description": "Reliable shuttle services for airport transfers, hotel pickups, and city tours in Cape Town. Travel comfortably to any destination with ease and efficiency."
   },
   {
-    "image": "/images/sections/icons/party.svg",
+    "image": "/images/sections/icons/party.png",
+    "alt": "A confetti icon",
     "title": "Special Events:",
     "description": "Tailored transportation solutions for weddings, corporate events, and private celebrations."
   }
