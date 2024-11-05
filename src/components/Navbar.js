@@ -100,7 +100,7 @@ const Navbar = () => {
             to="/"
             className={
               IsActive("/")
-                ? "active md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF] xl:px-2"
+                ? "active md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF] lg:px-2"
                 : "md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
             }
             onClick={handleNav}
@@ -112,7 +112,7 @@ const Navbar = () => {
             to="/about"
             className={
               IsActive("/about")
-                ? "active md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF] xl:px-2"
+                ? "active md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF] lg:px-2"
                 : "md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
             }
             onClick={handleNav}
@@ -124,7 +124,7 @@ const Navbar = () => {
             to="/services"
             className={
               IsActive("/services")
-                ? "active md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF] xl:px-2"
+                ? "active md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF] lg:px-2"
                 : "md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
             }
             onClick={handleNav}
@@ -137,7 +137,7 @@ const Navbar = () => {
             to="/contact"
             className={
               IsActive("/contact")
-                ? "active md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF] xl:px-2"
+                ? "active md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF] lg:px-2"
                 : "md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
             }
             onClick={handleNav}

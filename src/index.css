@@ -36,6 +36,7 @@
     text-decoration: underline;
     text-decoration-color: #272343;
     /* text-decoration-thickness: 3px; */
+    pointer-events: none;
   }
 }
 
@@ -54,6 +55,7 @@
     /* border-radius: 6px; */
     color: #172b4d !important;
     font-weight: bold;
+    pointer-events: none;
   }
   .active {
     /* font-weight: bold !important; */
