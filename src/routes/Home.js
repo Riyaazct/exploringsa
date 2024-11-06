@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
 import WhyChooseUs from "../components/HomeSections/WhyChooseUsSection";
+import ServiceSection from "../components/HomeSections/ServiceSection";
 
 const bgPathSm = "/images/homeSm.jpg";
 const bgPathLg = "/images/homeLg.jpg";
@@ -96,6 +97,7 @@ const Home = () => (
       </div>
     </section>
     <WhyChooseUs />
+    <ServiceSection />
   </>
 );
 
