@@ -30,7 +30,7 @@ const ServiceSection = () => {
                 CARD CONTAINER
               */}
               <div
-                className="flex flex-col justify-center p-8 border-2 w-full rounded-lg border-[#04420C] border-opacity-30 bg-service-card-gradient shadow- max-w-sm  min-h-[22rem]"
+                className="flex flex-col justify-center p-8 border-2 w-full rounded-lg border-[#04420C] border-opacity-30 bg-service-card-gradient shadow-xl max-w-sm  min-h-[22rem]"
                 key={i}
               >
                 {/* TITLE CONTENT */}
