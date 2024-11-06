@@ -27,8 +27,23 @@ const ServiceSection = () => {
                 key={i}
               >
                 <div className="flex gap-2 py-2 -ml-1">
-                  <img src={image} alt={alt} width={"52px"} />
-                  <h2 className="mt-auto text-2xl font-extrabold text-gray">
+                  <img
+                    src={image}
+                    alt={alt}
+                    width={
+                      i === 0 || i === 1 || i === 3 ? "60px" : "75px"
+                    }
+                    className={
+                      i === 0 || i === 3 ? "h-14" : "h-[4.2rem]"
+                    }
+                  />
+                  <h2
+                    className={
+                      i === 2 || i === 4 || i === 5
+                        ? "mt-auto text-2xl font-extrabold text-gray -ml-2"
+                        : "mt-auto text-2xl font-extrabold text-gray "
+                    }
+                  >
                     {title}
                   </h2>
                 </div>

@@ -17,7 +17,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "service-card-gradient": `linear-gradient(90deg, rgba(4, 66, 12, 0.4) 0%, rgba(108, 156, 108, 0.45) 52%, rgba(180, 230, 180, 1) 98%)`,
+        "service-card-gradient": `linear-gradient(270deg, rgba(4, 86, 12, 0.4) 0%, rgba(108, 156, 108, 0.45) 52%, rgba(200, 240, 220, 1) 98%)`,
       },
     },
   },
