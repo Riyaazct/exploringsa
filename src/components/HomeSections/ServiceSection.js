@@ -12,14 +12,14 @@ const ServiceSection = () => {
       <div className="pb-b">
         {/* TITLE */}
         <div>
-          <h2 className="text-bluebg w-[85%] m-auto text-center mb-20 text-4xl font-extrabold md:text-orange sm:text-lightGreen">
+          <h2 className="text-bluebg w-[85%] m-auto text-center mb-20 text-2xl font-extrabold md:text-orange sm:text-3xl sm:w-[90%] ">
             Tourist Transport, Charter Services, Airport Transfers,
             and More...
           </h2>
         </div>
 
         {/* CARDS */}
-        <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-1 sm:justify-center sm:items-center">
+        <div className="flex flex-col items-center gap-3 sm:flex-row sm:flex-wrap sm:gap-1 sm:justify-center">
           {data.map(({ image, title, description, alt }, i) => (
             //
 
@@ -30,7 +30,7 @@ const ServiceSection = () => {
                 CARD CONTAINER
               */}
               <div
-                className="flex flex-col justify-center p-8 border-2 w-full rounded-md border-[#04420C] border-opacity-30 bg-service-card-gradient shadow-lg sm:max-w-sm  sm:min-h-[20rem]"
+                className="flex flex-col justify-center p-8 border-2 w-full rounded-lg border-[#04420C] border-opacity-30 bg-service-card-gradient shadow- max-w-sm  min-h-[22rem]"
                 key={i}
               >
                 {/* TITLE CONTENT */}
@@ -48,8 +48,8 @@ const ServiceSection = () => {
                   <h2
                     className={
                       i === 2 || i === 4 || i === 5
-                        ? "mt-auto text-lg font-extrabold text-gray -ml-2 bg-primary-500"
-                        : "mt-auto text-lg font-extrabold text-gray bg-primary-500"
+                        ? "mt-auto text-2xl font-extrabold text-gray -ml-2"
+                        : "mt-auto text-2xl font-extrabold text-gray"
                     }
                   >
                     {title}
@@ -57,10 +57,10 @@ const ServiceSection = () => {
                 </div>
 
                 {/* DESCRIPTION */}
-                <p className="max-w-xs mt-2 text-base border-2 text-blueText bg-primary-400 sm:min-h-[6.5rem]">
+                <p className="max-w-xs mt-5 text-lg text-blueText sm:min-h-[7rem]">
                   {description}
                 </p>
-                <div className="flex items-center gap-1 mt-3 ml-auto text-base font-extrabold text-orange bg-primary-400 w-max">
+                <div className="flex items-center gap-1 mt-3 ml-auto text-base font-extrabold text-orange w-max">
                   <Link to={"/services"} target="_blank">
                     Read More
                   </Link>
