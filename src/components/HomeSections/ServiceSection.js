@@ -82,7 +82,7 @@ const ServiceSection = () => {
               <hr
                 className={
                   i === data.length - 1
-                    ? "m-auto mt-12 my-16  w-80 text-orange border-t-2 opacity-75 sm:w-96 md:hidden"
+                    ? "m-auto mt-12 w-72 text-orange border-t-2 opacity-60 sm:w-96 md:hidden"
                     : "m-auto my-10  w-80 text-[#C9C9C9] border-t-2 opacity-25 md:hidden sm:w-96"
                 }
               />
