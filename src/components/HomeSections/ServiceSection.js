@@ -7,26 +7,34 @@ const ServiceSection = () => {
   return (
     <section
       style={{ backgroundImage: "url('/images/crissXcross.png')" }}
-      className="h-full pt-20"
+      className="w-full h-full py-20"
     >
-      <div>
+      <div className="pb-b">
         {/* TITLE */}
         <div>
-          <h2 className="text-bluebg w-[85%] m-auto text-center mb-20 text-4xl font-extrabold">
+          <h2 className="text-bluebg w-[85%] m-auto text-center mb-20 text-4xl font-extrabold md:text-orange sm:text-lightGreen">
             Tourist Transport, Charter Services, Airport Transfers,
             and More...
           </h2>
         </div>
 
         {/* CARDS */}
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-1 sm:justify-center sm:items-center">
           {data.map(({ image, title, description, alt }, i) => (
+            //
+
+            // CARDS
+
             <div>
+              {/*
+                CARD CONTAINER
+              */}
               <div
-                className="px-8 py-10 border-2 w-[85%] m-auto rounded-md border-[#04420C] border-opacity-30 bg-service-card-gradient shadow-lg"
+                className="flex flex-col justify-center p-8 border-2 w-full rounded-md border-[#04420C] border-opacity-30 bg-service-card-gradient shadow-lg sm:max-w-sm  sm:min-h-[20rem]"
                 key={i}
               >
-                <div className="flex gap-2 py-2 -ml-1">
+                {/* TITLE CONTENT */}
+                <div className="flex gap-2 -ml-1 w-max">
                   <img
                     src={image}
                     alt={alt}
@@ -40,35 +48,38 @@ const ServiceSection = () => {
                   <h2
                     className={
                       i === 2 || i === 4 || i === 5
-                        ? "mt-auto text-2xl font-extrabold text-gray -ml-2"
-                        : "mt-auto text-2xl font-extrabold text-gray "
+                        ? "mt-auto text-lg font-extrabold text-gray -ml-2 bg-primary-500"
+                        : "mt-auto text-lg font-extrabold text-gray bg-primary-500"
                     }
                   >
                     {title}
                   </h2>
                 </div>
-                <p className="max-w-xs pt-2 text-lg text-blueText">
+
+                {/* DESCRIPTION */}
+                <p className="max-w-xs mt-2 text-base border-2 text-blueText bg-primary-400 sm:min-h-[6.5rem]">
                   {description}
                 </p>
-                <div className="flex items-center justify-end gap-1 text-lg font-extrabold mt-11 text-orange">
+                <div className="flex items-center gap-1 mt-3 ml-auto text-base font-extrabold text-orange bg-primary-400 w-max">
                   <Link to={"/services"} target="_blank">
                     Read More
                   </Link>
                   <FaLongArrowAltRight className="mt-1 text-2xl" />
                 </div>
               </div>
+
+              {/* LINE SEPARATOR */}
               <hr
                 className={
                   i === data.length - 1
-                    ? "hidden"
-                    : "m-auto my-10  w-80 text-[#C9C9C9]"
+                    ? "m-auto mt-12 my-16  w-80 text-orange border-t-2 opacity-75 sm:w-96 md:hidden"
+                    : "m-auto my-10  w-80 text-[#C9C9C9] border-t-2 opacity-25 md:hidden sm:w-96"
                 }
               />
             </div>
           ))}
         </div>
       </div>
-      <hr className="" />
     </section>
   );
 };
