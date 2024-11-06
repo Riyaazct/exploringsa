@@ -51,7 +51,7 @@ const WhyChooseUsSection = () => {
             <h4 className="px-12 text-xl font-extrabold leading-tight lg:text-base lg:px-4 lg:pl-0 xl:text-xl xl:mb-2">
               Trusted Experts in Transportation:
             </h4>
-            <p className="px-12 mt-1 mb-4 lg:text-sm lg:px-0 xl:text-lg bg-primary-500">
+            <p className="px-12 mt-1 mb-4 lg:text-sm lg:px-0 xl:text-lg">
               Years of experience trusted by clients for charter
               services, airport transfers, and corporate travel.
             </p>
@@ -72,7 +72,7 @@ const WhyChooseUsSection = () => {
             <h4 className="px-10 text-xl font-extrabold leading-tight lg:leading-6 lg:text-base lg:px-4 lg:pl-0 xl:text-xl xl:mb-2">
               Tailored Tours for Every Traveller:
             </h4>
-            <p className="px-6 mt-1 mb-4 lg:text-sm lg:px-0 xl:text-lg bg-primary-600">
+            <p className="px-6 mt-1 mb-4 lg:text-sm lg:px-0 xl:text-lg ">
               Personalized tours designed to meet the specific needs
               of every traveller, whether for business or leisure.
             </p>
