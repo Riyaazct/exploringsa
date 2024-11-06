@@ -12,7 +12,7 @@ import Crafter from "./routes/Vehicles/Crafter";
 import Kombi from "./routes/Vehicles/Kombi";
 import Quantum from "./routes/Vehicles/Quantum";
 
-import ServiceSection from "./components/HomeSections/ServiceSection";
+// import ServiceSection from "./components/HomeSections/ServiceSection";
 
 const App = () => (
   <>
@@ -27,7 +27,7 @@ const App = () => (
       <Route path="/kombi01" element={<Kombi />} />
       <Route path="/crafter01" element={<Crafter />} />
       <Route path="/quantum01" element={<Quantum />} />
-      <Route path="/busy" element={<ServiceSection />} />
+      {/* <Route path="/busy" element={<ServiceSection />} /> */}
       <Route path="*" element={<Home />} />
     </Routes>
     <Footer />
