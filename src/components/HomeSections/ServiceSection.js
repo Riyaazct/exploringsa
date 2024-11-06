@@ -43,17 +43,23 @@ const ServiceSection = () => {
                     // }
                     className={
                       i === 0
-                        ? "h-12 md:h-14 w-10 sm:w-11 md:w-12 xl:w-14"
-                        : i === 2 || i === 4 || i === 5
+                        ? "h-12 w-10 sm:w-11 md:w-12 xl:lg:w-12 xl:w-14"
+                        : i === 2 || i === 5
                         ? "sm:w-14 sm:-mx-1 xl:w-16"
+                        : i === 3
+                        ? "h-12 md:h-[4.2rem] w-11 sm:w-12 xl:w-14 lg:w-12 lg:h-12"
+                        : i === 1
+                        ? "h-12 md:h-[4.2rem] w-11 sm:w-12 xl:w-14 lg:h-12"
+                        : i === 4
+                        ? "sm:w-14 sm:-mx-1 xl:w-[5rem]"
                         : "h-12 md:h-[4.2rem] w-11 sm:w-12 xl:w-14"
                     }
                   />
                   <h2
                     className={
                       i === 2 || i === 4 || i === 5
-                        ? "text-xl font-extrabold text-gray w-full sm:text-orange md:text-darkGreen lg:text-danger-400 xl:text-3xl"
-                        : "text-xl font-extrabold text-gray xl:w-min w-full xl:whitespace-nowrap sm:text-orange md:text-darkGreen lg:text-danger-400 xl:text-3xl"
+                        ? "text-xl font-extrabold text-gray w-full xl:text-3xl"
+                        : "text-xl font-extrabold text-gray xl:w-min w-full xl:whitespace-nowrap xl:text-3xl"
                     }
                   >
                     {title}
