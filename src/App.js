@@ -12,8 +12,6 @@ import Crafter from "./routes/Vehicles/Crafter";
 import Kombi from "./routes/Vehicles/Kombi";
 import Quantum from "./routes/Vehicles/Quantum";
 
-// import ServiceSection from "./components/HomeSections/ServiceSection";
-
 const App = () => (
   <>
     <Navbar />

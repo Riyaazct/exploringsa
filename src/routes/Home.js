@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet-async";
 
 import WhyChooseUs from "../components/HomeSections/WhyChooseUsSection";
 import ServiceSection from "../components/HomeSections/ServiceSection";
+import OurFleetSection from "../components/HomeSections/OurFleetSection";
 
 const bgPathSm = "/images/homeSm.jpg";
 const bgPathLg = "/images/homeLg.jpg";
@@ -98,6 +99,7 @@ const Home = () => (
     </section>
     <WhyChooseUs />
     <ServiceSection />
+    <OurFleetSection />
   </>
 );
 
