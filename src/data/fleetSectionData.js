@@ -1,11 +1,11 @@
 const fleetSectionData = [
   {
-    image: "",
+    image: "images/sections/22 seater.png",
     alt: "22 seater vw crafter",
     title:
       "22 Seater Minibus – Ideal for Group Charters and Tourist Travel",
     description: (
-      <ul>
+      <ul className="list-disc">
         <li>
           <span>Best for: </span>Large group charters, tourist
           journeys, and airport transfers for big groups.
@@ -28,12 +28,12 @@ const fleetSectionData = [
     button: "Book Your Group Transfer",
   },
   {
-    image: "",
-    alt: "",
+    image: "images/sections/7 seater.png",
+    alt: "7 seater vw transporter",
     title:
       "7 Seater Transporter – Perfect for Family Adventures and Small Group Transfers",
     description: (
-      <ul>
+      <ul className="list-disc">
         <li>
           <span>Best for:</span> Airport transfers, private tours,
           family adventures, and small corporate group transportation.{" "}
@@ -56,12 +56,12 @@ const fleetSectionData = [
     button: "Reserve for Your Private Tour",
   },
   {
-    image: "",
-    alt: "",
+    image: "images/sections/13 seater.png",
+    alt: "13 seater toyota quantum",
     title:
       "13 Seater Minibus – Executive Comfort for Corporate and VIP Transfers",
     description: (
-      <ul>
+      <ul className="list-disc">
         <li>
           <span>Best for:</span> Executive airport transfers, VIP
           transportation, and private corporate events.{" "}
