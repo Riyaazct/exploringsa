@@ -5,8 +5,14 @@ const Vehicles = () => {
   return (
     <>
       <section className="mb-20 text-gray-600 body-font">
-        <div className="flex flex-wrap p-5 mx-auto sm:container ">
-          <div className="mx-auto lg:w-2/3 ">
+        <div className="flex flex-wrap p-5 mx-auto sm:container">
+          {/*  */}
+
+          {/* CARDS CONTAINER */}
+          <div className="mx-auto lg:w-full xl:max-w-7xl">
+            {/**/}
+
+            {/* CARD 1 */}
             <div className="relative flex flex-wrap w-full px-10 py-32 mb-4 bg-gray-100">
               <img
                 alt={data[0].alt}
@@ -40,12 +46,17 @@ const Vehicles = () => {
                 </a>
               </div>
             </div>
-            <div className="flex flex-wrap -mx-2">
-              <div className="w-1/2 px-2">
+
+            {/* CARDS 2 & 3 CONTAINER */}
+            <div className="flex flex-col w-full md:-mx-2 md:flex-row md:flex-wrap md:gap-0 ">
+              {/*  */}
+
+              {/* CARD 2 */}
+              <div className="mb-16 md:px-2 md:w-1/2 md:mb-0">
                 <div className="relative flex flex-wrap w-full px-6 py-16 bg-gray-100 sm:py-24 sm:px-10">
                   <img
                     alt={data[1].alt}
-                    className="absolute inset-0 block object-fill object-center w-full h-full opacity-30 md:object-cover"
+                    className="absolute inset-0 block object-fill object-center w-full h-full opacity-30 md:object-cover min-h-[350px] sm:min-h-[400px]"
                     src={data[1].image}
                   />
                   <div className="relative z-10 w-full text-center">
@@ -76,11 +87,13 @@ const Vehicles = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-1/2 px-2">
+
+              {/* CARD 3 */}
+              <div className="mb-10 md:mb-0 md:px-2 md:w-1/2">
                 <div className="relative flex flex-wrap w-full px-6 py-16 bg-gray-100 sm:py-24 sm:px-10">
                   <img
                     alt={data[2].alt}
-                    className="absolute inset-0 block object-fill object-center w-full h-full opacity-30 md:object-cover"
+                    className="absolute inset-0 block object-fill object-center w-full h-full opacity-30 md:object-cover min-h-[350px] sm:min-h-[400px]"
                     src={data[2].image}
                   />
                   <div className="relative z-10 w-full text-center">
