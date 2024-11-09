@@ -15,7 +15,7 @@ const OurFleetSection = () => {
       {/* CARDS */}
       <div className="flex flex-col w-full gap-2 m-auto md:flex-row md:flex-wrap xl:max-w-7xl">
         {fleetSectionData.map(
-          ({ image, alt, title, description, button, route }, i) => (
+          ({ image, alt, title, description, button }, i) => (
             <div
               className="drop-shadow-2xl bg-[#F2F2F2] flex flex-col items-center m-auto max-w-sm"
               key={i}
@@ -43,11 +43,17 @@ const OurFleetSection = () => {
               </div>
 
               {/* BUTTON */}
-              <button className="w-full max-w-xs p-4 my-10 text-lg font-extrabold border-none text-blueText">
-                <Link to={route} target="_blank">
-                  {button}
+              <div>
+                <Link
+                  to="/contact"
+                  target="_blank"
+                  className="w-full"
+                >
+                  <button className="p-4 m-auto my-10 text-lg font-extrabold border-none text-blueText">
+                    {button}
+                  </button>
                 </Link>
-              </button>
+              </div>
             </div>
           )
         )}

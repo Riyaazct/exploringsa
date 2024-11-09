@@ -38,7 +38,6 @@ const fleetSectionData = [
       </ul>
     ),
     button: "Book Your Group Transfer",
-    route: "/crafter01",
   },
   {
     image: "images/sections/7 seater.png",
@@ -78,7 +77,6 @@ const fleetSectionData = [
       </ul>
     ),
     button: "Reserve for Your Private Tour",
-    route: "/kombi01",
   },
   {
     image: "images/sections/13 seater.png",
@@ -118,7 +116,6 @@ const fleetSectionData = [
       </ul>
     ),
     button: "Book Executive Transfer",
-    route: "/quantum01",
   },
 ];
 
