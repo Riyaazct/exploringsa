@@ -4,7 +4,7 @@ import fleetSectionData from "../../data/fleetSectionData";
 
 const OurFleetSection = () => {
   return (
-    <section className="h-full bg-white">
+    <section className="h-full bg-white pb-14">
       {/**/}
 
       {/* TITLE */}
