@@ -33,19 +33,19 @@ const OurFleetSection = () => {
               </div>
 
               {/* TITLE */}
-              <h3 className="mt-5 text-2xl font-extrabold text-blueText max-w-[95%] lg:min-h-[rem]">
+              <h3 className="mt-5 text-xl lg:text-2xl font-bold text-blueText max-w-[95%] lg:min-h-[rem]">
                 {title}
               </h3>
 
               {/* DESCRIPTION */}
-              <div className="mt-5 max-w-[75%] lg:min-h-[23rem] lg:bg-darkGreen">
+              <div className="mt-5 max-w-[75%] lg:min-h-[23rem] ">
                 {description}
               </div>
 
               {/* BUTTON */}
               <div className="w-full">
                 <Link to="/contact" target="_blank">
-                  <button className="w-full p-4 mx-auto mb-auto text-base font-extrabold border-none rounded-t-none lg:text-lg text-blueText md:mt-8 lg:mt-4">
+                  <button className="w-full p-4 mx-auto mt-8 mb-auto text-base font-extrabold border-none rounded-t-none lg:text-lg text-blueText lg:mt-4">
                     {button}
                   </button>
                 </Link>
