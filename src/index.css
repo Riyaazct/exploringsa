@@ -13,7 +13,12 @@
 
   button,
   .button {
-    @apply border border-blueText py-1 px-2 rounded-lg bg-[#ef5b0c] w-auto;
+    @apply border border-blueText py-1 px-2 rounded-lg bg-[#ef5b0c] w-auto bg-opacity-90;
+  }
+
+  button:hover,
+  .button:hover {
+    @apply bg-opacity-100;
   }
 
   p,
@@ -36,6 +41,7 @@
     text-decoration: underline;
     text-decoration-color: #272343;
     /* text-decoration-thickness: 3px; */
+    pointer-events: none;
   }
 }
 
@@ -54,6 +60,7 @@
     /* border-radius: 6px; */
     color: #172b4d !important;
     font-weight: bold;
+    pointer-events: none;
   }
   .active {
     /* font-weight: bold !important; */

@@ -15,7 +15,11 @@ module.exports = {
       white: "#FFFFFF",
       black: "#000000",
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "service-card-gradient": `linear-gradient(270deg, rgba(4, 86, 12, 0.4) 0%, rgba(108, 156, 108, 0.45) 52%, rgba(200, 240, 220, 1) 98%)`,
+      },
+    },
   },
   plugins: [
     require("tailwindcss-animated"),

@@ -92,15 +92,15 @@ const Navbar = () => {
         <div
           className={
             active
-              ? "flex flex-col items-start w-max m-auto mt-10 h-52 justify-between text-xl font-bold"
-              : "md:flex-row flex md:items-center flex-col items-start w-max m-auto mt-10 h-52 justify-between text-xl font-bold md:mt-0 md:font-normal md:text-base"
+              ? "flex flex-col items-start w-max m-auto mt-6 gap-4 text-xl font-bold"
+              : "md:flex-row flex md:items-center flex-col gap-4 w-max m-auto mt-6 text-xl font-bold md:mt-0 md:font-normal md:text-base"
           }
         >
           <Link
             to="/"
             className={
               IsActive("/")
-                ? "active md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF] xl:px-2"
+                ? "active md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF] lg:px-2"
                 : "md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
             }
             onClick={handleNav}
@@ -112,7 +112,7 @@ const Navbar = () => {
             to="/about"
             className={
               IsActive("/about")
-                ? "active md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF] xl:px-2"
+                ? "active md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF] lg:px-2"
                 : "md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
             }
             onClick={handleNav}
@@ -124,7 +124,7 @@ const Navbar = () => {
             to="/services"
             className={
               IsActive("/services")
-                ? "active md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF] xl:px-2"
+                ? "active md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF] lg:px-2"
                 : "md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
             }
             onClick={handleNav}
@@ -137,7 +137,7 @@ const Navbar = () => {
             to="/contact"
             className={
               IsActive("/contact")
-                ? "active md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF] xl:px-2"
+                ? "active md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF] lg:px-2"
                 : "md:mx-4 md:px-[unset] md:text-[#DCDCDC] xl:text-xl lg:mx-7 md:hover:text-[#FFFFFF]"
             }
             onClick={handleNav}

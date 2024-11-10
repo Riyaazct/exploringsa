@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
 import WhyChooseUs from "../components/HomeSections/WhyChooseUsSection";
+import ServiceSection from "../components/HomeSections/ServiceSection";
+import OurFleetSection from "../components/HomeSections/OurFleetSection";
 
 const bgPathSm = "/images/homeSm.jpg";
 const bgPathLg = "/images/homeLg.jpg";
@@ -88,7 +90,7 @@ const Home = () => (
 
           <h3
             className="text-[1.2rem] font-semibold text-[#3CCF4E] w-[70%] mx-auto leading-snug text-center mb-6
-        animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out up absolute bottom-4 left-20 md:text-[1.625rem] md:w-full md:left-3 sm:text-[1.45rem] md:bottom-12 lg:bottom-16 xl:text-3xl tracking-wider md:tracking-widest"
+        animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out up absolute bottom-4 left-20 md:text-[1.625rem] md:w-full md:left-3 sm:text-[1.45rem] md:bottom-12 xl:text-3xl tracking-wider md:tracking-widest"
           >
             Unlock the treasures of South Africa with us
           </h3>
@@ -96,6 +98,8 @@ const Home = () => (
       </div>
     </section>
     <WhyChooseUs />
+    <ServiceSection />
+    <OurFleetSection />
   </>
 );
 

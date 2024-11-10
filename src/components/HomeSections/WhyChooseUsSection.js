@@ -10,9 +10,9 @@ const WhyChooseUsSection = () => {
           <span className="font-extrabold ">CHOOSE US?</span>
         </h2>
         <p className="px-5 text-sm sm:text-base md:text-xl sm:pt-2 lg:px-0 lg:text-base xl:text-lg xl:max-w-[89%] xl:ml-auto">
-          Your Trusted Partner for{" "}
+          Your Trusted Partner for&nbsp;
           <span className="font-semibold">
-            Safe, Reliable, And Tailored Transportation
+            Safe, Reliable, And Tailored Transportation&nbsp;
           </span>
           Across South Africa
         </p>
@@ -39,7 +39,7 @@ const WhyChooseUsSection = () => {
 
       {/* CARD 1 */}
 
-      <div className="bg-[#4CAF50] h-full w-full p-14 text-center text-[#212121] lg:px-5 lg:order-first lg:text-left lg:flex">
+      <div className="bg-[#4CAF50] h-full w-full py-14 px-10 text-center text-[#212121] lg:px-5 lg:order-first lg:text-left lg:flex">
         <div className="m-auto sm:max-w-md">
           <img
             className="w-24 h-24 m-auto mb-2 lg:h-14 lg:w-14 lg:mx-0 xl:w-20 xl:h-20"
@@ -69,10 +69,10 @@ const WhyChooseUsSection = () => {
           />
           {/* CARD TEXT */}
           <div>
-            <h4 className="px-12 text-xl font-extrabold leading-tight lg:leading-6 lg:text-base lg:px-4 lg:pl-0 xl:text-xl xl:mb-2">
+            <h4 className="px-10 text-xl font-extrabold leading-tight lg:leading-6 lg:text-base lg:px-4 lg:pl-0 xl:text-xl xl:mb-2">
               Tailored Tours for Every Traveller:
             </h4>
-            <p className="px-12 mt-1 mb-4 lg:text-sm lg:px-0 xl:text-lg">
+            <p className="px-6 mt-1 mb-4 lg:text-sm lg:px-0 xl:text-lg ">
               Personalized tours designed to meet the specific needs
               of every traveller, whether for business or leisure.
             </p>
