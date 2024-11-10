@@ -5,7 +5,7 @@ import OurServices from "./routes/OurServices";
 import Contact from "./routes/Contact";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-// import WhatsAppWidget from "react-whatsapp-chat-widget";
+import WhatsAppWidget from "react-whatsapp-chat-widget";
 import "react-whatsapp-chat-widget/index.css";
 import Modal from "./components/Modal";
 import Crafter from "./routes/Vehicles/Crafter";
@@ -29,7 +29,7 @@ const App = () => (
       <Route path="*" element={<Home />} />
     </Routes>
     <Footer />
-    {/* <WhatsAppWidget
+    <WhatsAppWidget
       phoneNo="27670285744"
       position="right"
       widgetWidth="300px"
@@ -54,7 +54,7 @@ const App = () => (
       }
       placeholder="Type a message.."
       btnTxt="Start Chat"
-    /> */}
+    />
   </>
 );
 

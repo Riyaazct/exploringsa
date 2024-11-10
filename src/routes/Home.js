@@ -83,7 +83,7 @@ const Home = () => (
             title="Two Volkswagen crafters parked side by side on one of the tour days in cape town"
             width={"1250px"}
             height={"1050px"}
-            className="hidden lg:block "
+            className="hidden lg:block"
           />
           {/* background overlay */}
           <div className="w-full h-full bg-[#000000] bg-opacity-80 absolute top-0" />

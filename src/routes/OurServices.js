@@ -44,9 +44,9 @@ const OurServices = () => (
            2xl:bottom-[5%]
            "
       >
-        <h1 className="mb-10 text-2xl font-extrabold text-blueText sm:text-3xl md:mb-12 lg:text-4xl lg:mb-20 xl:-ml-24 2xl:-ml-20 2xl:mb-20">
+        <h2 className="mb-10 text-2xl font-extrabold text-blueText sm:text-3xl md:mb-12 lg:text-4xl lg:mb-20 xl:-ml-24 2xl:-ml-20 2xl:mb-20">
           OUR SERVICES
-        </h1>
+        </h2>
         <div className="bg-[#FFFFFF] w-[95%] h-full px-3 py-1 rounded-2xl sm:p-5 xl:p-6 mx-auto">
           <p className="sm:text-lg md:text-xl lg:text-2xl xl:font-semibold ">
             Exploring SA Transport and Tours is a trusted provider of

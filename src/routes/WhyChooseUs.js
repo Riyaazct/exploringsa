@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
       </h1>
 
       <div
-        className="flex justify-center items-center relative w-full h-[43rem] bg-cover bg-center
+        className="flex justify-center items-center relative w-full h-[43rem] bg-cover bg-center bg-fixed
         sm:h-[42rem]
         md:h-[52rem]
         lg:h-[56rem]
