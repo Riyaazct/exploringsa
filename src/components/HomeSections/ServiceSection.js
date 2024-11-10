@@ -7,12 +7,12 @@ const ServiceSection = () => {
   return (
     <section
       style={{ backgroundImage: "url('/images/crissXcross.png')" }}
-      className="w-full h-full py-20 xl:m-auto"
+      className="w-full h-full xl:m-auto"
     >
-      <div className="pb-b">
+      <div>
         {/* TITLE */}
         <div>
-          <h2 className="text-bluebg w-[85%] m-auto text-center mb-20 text-2xl font-extrabold sm:text-3xl sm:w-[90%]">
+          <h2 className="text-bluebg w-[85%] m-auto text-center text-2xl font-extrabold sm:text-3xl sm:w-[90%] py-20 xl:text-5xl xl:py-24 xl:max-w-6xl lg:text-4xl lg:max-w-4xl">
             Tourist Transport, Charter Services, Airport Transfers,
             and More...
           </h2>

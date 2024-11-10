@@ -8,7 +8,7 @@ const OurFleetSection = () => {
       {/**/}
 
       {/* TITLE */}
-      <h2 className="p-12 text-2xl font-extrabold text-center text-bluebg max-w-[80%] m-auto">
+      <h2 className="text-2xl font-extrabold text-center text-bluebg max-w-[80%] m-auto lg:text-4xl py-20 md:text-3xl xl:text-5xl xl:max-w-6xl">
         Our Premium Fleet – Tailored to Your Needs
       </h2>
 
@@ -17,7 +17,7 @@ const OurFleetSection = () => {
         {fleetSectionData.map(
           ({ image, alt, title, description, button }, i) => (
             <div
-              className="drop-shadow-2xl bg-[#F2F2F2] flex flex-col items-center m-auto max-w-sm"
+              className="drop-shadow-2xl bg-[#F2F2F2] flex flex-col items-center mx-auto max-w-sm md:rounded-b-xl my-10 rounded-t-lg"
               key={i}
             >
               {/*  */}
@@ -33,23 +33,19 @@ const OurFleetSection = () => {
               </div>
 
               {/* TITLE */}
-              <h3 className="mt-5 text-2xl font-extrabold text-blueText max-w-[95%]">
+              <h3 className="mt-5 text-2xl font-extrabold text-blueText max-w-[95%] lg:min-h-[rem]">
                 {title}
               </h3>
 
               {/* DESCRIPTION */}
-              <div className="mt-5 max-w-[75%] min-h-[16rem]">
+              <div className="mt-5 max-w-[75%] lg:min-h-[23rem] lg:bg-darkGreen">
                 {description}
               </div>
 
               {/* BUTTON */}
-              <div>
-                <Link
-                  to="/contact"
-                  target="_blank"
-                  className="w-full"
-                >
-                  <button className="p-4 m-auto my-10 text-lg font-extrabold border-none text-blueText">
+              <div className="w-full">
+                <Link to="/contact" target="_blank">
+                  <button className="w-full p-4 mx-auto mb-auto text-base font-extrabold border-none rounded-t-none lg:text-lg text-blueText md:mt-8 lg:mt-4">
                     {button}
                   </button>
                 </Link>

@@ -6,28 +6,28 @@ const fleetSectionData = [
       "22 Seater Minibus – Ideal for Group Charters and Tourist Travel",
     description: (
       <ul className="list-disc">
-        <li className="py-1 text-sm text-blueText">
-          <span className="mr-1 text-base font-extrabold ">
+        <li className="py-1 text-sm text-blueText lg:text-base">
+          <span className="mr-1 text-base font-extrabold lg:text-lg ">
             Best for:{" "}
           </span>
           Large group charters, tourist journeys, and airport
           transfers for big groups.
         </li>
-        <li className="py-1 text-sm text-blueText">
-          <span className="mr-1 text-base font-extrabold ">
+        <li className="py-1 text-sm text-blueText lg:text-base">
+          <span className="mr-1 text-base font-extrabold lg:text-lg ">
             Capacity:
           </span>
           Up to 22 passengers
         </li>
-        <li className="py-1 text-sm text-blueText">
-          <span className="mr-1 text-base font-extrabold ">
+        <li className="py-1 text-sm text-blueText lg:text-base">
+          <span className="mr-1 text-base font-extrabold lg:text-lg ">
             Features:{" "}
           </span>
           Spacious interior, air-conditioned, ideal for sightseeing
           tours, and group transportation.
         </li>
-        <li className="py-1 text-sm text-blueText">
-          <span className="mr-1 text-base font-extrabold ">
+        <li className="py-1 text-sm text-blueText lg:text-base">
+          <span className="mr-1 text-base font-extrabold lg:text-lg ">
             Description:{" "}
           </span>{" "}
           The ultimate choice for your charter services and group
@@ -46,27 +46,27 @@ const fleetSectionData = [
       "7 Seater Transporter – Perfect for Family Adventures and Small Group Transfers",
     description: (
       <ul className="list-disc">
-        <li className="py-1 text-sm text-blueText">
-          <span className="mr-1 text-base font-extrabold ">
+        <li className="py-1 text-sm text-blueText lg:text-base">
+          <span className="mr-1 text-base font-extrabold lg:text-lg ">
             Best for:
           </span>{" "}
           Airport transfers, private tours, family adventures, and
           small corporate group transportation.{" "}
         </li>
-        <li className="py-1 text-sm text-blueText">
-          <span className="mr-1 text-base font-extrabold ">
+        <li className="py-1 text-sm text-blueText lg:text-base">
+          <span className="mr-1 text-base font-extrabold lg:text-lg ">
             Capacity:{" "}
           </span>{" "}
           Up to 7 passengers
         </li>
-        <li className="py-1 text-sm text-blueText">
-          <span className="mr-1 text-base font-extrabold ">
+        <li className="py-1 text-sm text-blueText lg:text-base">
+          <span className="mr-1 text-base font-extrabold lg:text-lg ">
             Features:{" "}
           </span>
           Air-conditioned, flexible seating, ample luggage space.
         </li>
-        <li className="py-1 text-sm text-blueText">
-          <span className="mr-1 text-base font-extrabold ">
+        <li className="py-1 text-sm text-blueText lg:text-base">
+          <span className="mr-1 text-base font-extrabold lg:text-lg ">
             Description:{" "}
           </span>
           Explore Cape Town with comfort and style. Ideal for family
@@ -85,27 +85,27 @@ const fleetSectionData = [
       "13 Seater Minibus – Executive Comfort for Corporate and VIP Transfers",
     description: (
       <ul className="list-disc">
-        <li className="py-1 text-sm text-blueText">
-          <span className="mr-1 text-base font-extrabold ">
+        <li className="py-1 text-sm text-blueText lg:text-base">
+          <span className="mr-1 text-base font-extrabold lg:text-lg ">
             Best for:
           </span>{" "}
           Executive airport transfers, VIP transportation, and private
           corporate events.{" "}
         </li>
-        <li className="py-1 text-sm text-blueText">
-          <span className="mr-1 text-base font-extrabold ">
+        <li className="py-1 text-sm text-blueText lg:text-base">
+          <span className="mr-1 text-base font-extrabold lg:text-lg ">
             Capacity:{" "}
           </span>
           Up to 13 passengers
         </li>
-        <li className="py-1 text-sm text-blueText">
-          <span className="mr-1 text-base font-extrabold ">
+        <li className="py-1 text-sm text-blueText lg:text-base">
+          <span className="mr-1 text-base font-extrabold lg:text-lg ">
             Features:{" "}
           </span>
           Premium seating, air-conditioned, luxurious ride.
         </li>
-        <li className="py-1 text-sm text-blueText">
-          <span className="mr-1 text-base font-extrabold ">
+        <li className="py-1 text-sm text-blueText lg:text-base">
+          <span className="mr-1 text-base font-extrabold lg:text-lg ">
             Description:{" "}
           </span>{" "}
           Experience unparalleled style and comfort with our 13-seater
