@@ -12,13 +12,11 @@ const Home = () => (
   <>
     <Helmet>
       <title>
-        Exploring SA - Exploring SA - Charter services || Cape Town
-        tours || tourist service || airport transfers and corporate
-        transfers.
+        Exploring SA - Charter Services, Cape Town Tours & Transfers
       </title>
       <meta
-        name="Exploring SA Transport and Tours | Tourist transport | charter services | Airport transfers | Cape town tours"
-        content="Exploring SA Transport and Tours is your premier transportation and tourism provider in South Africa. We offer a range of services to meet your needs, including tourist services, charter services, airport transfers, and corporate transfers."
+        name="description"
+        content="Exploring SA Transport and Tours offers premier transportation and tourism services in South Africa, including charters, airport transfers, and Cape Town tours."
       />
       <link rel="canonical" href="/" />
     </Helmet>
@@ -30,10 +28,10 @@ const Home = () => (
 
         {/* TEXT CONTENT & BUTTON */}
         <div className="absolute top-[18rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-offWhite text-center z-10 w-full max-w-[85%] sm:top-[20rem]">
-          <h1 className="text-[1.625rem] leading-tight font-extrabold max-w-[90%] mx-auto md:text-4xl md:leading-tight sm:text-[2rem] xl:text-5xl">
+          <h2 className="text-[1.625rem] leading-tight font-extrabold max-w-[90%] mx-auto md:text-4xl md:leading-tight sm:text-[2rem] xl:text-5xl">
             {/* animate-fade-down animate-once animate-duration-1000 animate-ease-in */}
             Welcome to Exploring SA Transport and Tours
-          </h1>
+          </h2>
           <h2 className="text-[1.1rem] leading-tight font-bold max-w-[85%] mx-auto mt-4 sm:text-2xl md:max-w-lg md:my-3 xl:text-3xl xl:max-w-5xl xl:mt-6 ">
             Your premier transportation and tourism provider in South
             Africa
@@ -47,7 +45,7 @@ const Home = () => (
             experience for all your travel needs.
           </p>
           {/* BUTTON - <= 768px ONLY */}
-          <Link to="/services#services">
+          <Link to="/services">
             <button
               className="py-[0.6rem] px-4 mt-5 text-[0.9375rem] opacity-[80%] hover:opacity-100 text-bluebg font-extrabold
             sm:text-[1.1rem] sm:py-2
@@ -69,6 +67,7 @@ const Home = () => (
                 : { width: "100%", height: "100%" }
             }
             alt="Company vehicle"
+            title="Vw Crafter - 22 seater"
             width={"1250px"}
             height={"1050px"}
             className="object-bottom lg:hidden md:object-cover"
@@ -81,6 +80,7 @@ const Home = () => (
                 : { width: "100%", height: "100%" }
             }
             alt="Company vehicle"
+            title="Two Volkswagen crafters parked side by side on one of the tour days in cape town"
             width={"1250px"}
             height={"1050px"}
             className="hidden lg:block "

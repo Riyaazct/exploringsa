@@ -38,6 +38,8 @@ const ServiceSection = () => {
                   <img
                     src={image}
                     alt={alt}
+                    width={"150px"}
+                    height={"150px"}
                     // width={
                     //   i === 0 || i === 1 || i === 3 ? "60px" : "75px"
                     // }

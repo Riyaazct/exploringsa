@@ -28,6 +28,8 @@ const OurFleetSection = () => {
                   src={image}
                   alt={alt}
                   className="w-full h-auto"
+                  width={"900px"}
+                  height={"591px"}
                 />
                 <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-5" />
               </div>

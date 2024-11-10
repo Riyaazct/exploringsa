@@ -22,15 +22,21 @@ const WhyChooseUsSection = () => {
       <div className="relative md:col-span-2 lg:row-span-2 lg:col-span-1 lg:-order-2">
         <img
           src="images/sections/why choose us.jpg"
-          alt="Tourists standing behind the cape of goodhope sign board "
+          alt="business people packed and their way through the airport to board a flight"
+          title="business people packed and their way through the airport to board a flight"
           className="w-full h-full xl:max-h-[900px] md:hidden lg:block"
+          width={"532px"}
+          height={"798px"}
         />
 
         {/* IMAGE FOR MD viewport */}
         <img
           src="images/sections/why choose us - md.jpg"
-          alt="Tourists standing behind the cape of goodhope sign board "
+          alt="business people packed and their way through the airport to board a flight"
+          title="business people packed and their way through the airport to board a flight"
           className="hidden w-full md:block lg:hidden"
+          width={"532px"}
+          height={"598px"}
         />
         <div className="absolute top-0 w-full h-full bg-white bg-opacity-10" />
       </div>
@@ -45,12 +51,14 @@ const WhyChooseUsSection = () => {
             className="w-24 h-24 m-auto mb-2 lg:h-14 lg:w-14 lg:mx-0 xl:w-20 xl:h-20"
             src="images/icons/sections/road.svg"
             alt="A stretched out road icon"
+            width={"30px"}
+            height={"30px"}
           />
           {/* CARD TEXT */}
           <div>
-            <h4 className="px-12 text-xl font-extrabold leading-tight lg:text-base lg:px-4 lg:pl-0 xl:text-xl xl:mb-2">
+            <h3 className="px-12 text-xl font-extrabold leading-tight lg:text-base lg:px-4 lg:pl-0 xl:text-xl xl:mb-2">
               Trusted Experts in Transportation:
-            </h4>
+            </h3>
             <p className="px-12 mt-1 mb-4 lg:text-sm lg:px-0 xl:text-lg">
               Years of experience trusted by clients for charter
               services, airport transfers, and corporate travel.
@@ -66,6 +74,8 @@ const WhyChooseUsSection = () => {
             className="w-24 h-24 m-auto mb-2 lg:h-14 lg:w-14 lg:mx-0 xl:w-24 xl:h-24"
             src="images/icons/sections/luggage.svg"
             alt="bags of luggage packed and ready for departure"
+            width={"150px"}
+            height={"150px"}
           />
           {/* CARD TEXT */}
           <div>
@@ -87,7 +97,9 @@ const WhyChooseUsSection = () => {
             <img
               className="m-auto -mb-2 h-28 lg:h-[4.5rem] lg:w-18 lg:mx-0 xl:w-24 xl:h-24 xl:-ml-2 lg:-ml-1"
               src="images/icons/sections/van.svg"
-              alt="bags of luggage packed and ready for departure"
+              alt="Icon of a van doing a transfer"
+              width={"108px"}
+              height={"110px"}
             />
             {/* CARD TEXT */}
             <div>
@@ -110,6 +122,8 @@ const WhyChooseUsSection = () => {
               className="w-24 h-24 m-auto mb-2 lg:h-14 lg:w-14 lg:mx-0 lg:mb-0 xl:w-24 xl:h-24 lg:-ml-2"
               src="images/icons/sections/headset.svg"
               alt="A call centre agent headset icon"
+              width={"150px"}
+              height={"150px"}
             />
 
             {/* CARD TEXT */}
