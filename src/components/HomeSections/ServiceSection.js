@@ -19,7 +19,7 @@ const ServiceSection = () => {
         </div>
 
         {/* CARDS */}
-        <div className="flex flex-col items-center gap-3 sm:flex-row sm:flex-wrap sm:gap-1 md:gap-4 sm:justify-center xl:max-w-[1450px] mx-auto">
+        <div className="flex flex-col items-center gap-3 sm:flex-row sm:flex-wrap sm:gap-1 md:gap-4 sm:justify-center xl:max-w-[1450px] mx-auto pb-28 relative">
           {data.map(({ image, title, description, alt }, i) => (
             //
 
@@ -84,7 +84,7 @@ const ServiceSection = () => {
               <hr
                 className={
                   i === data.length - 1
-                    ? "m-auto mt-12 w-72 text-orange border-t-2 opacity-60 sm:w-96 md:hidden"
+                    ? "w-72 text-orange border-t-2 opacity-60 sm:w-96 md:hidden absolute bottom-0 left-[20%] sm:left-[25%]"
                     : "m-auto my-10  w-80 text-[#C9C9C9] border-t-2 opacity-25 md:hidden sm:w-96"
                 }
               />

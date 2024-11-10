@@ -9,7 +9,7 @@ const WhyChooseUsSection = () => {
           <span className="font-thin">WHY </span>
           <span className="font-extrabold ">CHOOSE US?</span>
         </h2>
-        <p className="px-5 text-sm sm:text-base md:text-xl sm:pt-2 lg:px-0 lg:text-base xl:text-lg xl:max-w-[89%] xl:ml-auto">
+        <p className="sm:text-base md:text-xl sm:pt-2 lg:px-0 lg:text-base xl:text-lg xl:max-w-[89%] xl:ml-auto mt-2">
           Your Trusted Partner for&nbsp;
           <span className="font-semibold">
             Safe, Reliable, And Tailored Transportation&nbsp;

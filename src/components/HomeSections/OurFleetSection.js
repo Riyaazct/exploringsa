@@ -33,7 +33,7 @@ const OurFleetSection = () => {
               </div>
 
               {/* TITLE */}
-              <h3 className="mt-5 text-xl lg:text-2xl font-bold text-blueText max-w-[95%] lg:min-h-[rem]">
+              <h3 className="mt-5 text-xl lg:text-2xl font-bold text-blueText max-w-[95%] md:min-h-[5.2rem] items-center flex">
                 {title}
               </h3>
 
