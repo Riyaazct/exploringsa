@@ -14,7 +14,7 @@ const AboutUs = () => (
       <link rel="canonical" href="/about" />
     </Helmet>
     <section>
-      <div className="relative mb-52 sm:mb-36 md:mb-0 md:h-[80vh] lg:mb-[150px] 2xl:h-[90vh] ">
+      <div className="relative mb-36 md:mb-0 md:h-[80vh] lg:mb-[150px] 2xl:h-[90vh] ">
         <h2
           className="text-center my-12 text-2xl font-semibold text-blueText 
                      md:mt-0 md:pt-12 md:mb-12 md:text-3xl lg:text-4xl lg:mb-24 xl:text-5xl

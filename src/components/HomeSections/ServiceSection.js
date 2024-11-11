@@ -30,7 +30,7 @@ const ServiceSection = () => {
                 CARD CONTAINER
               */}
               <div
-                className="flex flex-col justify-center px-10 scroll border-[1px] w-full rounded-lg border-[#04420C] border-opacity-30 bg-service-card-gradient shadow-xl max-w-sm min-h-[15rem] xl:gap-3 xl:py-8 xl:min-w-[28rem] xl:min-h-[18rem]"
+                className="flex flex-col justify-center px-10 scroll border-[1px] w-full rounded-lg border-[#04420C] border-opacity-30 bg-service-card-gradient shadow-xl max-w-sm min-h-[15rem] xl:gap-3 xl:py-8 xl:min-w-[28rem] xl:min-h-[18rem] relative"
                 key={i}
               >
                 {/* TITLE CONTENT */}
@@ -38,16 +38,14 @@ const ServiceSection = () => {
                   <img
                     src={image}
                     alt={alt}
-                    width={"150px"}
-                    height={"150px"}
-                    // width={
-                    //   i === 0 || i === 1 || i === 3 ? "60px" : "75px"
-                    // }
+                    width={
+                      i === 0 || i === 1 || i === 3 ? "60px" : "75px"
+                    }
                     className={
                       i === 0
                         ? "h-12 w-10 sm:w-11 md:w-12 xl:lg:w-12 xl:w-14"
                         : i === 5
-                        ? "sm:w-14 sm:-mx-1 xl:w-16"
+                        ? "w-12 sm:w-14 sm:-mx-1 xl:w-16"
                         : i === 3
                         ? "h-12 md:h-[4.2rem] w-11 sm:w-12 xl:w-14 lg:w-12 lg:h-12"
                         : i === 1
@@ -74,7 +72,7 @@ const ServiceSection = () => {
                 <p className="max-w-xs mt-2 text-base text-blueText xl:text-xl">
                   {description}
                 </p>
-                <div className="flex items-center gap-1 mt-3 ml-auto text-base font-extrabold text-orange w-max xl:text-lg xl:mt-0">
+                <div className="z-20 flex items-center gap-1 mt-3 ml-auto text-base font-extrabold text-orange w-max xl:text-lg xl:mt-0">
                   <Link to={"/services"} target="_blank">
                     Read More
                   </Link>

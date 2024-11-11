@@ -16,7 +16,7 @@ const Vehicles = () => {
             <div className="relative flex flex-wrap w-full px-10 py-32 mb-4 bg-gray-100">
               <img
                 alt={data[0].alt}
-                className="absolute inset-0 block object-cover object-center h-full opacity-30 w-[600px] mx-auto"
+                className="absolute inset-0 block object-cover object-center h-full opacity-10 w-[600px] mx-auto"
                 src={data[0].image}
               />
               <div className="relative z-10 w-full text-center">
@@ -27,7 +27,7 @@ const Vehicles = () => {
                   {data[0].description}
                 </p>
                 <a
-                  className="inline-flex items-center mt-3 font-bold text-indigo-500 "
+                  className="inline-flex items-center mt-3 font-extrabold transition duration-500 transform text-bluebg hover:scale-105"
                   href="/crafter01"
                   target="_blank"
                 >
@@ -37,7 +37,7 @@ const Vehicles = () => {
                     stroke="currentColor"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
+                    strokeWidth="4"
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
                   >
@@ -56,7 +56,7 @@ const Vehicles = () => {
                 <div className="relative flex flex-wrap w-full px-6 py-16 bg-gray-100 sm:py-24 sm:px-10">
                   <img
                     alt={data[1].alt}
-                    className="absolute inset-0 block object-fill object-center w-full h-full opacity-30 md:object-cover min-h-[350px] sm:min-h-[400px]"
+                    className="absolute inset-0 block object-fill object-center w-full h-full opacity-10 md:object-cover min-h-[350px] sm:min-h-[400px]"
                     src={data[1].image}
                   />
                   <div className="relative z-10 w-full text-center">
@@ -67,7 +67,7 @@ const Vehicles = () => {
                       {data[1].description}
                     </p>
                     <a
-                      className="inline-flex items-center mt-3 font-bold text-indigo-500 "
+                      className="inline-flex items-center mt-3 font-extrabold transition duration-500 transform text-bluebg hover:scale-105 "
                       href="/kombi01"
                       target="_blank"
                     >
@@ -77,7 +77,7 @@ const Vehicles = () => {
                         stroke="currentColor"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
+                        strokeWidth="4"
                         className="w-4 h-4 ml-2"
                         viewBox="0 0 24 24"
                       >
@@ -93,7 +93,7 @@ const Vehicles = () => {
                 <div className="relative flex flex-wrap w-full px-6 py-16 bg-gray-100 sm:py-24 sm:px-10">
                   <img
                     alt={data[2].alt}
-                    className="absolute inset-0 block object-fill object-center w-full h-full opacity-30 md:object-cover min-h-[350px] sm:min-h-[400px]"
+                    className="absolute inset-0 block object-fill object-center w-full h-full opacity-10 md:object-cover min-h-[350px] sm:min-h-[400px]"
                     src={data[2].image}
                   />
                   <div className="relative z-10 w-full text-center">
@@ -104,7 +104,7 @@ const Vehicles = () => {
                       {data[2].description}
                     </p>
                     <a
-                      className="inline-flex items-center mt-3 font-bold text-indigo-500 "
+                      className="inline-flex items-center mt-3 font-extrabold transition duration-500 transform text-bluebg hover:scale-105"
                       href="quantum01"
                       target="_blank"
                     >
@@ -114,7 +114,7 @@ const Vehicles = () => {
                         stroke="currentColor"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
+                        strokeWidth="4"
                         className="w-4 h-4 ml-2"
                         viewBox="0 0 24 24"
                       >
