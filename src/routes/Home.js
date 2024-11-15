@@ -18,7 +18,7 @@ const Home = () => (
         name="description"
         content="Exploring SA Transport and Tours offers premier transportation and tourism services in South Africa, including charters, airport transfers, and Cape Town tours."
       />
-      <link rel="canonical" href="/" />
+      <link rel="canonical" href="https://www.exploringsa.co.za/" />
     </Helmet>
     {/*  */}
 
@@ -28,10 +28,10 @@ const Home = () => (
 
         {/* TEXT CONTENT & BUTTON */}
         <div className="absolute top-[18rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-offWhite text-center z-10 w-full max-w-[85%] sm:top-[20rem]">
-          <h2 className="text-[1.625rem] leading-tight font-extrabold max-w-[90%] mx-auto md:text-4xl md:leading-tight sm:text-[2rem] xl:text-5xl">
+          <h1 className="text-[1.625rem] leading-tight font-extrabold max-w-[90%] mx-auto md:text-4xl md:leading-tight sm:text-[2rem] xl:text-5xl">
             {/* animate-fade-down animate-once animate-duration-1000 animate-ease-in */}
             Welcome to Exploring SA Transport and Tours
-          </h2>
+          </h1>
           <h2 className="text-[1.1rem] leading-tight font-bold max-w-[85%] mx-auto mt-4 sm:text-2xl md:max-w-lg md:my-3 xl:text-3xl xl:max-w-5xl xl:mt-6 ">
             Your premier transportation and tourism provider in South
             Africa

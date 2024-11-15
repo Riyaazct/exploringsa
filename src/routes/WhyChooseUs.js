@@ -3,9 +3,9 @@ import React from "react";
 const WhyChooseUs = () => {
   return (
     <section className="w-full mx-auto mt-12 ">
-      <h1 className="mb-20 text-2xl font-bold text-center md:mb-20 text-blueText md:text-3xl lg:text-4xl xl:text-5xl ">
+      <h2 className="mb-20 text-2xl font-bold text-center md:mb-20 text-blueText md:text-3xl lg:text-4xl xl:text-5xl ">
         WHY CHOOSE US ?
-      </h1>
+      </h2>
 
       <div
         className="flex justify-center items-center relative w-full h-[43rem] bg-cover bg-center bg-fixed

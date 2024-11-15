@@ -50,7 +50,7 @@ const Navbar = () => {
     >
       {/* TITLE */}
       <div className="flex md:pb-1">
-        <h1
+        <h2
           className={
             active
               ? "text-blueText font-bold z-30 text-xl "
@@ -58,7 +58,7 @@ const Navbar = () => {
           }
         >
           Exploring SA
-        </h1>
+        </h2>
         <p
           className={
             active

@@ -9,14 +9,16 @@ const OurServices = () => (
   <>
     <Helmet>
       <title>
-        Exploring SA - Charter services || Cape Town tours || tourist
-        service || airport transfers and corporate transfers.
+        Exploring SA - Charter Services, Cape Town Tours & Transfers
       </title>
       <meta
         name="description"
-        content="Exploring SA Transport and Tours provides an extensive range of transportation and tourism services in South Africa. Whether you're planning your trip or navigating South Africa, we're your trusted choice for charter services, Cape Town tours, tourist service, airport transfers, and corporate transfers."
+        content="Exploring SA Transport and Tours offers trusted charter services, Cape Town tours, airport transfers, and corporate transport across South Africa."
       />
-      <link rel="canonical" href="/services" />
+      <link
+        rel="canonical"
+        href="https://www.exploringsa.co.za/services"
+      />
     </Helmet>
     <section className="h-[55vh] relative mb-48 2xl:h-[95vh]">
       {/*  */}
@@ -44,9 +46,9 @@ const OurServices = () => (
            2xl:bottom-[5%]
            "
       >
-        <h2 className="mb-10 text-2xl font-extrabold text-blueText sm:text-3xl md:mb-12 lg:text-4xl lg:mb-20 xl:-ml-24 2xl:-ml-20 2xl:mb-20">
+        <h1 className="mb-10 text-2xl font-extrabold text-blueText sm:text-3xl md:mb-12 lg:text-4xl lg:mb-20 xl:-ml-24 2xl:-ml-20 2xl:mb-20">
           OUR SERVICES
-        </h2>
+        </h1>
         <div className="bg-[#FFFFFF] w-[95%] h-full px-3 py-1 rounded-2xl sm:p-5 xl:p-6 mx-auto">
           <p className="sm:text-lg md:text-xl lg:text-2xl xl:font-semibold ">
             Exploring SA Transport and Tours is a trusted provider of

@@ -38,15 +38,17 @@ const Contact = () => {
     <>
       <Helmet>
         <title>
-          Contact Exploring SA - Exploring SA - Charter services ||
-          Cape Town tours || tourist service || airport transfers and
-          corporate transfers.
+          Contact Exploring SA | Charter & Tour Services in Cape Town
         </title>
+
         <meta
-          name="Contact Exploring SA Transport and Tours | South Africa Travel Contact | South Africa Tourism Contact"
+          name="description"
           content="Contact Exploring SA Transport and Tours today to learn more about our services and how we can help you plan your trip to South Africa."
         />
-        <link rel="canonical" href="/contact" />
+        <link
+          rel="canonical"
+          href="https://www.exploringsa.co.za/contact"
+        />
       </Helmet>
       <section className="bg-lightGreen md:h-[55vh] lg:h-[70vh] w-full h-auto">
         {/*  */}

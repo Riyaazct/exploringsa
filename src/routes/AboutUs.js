@@ -11,17 +11,20 @@ const AboutUs = () => (
         name="description"
         content="Learn more about Exploring SA Transport and Tours, South Africa's premier transportation provider offering tours, airport transfers, corporate and charter services."
       />
-      <link rel="canonical" href="/about" />
+      <link
+        rel="canonical"
+        href="https://www.exploringsa.co.za/about"
+      />
     </Helmet>
     <section>
       <div className="relative mb-36 md:mb-0 md:h-[80vh] lg:mb-[150px] 2xl:h-[90vh] ">
-        <h2
+        <h1
           className="text-center my-12 text-2xl font-semibold text-blueText 
                      md:mt-0 md:pt-12 md:mb-12 md:text-3xl lg:text-4xl lg:mb-24 xl:text-5xl
-                     animate-jump-in animate-once animate-duration-[2000ms] animate-ease-in"
+                     animate-jump-in animate-once animate-duration-[1000ms] animate-ease-in"
         >
           OUR STORY
-        </h2>
+        </h1>
         <div
           className="flex flex-col-reverse justify-center items-center sm:mx-5 gap-5 sm:flex-row md:gap-7 
                       xl:mx-auto xl:max-w-[1650px] lg:max-w-[1000px] md:mx-auto md:max-w-[800px]
