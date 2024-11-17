@@ -11,10 +11,7 @@ const AboutUs = () => (
         name="description"
         content="Learn more about Exploring SA Transport and Tours, South Africa's premier transportation provider offering tours, airport transfers, corporate and charter services."
       />
-      <link
-        rel="canonical"
-        href="https://www.exploringsa.co.za/about"
-      />
+      <link rel="canonical" href="https://exploringsa.co.za/about" />
     </Helmet>
     <section>
       <div className="relative mb-36 md:mb-0 md:h-[80vh] lg:mb-[150px] 2xl:h-[90vh] ">

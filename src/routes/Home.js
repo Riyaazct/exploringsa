@@ -18,7 +18,7 @@ const Home = () => (
         name="description"
         content="Exploring SA Transport and Tours offers premier transportation and tourism services in South Africa, including charters, airport transfers, and Cape Town tours."
       />
-      <link rel="canonical" href="https://www.exploringsa.co.za/" />
+      <link rel="canonical" href="https://exploringsa.co.za/" />
     </Helmet>
     {/*  */}
 
@@ -58,8 +58,28 @@ const Home = () => (
         {/*  */}
 
         {/* IMAGE */}
-        <div className="relative h-[90vh] sm:h-[95vh] md:h-screen w-full lg:h-[90vh]">
-          <img
+        <div className="h-[90vh] sm:h-[95vh] md:h-screen w-full lg:h-[92vh]">
+          <picture>
+            <source
+              srcSet={bgPathSm}
+              media="(max-width: 1024px)"
+              type="image/jpeg"
+            />
+            <source
+              srcSet={bgPathLg}
+              media="(min-width: 1025px)"
+              type="image/jpeg"
+            />
+            <img
+              src={bgPathLg}
+              alt="Company vehicle"
+              title="Two Volkswagen vehicles side by side on one of the tour days in cape town"
+              className="object-cover w-full h-full"
+              loading="lazy"
+            />
+          </picture>
+
+          {/* <img
             src={bgPathSm}
             style={
               window.innerWidth <= 768
@@ -84,16 +104,17 @@ const Home = () => (
             width={"1250px"}
             height={"1050px"}
             className="hidden lg:block"
-          />
+          /> */}
           {/* background overlay */}
           <div className="w-full h-full bg-[#000000] bg-opacity-80 absolute top-0" />
-
-          <h3
-            className="text-[1.2rem] font-semibold text-[#3CCF4E] w-[70%] mx-auto leading-snug text-center mb-6
-        animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out up absolute bottom-4 left-20 md:text-[1.625rem] md:w-full md:left-3 sm:text-[1.45rem] md:bottom-12 xl:text-3xl tracking-wider md:tracking-widest"
-          >
-            Unlock the treasures of South Africa with us
-          </h3>
+          <div className="absolute w-full transform translate-x-[-50%] bottom-4 left-[50%] lg:bottom-6">
+            <h3
+              className="text-[1.15rem] font-semibold text-[#3CCF4E] leading-snug text-center mb-6 w-[70%] mx-auto
+            animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out up md:text-[1.625rem] md:w-full md:left-3 sm:text-[1.45rem] md:bottom-12 xl:text-3xl tracking-wider md:tracking-widest"
+            >
+              Unlock the treasures of South Africa with us
+            </h3>
+          </div>
         </div>
       </div>
     </section>

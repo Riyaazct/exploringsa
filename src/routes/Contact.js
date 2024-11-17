@@ -47,7 +47,7 @@ const Contact = () => {
         />
         <link
           rel="canonical"
-          href="https://www.exploringsa.co.za/contact"
+          href="https://exploringsa.co.za/contact"
         />
       </Helmet>
       <section className="bg-lightGreen md:h-[55vh] lg:h-[70vh] w-full h-auto">
@@ -115,7 +115,7 @@ const Contact = () => {
                 <input
                   type="submit"
                   value="submit"
-                  className="my-2 font-bold cursor-pointer button text-orange bg-opacity-20 border-orange lg:text-lg"
+                  className="my-2 font-bold cursor-pointer button text-blueText bg-opacity-90 border-orange lg:text-lg"
                 />
                 <a href="tel:+27 21 396 1145">
                   <BsTelephone

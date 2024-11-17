@@ -17,7 +17,7 @@ const OurServices = () => (
       />
       <link
         rel="canonical"
-        href="https://www.exploringsa.co.za/services"
+        href="https://exploringsa.co.za/services"
       />
     </Helmet>
     <section className="h-[55vh] relative mb-48 2xl:h-[95vh]">
