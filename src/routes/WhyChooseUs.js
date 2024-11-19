@@ -15,7 +15,7 @@ const WhyChooseUs = () => {
          mx-auto 2xl:h-[65rem]
         "
         style={{
-          backgroundImage: "url(images/whyChooseUs.jpg)",
+          backgroundImage: "url(images/whyChooseUs.webp)",
         }}
       >
         {/* <img

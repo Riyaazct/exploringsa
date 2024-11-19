@@ -6,7 +6,7 @@ import data from "../../data/homepageServiceCardData.json";
 const ServiceSection = () => {
   return (
     <section
-      style={{ backgroundImage: "url('/images/crissXcross.png')" }}
+      style={{ backgroundImage: "url('/images/crissXcross.webp')" }}
       className="w-full h-full xl:m-auto"
     >
       <div>
@@ -41,6 +41,7 @@ const ServiceSection = () => {
                     width={
                       i === 0 || i === 1 || i === 3 ? "60px" : "75px"
                     }
+                    loading="lazy"
                     className={
                       i === 0
                         ? "h-12 w-10 sm:w-11 md:w-12 xl:lg:w-12 xl:w-14"

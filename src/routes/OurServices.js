@@ -27,7 +27,7 @@ const OurServices = () => (
       <div className="absolute -z-10 top-0 left-0 w-full h-full lg:max-h-[65vh] 2xl:max-h-[95vh]">
         <img
           className="w-full h-full 2xl:h-[75vh]"
-          src="images/services.jpg"
+          src="images/services.webp"
           alt="cape town view from table mountain"
           width={"1250px"}
           height={"1050px"}
