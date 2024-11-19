@@ -27,6 +27,7 @@ const WhyChooseUsSection = () => {
           className="w-full h-full xl:max-h-[900px] md:hidden lg:block"
           width={"532px"}
           height={"798px"}
+          loading="lazy"
         />
 
         {/* IMAGE FOR MD viewport */}
@@ -37,6 +38,7 @@ const WhyChooseUsSection = () => {
           className="hidden w-full md:block lg:hidden"
           width={"532px"}
           height={"598px"}
+          loading="lazy"
         />
         <div className="absolute top-0 w-full h-full bg-white bg-opacity-10" />
       </div>
@@ -53,6 +55,7 @@ const WhyChooseUsSection = () => {
             alt="A stretched out road icon"
             width={"30px"}
             height={"30px"}
+            loading="lazy"
           />
           {/* CARD TEXT */}
           <div>
@@ -76,6 +79,7 @@ const WhyChooseUsSection = () => {
             alt="bags of luggage packed and ready for departure"
             width={"150px"}
             height={"150px"}
+            loading="lazy"
           />
           {/* CARD TEXT */}
           <div>
@@ -100,6 +104,7 @@ const WhyChooseUsSection = () => {
               alt="Icon of a van doing a transfer"
               width={"108px"}
               height={"110px"}
+              loading="lazy"
             />
             {/* CARD TEXT */}
             <div>
@@ -124,6 +129,7 @@ const WhyChooseUsSection = () => {
               alt="A call centre agent headset icon"
               width={"150px"}
               height={"150px"}
+              loading="lazy"
             />
 
             {/* CARD TEXT */}
