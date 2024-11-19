@@ -121,9 +121,11 @@ const Home = () => (
           {/* background overlay */}
           <div className="w-full h-full bg-[#000000] bg-opacity-80 absolute top-0" />
           <div className="absolute w-full transform translate-x-[-50%] bottom-4 left-[50%] lg:bottom-6 ">
-            {/* text-[#3CCF4E] */}
+            {/* text-[#3CCF4E] 
+                text-offWhite
+            */}
             <h3
-              className="font-semibold text-offWhite leading-snug text-center mb-6 w-[70%] mx-auto
+              className="font-semibold text-[#3CCF4E] leading-snug text-center mb-6 w-[70%] mx-auto
             animate-fade-right animate-once animate-duration-[1500ms] animate-delay-500 animate-ease-in-out up md:text-[1.625rem] md:w-full md:left-3 sm:text-[1.45rem] md:bottom-12 xl:text-3xl tracking-wider md:tracking-widest"
             >
               Unlock the treasures of South Africa with us
