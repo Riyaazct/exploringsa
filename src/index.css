@@ -11,6 +11,18 @@
     background-color: #eeeeee;
   }
 
+  @font-face {
+    font-family: "Lato";
+    src: url("https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7UsqA4.woff2")
+      format("woff2");
+    font-display: swap;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
   button,
   .button {
     @apply py-1 px-5 rounded-lg bg-[#ef5b0c] w-auto bg-opacity-90;
