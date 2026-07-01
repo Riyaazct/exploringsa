@@ -29,7 +29,7 @@ const App = () => (
       <Route path="*" element={<Home />} />
     </Routes>
     <Footer />
-    <WhatsAppWidget
+    {/* <WhatsAppWidget
       phoneNo="27670285744"
       position="right"
       widgetWidth="300px"
@@ -54,7 +54,7 @@ const App = () => (
       }
       placeholder="Type a message.."
       btnTxt="Start Chat"
-    />
+    /> */}
   </>
 );
 

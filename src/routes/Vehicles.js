@@ -11,8 +11,8 @@ const Vehicles = () => {
           {/* CARDS CONTAINER */}
 
           {/*  */}
-          <div className="flex flex-col h-full gap-6 md:bg-lightGreen sm:flex-row md:items-center">
-            {/* CARD 2 */}
+          <div className="flex flex-col h-[80vh] md:h-80 gap-12 md:gap-2 sm:flex-row md:items-center">
+            {/* CARD 1 */}
             <div className="mb-16 md:px-2 md:w-1/2 md:mb-0">
               <div className="relative flex flex-wrap w-full px-6 py-16 bg-gray-100 sm:py-24 sm:px-10">
                 <img
@@ -49,7 +49,7 @@ const Vehicles = () => {
               </div>
             </div>
 
-            {/* CARD 3 */}
+            {/* CARD 2 */}
             <div className="mb-10 md:mb-0 md:px-2 md:w-1/2">
               <div className="relative flex flex-wrap w-full px-6 py-16 bg-gray-100 sm:py-24 sm:px-10">
                 <img
