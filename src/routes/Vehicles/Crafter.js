@@ -15,9 +15,11 @@ const Crafter = () => {
           </h2>
         </div>
         <div className="mx-auto lg:max-w-5xl ">
-          <h3 className="mb-6 text-lg font-semibold lg:text-xl 2xl:text-2xl">
+          <div  className="xl:ml-16 md:flex">
+          <h3 className="mb-6 text-lg font-semibold lg:text-xl 2xl:text-2xl ">
             Your top choice for group tours and charter services:
           </h3>
+          </div>
           <ul className="mx-auto text-sm text-left lg:text-lg max-w-[90%] space-y-2">
   <li className="flex items-start gap-3">
     <span className="text-[#3CCF4E] mt-1 shrink-0">✓</span>
