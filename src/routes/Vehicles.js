@@ -4,20 +4,20 @@ import data from "../data/carouselData.json";
 const Vehicles = () => {
   return (
     <>
-      <section className="md:h-[80vh] mb-20 text-gray-600 body-font">
-        <div className="flex flex-wrap justify-around h-full mx-auto my-auto sm:container">
+      <section className="mb-20 text-gray-600 md:h-full body-font ">
+        <div className="container flex flex-wrap justify-around h-full m-auto md:min-h-[40vh] min-w-full sm:bg-orange">
           {/*  */}
 
           {/* CARDS CONTAINER */}
 
           {/*  */}
-          <div className="flex flex-col h-full gap-12 mt-16 md:max-w-7xl md:h-80 md:gap-6 sm:flex-row md:items-center ">
+          <div className="flex flex-col h-full mt-15 gap-9 md:max-w-7xl md:h-80 md:gap-6 sm:flex-row md:items-center">
             {/* CARD 1 */}
-            <div className="h-full mb-16 md:px-2 md:w-1/2 md:mb-0 ">
+            <div className="h-full mb-16 md:px-2 md:w-1/2 md:mb-0">
               <div className="relative flex flex-wrap w-full px-6 py-16 bg-gray-100 sm:py-24 sm:px-10">
                 <img
                   alt={data[0].alt}
-                  className="absolute inset-0 block object-fill object-center w-full h-full opacity-10 md:object-cover min-h-[350px] sm:min-h-[400px]"
+                  className="absolute inset-0 block object-center w-full h-full opacity-10 object-cover min-h-[350px] sm:min-h-[400px]"
                   src={data[0].image}
                 />
                 <div className="relative z-10 w-full text-center">
@@ -54,7 +54,7 @@ const Vehicles = () => {
               <div className="relative flex flex-wrap w-full px-6 py-16 bg-gray-100 sm:py-24 sm:px-10">
                 <img
                   alt={data[2].alt}
-                  className="absolute inset-0 block object-fill object-center w-full h-full opacity-10 md:object-cover min-h-[350px] sm:min-h-[400px]"
+                  className="absolute inset-0 block w-full h-full opacity-10 object-cover min-h-[350px] sm:min-h-[400px]"
                   src={data[2].image}
                 />
                 <div className="relative z-10 w-full text-center">

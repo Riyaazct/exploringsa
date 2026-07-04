@@ -1,9 +1,9 @@
 const fleetSectionData = [
   {
-    image: "images/sections/22 seater.png",
-    alt: "22 seater vw crafter",
+    image: "images/sections/20 seater.png",
+    alt: "20 seater vw crafter",
     title:
-      "22 Seater Minibus – Ideal for Group Charters and Tourist Travel",
+      "20 Seater Minibus – Ideal for Group Charters and Tourist Travel",
     description: (
       <ul className="list-disc">
         <li className="py-1 text-sm text-blueText lg:text-base">
