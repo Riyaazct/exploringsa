@@ -7,7 +7,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const Crafter = () => {
   return (
-    <section className="flex flex-col gap-10 my-16">
+    <section className="flex flex-col gap-10 my-16 ">
       <div className="flex flex-col items-center w-full p-5 text-center lg:ml-12 md:flex-row lg:gap-6 xl:gap-0 lg:p-10 lg:container xl:mx-auto 2xl:gap-16">
         <div>
           <h2 className="p-3 mb-5 text-3xl lg:text-3xl 2xl:text-4xl">
@@ -116,7 +116,18 @@ const Crafter = () => {
       <h4 className="py-5 text-lg text-center md:text-2xl lg:text-3xl md:mt-0 max-w-[85%] mx-auto mb-10 ">
         Experience South Africa in our fully luxury 20-seater minibus, perfect for charter services, Cape Town tours, tourist transport, airport transfers, shuttle services, corporate transfers, and special events. Enjoy premium reclining seats, modern amenities, advanced safety, and exceptional comfort on every journey.
       </h4>
-      <ImageGallery items={images} autoPlay={true} />
+      <div className="mx-auto overflow-hidden shadow-xl rounded-2xl">
+
+      <ImageGallery items={images}
+        autoPlay
+        lazyLoad
+        slideDuration={450}
+        slideInterval={5000}
+        showPlayButton={false}
+        showFullscreenButton={false}
+        showBullets={false}
+         />
+      </div>
       </div>
     </section>
   );
