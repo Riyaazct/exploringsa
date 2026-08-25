@@ -78,11 +78,15 @@ const Home = () => (
               srcSet={bgPathSm}
               media="(max-width: 1024px)"
               type="image/jpeg"
+              height="1280"
+              width="960"
             />
             <source
               srcSet={bgPathLg}
               media="(min-width: 1025px)"
               type="image/jpeg"
+              width="1689"
+              height="719"
             />
             <img
               src={bgPathLg}

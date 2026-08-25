@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyChooseUsSection = () => {
   return (
-    <section className="md:grid md:grid-cols-2 lg:grid-cols-[20%_35%_45%] lg:h-[95vh] xl:h-[91vh] xl:grid-cols-[25%_30%_45%]">
+    <section className="md:grid md:grid-cols-2 lg:grid-cols-[20%_35%_45%] lg:h-[95vh] xl:h-[91vh] xl:grid-cols-[25%_30%_45%] min-h-[95vh]">
       {/* TITLE */}
       <div className="w-full p-16 m-auto text-center text-bluebg md:col-span-2 md:max-w-4xl sm:max-w-xl lg:col-span-1 lg:text-right lg:p-8 xl:px-4">
         <h2 className="text-2xl md:text-3xl lg:text-4xl lg:w-48 lg:ml-auto xl:text-5xl xl:w-56 xl:mb-4">
