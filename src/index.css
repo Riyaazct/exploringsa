@@ -61,7 +61,7 @@
   .aboutBg {
     border-radius: 0 260px;
   }
-  .active {
+  .nav-active {
     display: flex;
     align-items: center;
     /* background-color: #dcdcdc; */
@@ -102,4 +102,17 @@
     height: auto;
     margin: auto;
   }
+}
+
+.image-gallery-thumbnails-wrapper {
+    overflow-x: auto;
+}
+
+.image-gallery-thumbnails-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.image-gallery-thumbnail {
+    flex: 0 0 100px;
 }

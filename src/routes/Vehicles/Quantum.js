@@ -20,51 +20,95 @@ const Quantum = () => {
             Charter Services, Airport Transfers, and Tourist
             Transport:
           </h3>
-          <ul className="mx-auto text-left list-disc list-inside lg:text-lg ">
-            <li className="p-1 leading-tight 2xl:leading-7">
-              Flexible Seating: Seats up to 13 passengers, perfect for
-              medium-sized groups.
-            </li>
-            <li className="p-1 leading-tight 2xl:leading-7">
-              Robust Safety Features: Equipped with ABS, airbags, and
-              stability control for safe travel.
-            </li>
-            <li className="p-1 leading-tight 2xl:leading-7">
-              Scenic Visibility: Large windows provide panoramic
-              views, enhancing the travel experience.
-            </li>
-            <li className="p-1 leading-tight 2xl:leading-7">
-              Passenger Comfort: Ergonomic seats with ample legroom
-              ensure a comfortable journey.
-            </li>
-            <li className="p-1 leading-tight 2xl:leading-7">
-              Efficient Climate Control: Maintain a pleasant
-              temperature with advanced air conditioning.
-            </li>
-            <li className="p-1 leading-tight 2xl:leading-7">
-              Generous Storage Space: Adequate luggage space for group
-              tours and airport transfers.
-            </li>
-            <li className="p-1 leading-tight 2xl:leading-7">
-              Entertainment Options: Available multimedia system to
-              keep passengers engaged.
-            </li>
-            <li className="p-1 leading-tight 2xl:leading-7">
-              Eco-Friendly Design: Engineered to minimize emissions,
-              promoting sustainable travel.
-            </li>
-            <li className="p-1 leading-tight 2xl:leading-7">
-              Full comprehensive insurance plus passenger liability
-              and 3rd party cover.
-            </li>
-            <li className="p-1 leading-tight 2xl:leading-7">
-              Drivers have valid professional driving permits.
-            </li>
-            <li className="p-1 leading-tight 2xl:leading-7">
-              All operating licenses in place and routinely inspected
-              for road worthiness.
-            </li>
-          </ul>
+          <ul className="mx-auto text-sm text-left lg:text-lg max-w-[90%] space-y-2">
+  <li className="flex items-start gap-3">
+    <span className="text-[#3CCF4E] mt-1 shrink-0">✓</span>
+    <span className="leading-tight 2xl:leading-7">
+      <strong>Flexible Seating:</strong> Seats up to 13 passengers,
+      perfect for medium-sized groups.
+    </span>
+  </li>
+
+  <li className="flex items-start gap-3">
+    <span className="text-[#3CCF4E] mt-1 shrink-0">✓</span>
+    <span className="leading-tight 2xl:leading-7">
+      <strong>Robust Safety Features:</strong> Equipped with ABS,
+      airbags, and stability control for safe travel.
+    </span>
+  </li>
+
+  <li className="flex items-start gap-3">
+    <span className="text-[#3CCF4E] mt-1 shrink-0">✓</span>
+    <span className="leading-tight 2xl:leading-7">
+      <strong>Scenic Visibility:</strong> Large windows provide
+      panoramic views, enhancing the travel experience.
+    </span>
+  </li>
+
+  <li className="flex items-start gap-3">
+    <span className="text-[#3CCF4E] mt-1 shrink-0">✓</span>
+    <span className="leading-tight 2xl:leading-7">
+      <strong>Passenger Comfort:</strong> Ergonomic seats with ample
+      legroom ensure a comfortable journey.
+    </span>
+  </li>
+
+  <li className="flex items-start gap-3">
+    <span className="text-[#3CCF4E] mt-1 shrink-0">✓</span>
+    <span className="leading-tight 2xl:leading-7">
+      <strong>Efficient Climate Control:</strong> Maintain a pleasant
+      temperature with advanced air conditioning.
+    </span>
+  </li>
+
+  <li className="flex items-start gap-3">
+    <span className="text-[#3CCF4E] mt-1 shrink-0">✓</span>
+    <span className="leading-tight 2xl:leading-7">
+      <strong>Generous Storage Space:</strong> Adequate luggage space
+      for group tours and airport transfers.
+    </span>
+  </li>
+
+  <li className="flex items-start gap-3">
+    <span className="text-[#3CCF4E] mt-1 shrink-0">✓</span>
+    <span className="leading-tight 2xl:leading-7">
+      <strong>Entertainment Options:</strong> Multimedia system
+      available to keep passengers engaged throughout the journey.
+    </span>
+  </li>
+
+  <li className="flex items-start gap-3">
+    <span className="text-[#3CCF4E] mt-1 shrink-0">✓</span>
+    <span className="leading-tight 2xl:leading-7">
+      <strong>Eco-Friendly Design:</strong> Engineered to minimize
+      emissions while promoting sustainable travel.
+    </span>
+  </li>
+
+  <li className="flex items-start gap-3">
+    <span className="text-[#3CCF4E] mt-1 shrink-0">✓</span>
+    <span className="leading-tight 2xl:leading-7">
+      <strong>Comprehensive Insurance:</strong> Full comprehensive
+      insurance plus passenger liability and third-party cover.
+    </span>
+  </li>
+
+  <li className="flex items-start gap-3">
+    <span className="text-[#3CCF4E] mt-1 shrink-0">✓</span>
+    <span className="leading-tight 2xl:leading-7">
+      <strong>Professional Drivers:</strong> All drivers hold valid
+      Professional Driving Permits (PrDPs).
+    </span>
+  </li>
+
+  <li className="flex items-start gap-3">
+    <span className="text-[#3CCF4E] mt-1 shrink-0">✓</span>
+    <span className="leading-tight 2xl:leading-7">
+      <strong>Fully Licensed & Roadworthy:</strong> All operating
+      licences are in place and routinely inspected for roadworthiness.
+    </span>
+  </li>
+</ul>
         </div>
       </div>
       <h4 className="py-5 text-lg text-center md:text-2xl lg:text-3xl mt-80 md:mt-0">

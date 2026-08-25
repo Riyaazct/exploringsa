@@ -1,9 +1,9 @@
 const fleetSectionData = [
   {
-    image: "images/sections/22 seater.png",
-    alt: "22 seater vw crafter",
+    image: "images/sections/20 seater.png",
+    alt: "20 seater vw crafter",
     title:
-      "22 Seater Minibus – Ideal for Group Charters and Tourist Travel",
+      "20 Seater Minibus – Ideal for Group Charters and Tourist Travel",
     description: (
       <ul className="list-disc">
         <li className="py-1 text-sm text-blueText lg:text-base">
@@ -39,45 +39,45 @@ const fleetSectionData = [
     ),
     button: "Book Your Group Transfer",
   },
-  {
-    image: "images/sections/7 seater.png",
-    alt: "7 seater vw transporter",
-    title:
-      "7 Seater Transporter – Perfect for Family Adventures and Small Group Transfers",
-    description: (
-      <ul className="list-disc">
-        <li className="py-1 text-sm text-blueText lg:text-base">
-          <span className="mr-1 text-base font-semibold lg:text-lg">
-            Best for:
-          </span>{" "}
-          Airport transfers, private tours, family adventures, and
-          small corporate group transportation.{" "}
-        </li>
-        <li className="py-1 text-sm text-blueText lg:text-base">
-          <span className="mr-1 text-base font-semibold lg:text-lg">
-            Capacity:{" "}
-          </span>{" "}
-          Up to 7 passengers
-        </li>
-        <li className="py-1 text-sm text-blueText lg:text-base">
-          <span className="mr-1 text-base font-semibold lg:text-lg">
-            Features:{" "}
-          </span>
-          Air-conditioned, flexible seating, ample luggage space.
-        </li>
-        <li className="py-1 text-sm text-blueText lg:text-base">
-          <span className="mr-1 text-base font-semibold lg:text-lg">
-            Description:{" "}
-          </span>
-          Explore Cape Town with comfort and style. Ideal for family
-          tours, airport transfers, and small corporate groups, the
-          7-seater Transporter offers reliability and a smooth ride
-          for any adventure.
-        </li>
-      </ul>
-    ),
-    button: "Reserve for Your Private Tour",
-  },
+  // {
+  //   image: "images/sections/7 seater.png",
+  //   alt: "7 seater vw transporter",
+  //   title:
+  //     "7 Seater Transporter – Perfect for Family Adventures and Small Group Transfers",
+  //   description: (
+  //     <ul className="list-disc">
+  //       <li className="py-1 text-sm text-blueText lg:text-base">
+  //         <span className="mr-1 text-base font-semibold lg:text-lg">
+  //           Best for:
+  //         </span>{" "}
+  //         Airport transfers, private tours, family adventures, and
+  //         small corporate group transportation.{" "}
+  //       </li>
+  //       <li className="py-1 text-sm text-blueText lg:text-base">
+  //         <span className="mr-1 text-base font-semibold lg:text-lg">
+  //           Capacity:{" "}
+  //         </span>{" "}
+  //         Up to 7 passengers
+  //       </li>
+  //       <li className="py-1 text-sm text-blueText lg:text-base">
+  //         <span className="mr-1 text-base font-semibold lg:text-lg">
+  //           Features:{" "}
+  //         </span>
+  //         Air-conditioned, flexible seating, ample luggage space.
+  //       </li>
+  //       <li className="py-1 text-sm text-blueText lg:text-base">
+  //         <span className="mr-1 text-base font-semibold lg:text-lg">
+  //           Description:{" "}
+  //         </span>
+  //         Explore Cape Town with comfort and style. Ideal for family
+  //         tours, airport transfers, and small corporate groups, the
+  //         7-seater Transporter offers reliability and a smooth ride
+  //         for any adventure.
+  //       </li>
+  //     </ul>
+  //   ),
+  //   button: "Reserve for Your Private Tour",
+  // },
   {
     image: "images/sections/13 seater.png",
     alt: "13 seater toyota quantum",
